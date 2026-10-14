@@ -1,0 +1,1 @@
+{"distance": null, "lower_bound": 4, "proved_at_least": null, "status": "UNKNOWN", "meets": "INCOMPLETE", "query": "le6", "extra_le": 6, "observable_index": 0, "observable": "Z1aZ1b", "interface": "idle", "basis": "Z", "rounds": 7, "witness": []}

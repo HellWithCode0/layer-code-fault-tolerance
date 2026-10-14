@@ -1,0 +1,1 @@
+{"distance": 5, "lower_bound": 5, "status": "OPTIMAL", "observable_index": 0, "observable": "Z1aZ1b", "witness": [{"dets": [3154, 3155], "obs": []}, {"dets": [3154], "obs": [0]}, {"dets": [3155, 3156], "obs": []}, {"dets": [3156, 3157], "obs": []}, {"dets": [3157], "obs": []}]}

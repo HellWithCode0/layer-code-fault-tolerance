@@ -1,0 +1,14 @@
+{
+  "manuscript": {
+    "pages": 8,
+    "text_words": 5158,
+    "boundary_flags": [],
+    "question_marks": 0
+  },
+  "supplement": {
+    "pages": 47,
+    "text_words": 34880,
+    "boundary_flags": [],
+    "question_marks": 0
+  }
+}

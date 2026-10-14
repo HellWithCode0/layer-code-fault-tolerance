@@ -1,0 +1,4 @@
+code_id,n,k,t,S_size,lhs_X,lhs_Z,rank_eq_X_pass,rank_eq_Z_pass,both_pass,scope
+stacked_toric_L4_M3,96,6,1,32,2,2,0,0,0,Finite-instance demonstration of Eqs. (slab-rank-x/z) on an explicit stacked 2D-toric CSS code; NOT a claim that the WB layer code has this t.
+stacked_toric_L4_M3,96,6,2,64,4,4,0,0,0,Finite-instance demonstration of Eqs. (slab-rank-x/z) on an explicit stacked 2D-toric CSS code; NOT a claim that the WB layer code has this t.
+stacked_toric_L4_M3,96,6,3,96,6,6,1,1,1,Finite-instance demonstration of Eqs. (slab-rank-x/z) on an explicit stacked 2D-toric CSS code; NOT a claim that the WB layer code has this t.

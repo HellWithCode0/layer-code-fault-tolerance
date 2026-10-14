@@ -1,0 +1,59 @@
+{
+ "run1": {
+  "2": {
+   "failures": 2,
+   "kept": 3571,
+   "shots": 5000,
+   "bit_order": "clbits right to left (Qiskit)",
+   "control_failures": 99,
+   "control_kept": 3730
+  },
+  "3": {
+   "failures": 0,
+   "kept": 3424,
+   "shots": 5000,
+   "bit_order": "clbits right to left (Qiskit)",
+   "control_failures": 122,
+   "control_kept": 3713
+  }
+ },
+ "run3": {
+  "2": {
+   "failures": 2,
+   "kept": 8700,
+   "shots": 12000,
+   "bit_order": "clbits right to left (Qiskit)",
+   "control_failures": 239,
+   "control_kept": 9085
+  },
+  "3": {
+   "failures": 0,
+   "kept": 8105,
+   "shots": 12000,
+   "bit_order": "clbits right to left (Qiskit)",
+   "control_failures": 243,
+   "control_kept": 8832
+  }
+ },
+ "pooling_check_w2": 0.5850933690323793,
+ "pooling_check_w3": 1.0,
+ "pooled": {
+  "w2": [
+   4,
+   12271,
+   [
+    0.00012676908986399894,
+    0.0008379358233138623
+   ]
+  ],
+  "w3": [
+   0,
+   11529,
+   [
+    0.0,
+    0.0003331009072386808
+   ]
+  ],
+  "p_one_sided": 0.07064950376456966
+ }
+}

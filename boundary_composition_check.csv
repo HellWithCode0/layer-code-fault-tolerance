@@ -1,0 +1,5 @@
+test,value,expected,passed
+every catalog detector deterministic (Stim DEM of the annotated circuit),"6462 detectors, all deterministic",builds,True
+"direct vs composed with (s, lambda, rho): test inputs that disagree",0 of 20896 (20000 single mechanisms and 896 unit inherited inputs),0,True
+"negative control, glue with (s, lambda) only: test inputs that disagree",1776 of 20896,1776 (last-round record flips before the four internal cuts),True
+"referee pattern, detector rows (before, straddling, after the first cut)","direct [1, 0, 1], composed [1, 0, 1], full outputs equal True","[1, 0, 1]",True

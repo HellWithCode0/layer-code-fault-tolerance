@@ -1,0 +1,412 @@
+{
+ "id": "40b5402c-0bfc-493b-9b5d-b7481cbade2c",
+ "short_code": "iqm:garnet",
+ "name": "Garnet",
+ "constraint_model_id": "90b1b9e4-1533-474d-8793-07e150d0d658",
+ "constraint_data": {
+  "noise": {},
+  "limits": {
+   "max_shots": 20000,
+   "min_shots": 1,
+   "max_circuits": 1024,
+   "max_qubits_per_job": 20,
+   "min_qubits_per_job": 1
+  },
+  "timing": {
+   "dt": null,
+   "durations": []
+  },
+  "version": 1,
+  "features": [
+   "barriers",
+   "dynamic_circuits",
+   "measure",
+   "mid_circuit_measure",
+   "physical_qubits",
+   "result_pragmas",
+   "verbatim_boxes"
+  ],
+  "n_qubits": 20,
+  "topology": {
+   "coupling_map": [
+    [
+     0,
+     1
+    ],
+    [
+     0,
+     3
+    ],
+    [
+     1,
+     4
+    ],
+    [
+     2,
+     3
+    ],
+    [
+     2,
+     7
+    ],
+    [
+     3,
+     4
+    ],
+    [
+     3,
+     8
+    ],
+    [
+     4,
+     5
+    ],
+    [
+     4,
+     9
+    ],
+    [
+     5,
+     6
+    ],
+    [
+     5,
+     10
+    ],
+    [
+     6,
+     11
+    ],
+    [
+     7,
+     8
+    ],
+    [
+     7,
+     12
+    ],
+    [
+     8,
+     9
+    ],
+    [
+     8,
+     13
+    ],
+    [
+     9,
+     10
+    ],
+    [
+     9,
+     14
+    ],
+    [
+     10,
+     11
+    ],
+    [
+     10,
+     15
+    ],
+    [
+     11,
+     16
+    ],
+    [
+     12,
+     13
+    ],
+    [
+     13,
+     14
+    ],
+    [
+     13,
+     17
+    ],
+    [
+     14,
+     15
+    ],
+    [
+     14,
+     18
+    ],
+    [
+     15,
+     16
+    ],
+    [
+     15,
+     19
+    ],
+    [
+     17,
+     18
+    ],
+    [
+     18,
+     19
+    ]
+   ],
+   "directed_edges": false
+  },
+  "max_qubits": 20,
+  "min_qubits": 1,
+  "native_ops": [
+   {
+    "name": "barrier",
+    "arity": 1
+   },
+   {
+    "name": "cc_prx",
+    "arity": 2,
+    "params": [
+     "theta",
+     "phi"
+    ]
+   },
+   {
+    "name": "cz",
+    "arity": 2
+   },
+   {
+    "name": "measure_ff",
+    "arity": 1
+   },
+   {
+    "name": "prx",
+    "arity": 1,
+    "params": [
+     "theta",
+     "phi"
+    ]
+   }
+  ],
+  "supported_ops": [
+   {
+    "name": "barrier",
+    "arity": 1
+   },
+   {
+    "name": "cc_prx",
+    "arity": 2,
+    "params": [
+     "theta",
+     "phi"
+    ]
+   },
+   {
+    "name": "ccnot",
+    "arity": 3
+   },
+   {
+    "name": "cnot",
+    "arity": 2
+   },
+   {
+    "name": "cphaseshift",
+    "arity": 2,
+    "params": [
+     "phi"
+    ]
+   },
+   {
+    "name": "cphaseshift00",
+    "arity": 2,
+    "params": [
+     "phi"
+    ]
+   },
+   {
+    "name": "cphaseshift01",
+    "arity": 2,
+    "params": [
+     "phi"
+    ]
+   },
+   {
+    "name": "cphaseshift10",
+    "arity": 2,
+    "params": [
+     "phi"
+    ]
+   },
+   {
+    "name": "cswap",
+    "arity": 3
+   },
+   {
+    "name": "cy",
+    "arity": 2
+   },
+   {
+    "name": "cz",
+    "arity": 2
+   },
+   {
+    "name": "ecr",
+    "arity": 2
+   },
+   {
+    "name": "h",
+    "arity": 1
+   },
+   {
+    "name": "i",
+    "arity": 1
+   },
+   {
+    "name": "iswap",
+    "arity": 2
+   },
+   {
+    "name": "measure_ff",
+    "arity": 1
+   },
+   {
+    "name": "phaseshift",
+    "arity": 1,
+    "params": [
+     "phi"
+    ]
+   },
+   {
+    "name": "prx",
+    "arity": 1,
+    "params": [
+     "theta",
+     "phi"
+    ]
+   },
+   {
+    "name": "pswap",
+    "arity": 2,
+    "params": [
+     "phi"
+    ]
+   },
+   {
+    "name": "rx",
+    "arity": 1,
+    "params": [
+     "theta"
+    ]
+   },
+   {
+    "name": "ry",
+    "arity": 1,
+    "params": [
+     "theta"
+    ]
+   },
+   {
+    "name": "rz",
+    "arity": 1,
+    "params": [
+     "phi"
+    ]
+   },
+   {
+    "name": "s",
+    "arity": 1
+   },
+   {
+    "name": "si",
+    "arity": 1
+   },
+   {
+    "name": "swap",
+    "arity": 2
+   },
+   {
+    "name": "t",
+    "arity": 1
+   },
+   {
+    "name": "ti",
+    "arity": 1
+   },
+   {
+    "name": "v",
+    "arity": 1
+   },
+   {
+    "name": "vi",
+    "arity": 1
+   },
+   {
+    "name": "x",
+    "arity": 1
+   },
+   {
+    "name": "xx",
+    "arity": 2,
+    "params": [
+     "theta"
+    ]
+   },
+   {
+    "name": "xy",
+    "arity": 2,
+    "params": [
+     "theta"
+    ]
+   },
+   {
+    "name": "y",
+    "arity": 1
+   },
+   {
+    "name": "yy",
+    "arity": 2,
+    "params": [
+     "theta"
+    ]
+   },
+   {
+    "name": "z",
+    "arity": 1
+   },
+   {
+    "name": "zz",
+    "arity": 2,
+    "params": [
+     "theta"
+    ]
+   }
+  ],
+  "supported_formats": [
+   "qasm"
+  ]
+ },
+ "provider_id": "fc6b4196-3715-495e-a65f-a80225351f1a",
+ "configuration_schema": {
+  "type": "object",
+  "title": "IQM Parameters",
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "required": [
+   "shots"
+  ],
+  "properties": {
+   "shots": {
+    "type": "integer",
+    "title": "Shots",
+    "default": 100,
+    "maximum": 20000,
+    "minimum": 1,
+    "description": "Number of measurement shots"
+   },
+   "disable_qubit_rewiring": {
+    "type": "boolean",
+    "title": "Disable qubit rewiring",
+    "default": false,
+    "description": "Use the qubits in the program as physical qubits."
+   }
+  },
+  "description": "Configuration for IQM QPUs; supports dynamic circuits.",
+  "additionalProperties": false
+ },
+ "type": "QPU"
+}

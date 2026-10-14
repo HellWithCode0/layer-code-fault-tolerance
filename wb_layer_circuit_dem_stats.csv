@@ -1,0 +1,2 @@
+L,n,R,mz,mx,measurement_circuit_lines,detector_circuit_lines,scope,n_detectors,n_observables,dem_status
+3,66,2,42,24,1654,1718,"circuit-level CSS SE Stim schedule on truncated WB L in {3,4,5,6} with SI1000-like noise + spacetime BP-OSD; NOT CAD artwork DEM; NOT asymptotic architecture p_th unless L-crossing observed",66,1,ok

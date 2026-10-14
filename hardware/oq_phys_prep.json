@@ -1,0 +1,9 @@
+{
+ "backend": "rigetti:cepheus-1-108q",
+ "shots": 10000,
+ "preparations": {
+  "1": "ff4e7bfb-e494-44d0-9b88-9eaef5137da3",
+  "2": "d50a0e6e-5c5a-4ec6-8fac-f1cd9032f26f",
+  "3": "c249f4e6-c389-47ed-9f5b-bb9980685816"
+ }
+}

@@ -1,0 +1,202 @@
+{
+ "per_circuit": {
+  "R3_double": {
+   "copies": [
+    {
+     "shots": 400000,
+     "accepted": 207445,
+     "accept_rate": 0.5186125,
+     "postselected_failures": 2338,
+     "postselected_error": 0.011270457229627131,
+     "postselected_error_wilson95": [
+      0.010825151674289168,
+      0.011733863666098257
+     ]
+    },
+    {
+     "shots": 400000,
+     "accepted": 223728,
+     "accept_rate": 0.55932,
+     "postselected_failures": 600,
+     "postselected_error": 0.0026818279339197596,
+     "postselected_error_wilson95": [
+      0.0024758959537202543,
+      0.002904838372653788
+     ]
+    }
+   ],
+   "failures": 2938,
+   "accepted": 431173,
+   "error": 0.006813970262516437,
+   "wilson95": [
+    0.0065727728558901,
+    0.007063955819474826
+   ],
+   "persistence": {
+    "events": 17691,
+    "trials": 1600000,
+    "rate": 0.011056875,
+    "independent_expectation": 0.0005024472705215989
+   }
+  },
+  "R3_single": {
+   "copies": [
+    {
+     "shots": 400000,
+     "accepted": 222325,
+     "accept_rate": 0.5558125,
+     "postselected_failures": 2735,
+     "postselected_error": 0.012301810412684133,
+     "postselected_error_wilson95": [
+      0.01185196010884271,
+      0.012768514502580805
+     ]
+    },
+    {
+     "shots": 400000,
+     "accepted": 236798,
+     "accept_rate": 0.591995,
+     "postselected_failures": 734,
+     "postselected_error": 0.0030996883419623475,
+     "postselected_error_wilson95": [
+      0.0028837073388060792,
+      0.0033317916203878255
+     ]
+    }
+   ],
+   "failures": 3469,
+   "accepted": 459123,
+   "error": 0.00755570947218937,
+   "wilson95": [
+    0.0073093117083476945,
+    0.007810347982661755
+   ],
+   "persistence": {
+    "events": 18383,
+    "trials": 1600000,
+    "rate": 0.011489375,
+    "independent_expectation": 0.0005120793733245118
+   }
+  },
+  "R2_double": {
+   "copies": [
+    {
+     "shots": 300000,
+     "accepted": 198882,
+     "accept_rate": 0.66294,
+     "postselected_failures": 3749,
+     "postselected_error": 0.018850373588358928,
+     "postselected_error_wilson95": [
+      0.01826189711972227,
+      0.01945743744753031
+     ]
+    },
+    {
+     "shots": 300000,
+     "accepted": 206389,
+     "accept_rate": 0.6879633333333334,
+     "postselected_failures": 1229,
+     "postselected_error": 0.005954774721521012,
+     "postselected_error_wilson95": [
+      0.005631914592095951,
+      0.006296026226564691
+     ]
+    }
+   ],
+   "failures": 4978,
+   "accepted": 405271,
+   "error": 0.012283138936662134,
+   "wilson95": [
+    0.011948611461012575,
+    0.012626912548025738
+   ],
+   "persistence": {
+    "events": 13377,
+    "trials": 1200000,
+    "rate": 0.0111475,
+    "independent_expectation": 0.0005174388840986724
+   }
+  },
+  "R2_single": {
+   "copies": [
+    {
+     "shots": 300000,
+     "accepted": 206957,
+     "accept_rate": 0.6898566666666667,
+     "postselected_failures": 3938,
+     "postselected_error": 0.01902810728798736,
+     "postselected_error_wilson95": [
+      0.018448343245350142,
+      0.019625726897974975
+     ]
+    },
+    {
+     "shots": 300000,
+     "accepted": 212493,
+     "accept_rate": 0.70831,
+     "postselected_failures": 1320,
+     "postselected_error": 0.006211969335460462,
+     "postselected_error_wilson95": [
+      0.00588670398808471,
+      0.006555088464420145
+     ]
+    }
+   ],
+   "failures": 5258,
+   "accepted": 419450,
+   "error": 0.012535463106448921,
+   "wilson95": [
+    0.01220319658562821,
+    0.01287665858954966
+   ],
+   "persistence": {
+    "events": 13759,
+    "trials": 1200000,
+    "rate": 0.011465833333333333,
+    "independent_expectation": 0.0005054320579989608
+   }
+  },
+  "R1": {
+   "copies": [
+    {
+     "shots": 100000,
+     "accepted": 88485,
+     "accept_rate": 0.88485,
+     "postselected_failures": 4014,
+     "postselected_error": 0.04536362095270385,
+     "postselected_error_wilson95": [
+      0.04401206716970845,
+      0.04675464934248962
+     ]
+    },
+    {
+     "shots": 100000,
+     "accepted": 88928,
+     "accept_rate": 0.88928,
+     "postselected_failures": 4236,
+     "postselected_error": 0.04763404102195034,
+     "postselected_error_wilson95": [
+      0.046253574368441214,
+      0.04905358949445128
+     ]
+    }
+   ],
+   "failures": 8250,
+   "accepted": 177413,
+   "error": 0.04650166560511349,
+   "wilson95": [
+    0.04553160115357249,
+    0.047491369220396776
+   ]
+  }
+ },
+ "tests": {
+  "T1_persistence_double_below_single": 8.844937674964335e-06,
+  "T2_R2_error_double_below_single": 0.15273691101653925,
+  "T3_R3_error_double_below_single": 1.8272278346361606e-05,
+  "replication_single_R2_below_R1": 0.0,
+  "replication_single_R3_below_R2": 9.293331407436271e-123,
+  "replication_double_R2_below_R1": 0.0,
+  "replication_double_R3_below_R2": 2.4963687780577417e-148
+ }
+}

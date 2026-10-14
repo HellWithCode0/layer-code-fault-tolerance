@@ -1,0 +1,77 @@
+{
+ "ideal_w0": {
+  "w": 0,
+  "shots": 2000,
+  "accepted": 2000,
+  "accept_rate": 1.0,
+  "postselected_failures": 0,
+  "postselected_error": 0.0,
+  "postselected_error_wilson95": [
+   0.0,
+   0.0019171176005129348
+  ],
+  "decoded_failures": 0,
+  "decoded_error": 0.0,
+  "decoded_error_wilson95": [
+   0.0,
+   0.0019171176005129348
+  ]
+ },
+ "ideal_w1": {
+  "w": 1,
+  "shots": 2000,
+  "accepted": 2000,
+  "accept_rate": 1.0,
+  "postselected_failures": 0,
+  "postselected_error": 0.0,
+  "postselected_error_wilson95": [
+   0.0,
+   0.0019171176005129348
+  ],
+  "decoded_failures": 0,
+  "decoded_error": 0.0,
+  "decoded_error_wilson95": [
+   0.0,
+   0.0019171176005129348
+  ]
+ },
+ "ideal_w2": {
+  "w": 2,
+  "shots": 2000,
+  "accepted": 2000,
+  "accept_rate": 1.0,
+  "postselected_failures": 0,
+  "postselected_error": 0.0,
+  "postselected_error_wilson95": [
+   0.0,
+   0.0019171176005129348
+  ],
+  "decoded_failures": 0,
+  "decoded_error": 0.0,
+  "decoded_error_wilson95": [
+   0.0,
+   0.0019171176005129348
+  ]
+ },
+ "ideal_w3": {
+  "w": 3,
+  "shots": 2000,
+  "accepted": 2000,
+  "accept_rate": 1.0,
+  "postselected_failures": 0,
+  "postselected_error": 0.0,
+  "postselected_error_wilson95": [
+   0.0,
+   0.0019171176005129348
+  ],
+  "decoded_failures": 0,
+  "decoded_error": 0.0,
+  "decoded_error_wilson95": [
+   0.0,
+   0.0019171176005129348
+  ]
+ },
+ "lightest_undetected_logical_w1": 1,
+ "lightest_undetected_logical_w2": 2,
+ "lightest_undetected_logical_w3": 3
+}

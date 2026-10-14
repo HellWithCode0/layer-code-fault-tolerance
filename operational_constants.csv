@@ -1,0 +1,12 @@
+constant,value,units_or_type,source,claim_scope
+WB_junction_max_support_weight,6,integer,wb_junction_support_catalog.csv / operational_anchor.py,Six Sec. VI B junction cells; incidence interface only
+r_inc_infty,1,max L_infty endpoint radius on unit cubic lattice,wb_junction_support_catalog.csv / operational_anchor.py,"Audited r_inc^(infty)=1: max L^infty distance of any edge endpoint from junction (0,0,0); finite incidence interface only; NOT a metric slab width"
+r_inc_G,2,max cubic-lattice vertex-graph (L1) distance,wb_junction_support_catalog.csv / operational_anchor.py,"Audited r_inc^(G)=2: max vertex-graph distance of any edge endpoint from junction (0,0,0); distinct from L^infty; NOT a metric slab width"
+T8_single_fault_count,10008,count,t8_single_fault_audit.csv / reproducibility_checks.py,Finite master-word stress audit only
+T8_max_phenom_image_weight,10,integer weight,t8_single_fault_audit.csv / reproducibility_checks.py,Finite master-word stress audit only
+T8_master_words,48,count,t8_master_routing_catalog.csv / reproducibility_checks.py,Canonical reversible shuttle catalog; not a full geometry lookup
+prefix_parity_exhaustive_k_max,8,bitstring length,reproducibility_checks.py,Exhaustive even words 2<=k<=8 plus deterministic stress to k=128
+finite_instance_demo_code,stacked_toric_L4_M3,"n=96, k=6",operational_anchor.py / finite_instance_slab_certificate.csv,Explicit stacked-toric demo of rank criterion; NOT WB layer-code t
+finite_instance_minimal_t_pass,3,layer count in stacked demo,operational_anchor.py / finite_instance_slab_certificate.csv,Minimal t with both X and Z rank identities on the demo code only
+mw_demo_family_distances,"2d_toric d=3,5",phenomenological MWPM,operational_anchor.py / phenomenological_mw_demo.csv,Small CSS memory sanity check; NOT architecture threshold
+mw_demo_suppression_observation,"At the simulated phenomenological points, distance-5 logical error is below distance-3 for p in {0.01, 0.02, 0.03, 0.04, 0.05, 0.06, 0.08}; rates meet or cross near p≈0.10.",qualitative from computed rates,operational_anchor.py / phenomenological_mw_demo.csv,Factual observation on the simulated p-grid only

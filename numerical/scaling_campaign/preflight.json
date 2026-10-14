@@ -1,0 +1,102 @@
+{
+ "[2, 2, \"idle\", 0, 1, 5]": {
+  "ok": true,
+  "info": "{}"
+ },
+ "[2, 2, \"bridge\", 1, 1, 5]": {
+  "ok": true,
+  "info": "{\"anticommuting\": 0, \"k_deformed\": 3}"
+ },
+ "[2, 2, \"thick\", 0, 1, 5]": {
+  "ok": true,
+  "info": "{\"anticommuting\": 0, \"k_deformed\": 3}"
+ },
+ "[2, 2, \"thick\", 0, 2, 5]": {
+  "ok": true,
+  "info": "{\"anticommuting\": 0, \"k_deformed\": 3}"
+ },
+ "[2, 3, \"idle\", 0, 1, 7]": {
+  "ok": true,
+  "info": "{}"
+ },
+ "[2, 3, \"bridge\", 2, 1, 7]": {
+  "ok": true,
+  "info": "{\"anticommuting\": 0, \"k_deformed\": 3}"
+ },
+ "[2, 3, \"bridge\", 3, 1, 7]": {
+  "ok": true,
+  "info": "{\"anticommuting\": 0, \"k_deformed\": 3}"
+ },
+ "[2, 3, \"bridge\", 1, 1, 7]": {
+  "ok": true,
+  "info": "{\"anticommuting\": 0, \"k_deformed\": 3}"
+ },
+ "[2, 3, \"thick\", 0, 1, 7]": {
+  "ok": true,
+  "info": "{\"anticommuting\": 0, \"k_deformed\": 3}"
+ },
+ "[2, 3, \"thick\", 0, 2, 7]": {
+  "ok": true,
+  "info": "{\"anticommuting\": 0, \"k_deformed\": 3}"
+ },
+ "[2, 4, \"bridge\", 1, 1, 9]": {
+  "ok": true,
+  "info": "{\"anticommuting\": 0, \"k_deformed\": 3}"
+ },
+ "[2, 4, \"bridge\", 2, 1, 9]": {
+  "ok": true,
+  "info": "{\"anticommuting\": 0, \"k_deformed\": 3}"
+ },
+ "[2, 4, \"idle\", 0, 1, 9]": {
+  "ok": true,
+  "info": "{}"
+ },
+ "[4, 2, \"bridge\", 1, 1, 5]": {
+  "ok": true,
+  "info": "{\"anticommuting\": 0, \"k_deformed\": 7}"
+ },
+ "[2, 4, \"bridge\", 3, 1, 9]": {
+  "ok": true,
+  "info": "{\"anticommuting\": 0, \"k_deformed\": 3}"
+ },
+ "[2, 4, \"thick\", 0, 1, 9]": {
+  "ok": true,
+  "info": "{\"anticommuting\": 0, \"k_deformed\": 3}"
+ },
+ "[4, 2, \"thick\", 0, 1, 5]": {
+  "ok": true,
+  "info": "{\"anticommuting\": 0, \"k_deformed\": 7}"
+ },
+ "[2, 4, \"thick\", 0, 2, 9]": {
+  "ok": true,
+  "info": "{\"anticommuting\": 0, \"k_deformed\": 3}"
+ },
+ "[4, 3, \"bridge\", 1, 1, 7]": {
+  "ok": true,
+  "info": "{\"anticommuting\": 0, \"k_deformed\": 7}"
+ },
+ "[4, 3, \"thick\", 0, 1, 7]": {
+  "ok": true,
+  "info": "{\"anticommuting\": 0, \"k_deformed\": 7}"
+ },
+ "[2, 5, \"idle\", 0, 1, 11]": {
+  "ok": true,
+  "info": "{}"
+ },
+ "[2, 5, \"bridge\", 1, 1, 11]": {
+  "ok": true,
+  "info": "{\"anticommuting\": 0, \"k_deformed\": 3}"
+ },
+ "[4, 4, \"bridge\", 1, 1, 9]": {
+  "ok": true,
+  "info": "{\"anticommuting\": 0, \"k_deformed\": 7}"
+ },
+ "[2, 5, \"thick\", 0, 1, 11]": {
+  "ok": true,
+  "info": "{\"anticommuting\": 0, \"k_deformed\": 3}"
+ },
+ "[4, 4, \"thick\", 0, 1, 9]": {
+  "ok": true,
+  "info": "{\"anticommuting\": 0, \"k_deformed\": 7}"
+ }
+}

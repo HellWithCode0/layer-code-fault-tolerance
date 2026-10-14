@@ -1,0 +1,8 @@
+{
+ "job_id": "d2deac85-ca19-4507-a451-8e19fc0a10fd",
+ "cost": 10,
+ "shots": 10000,
+ "org": "org_D",
+ "file": "qasm3_iqm_rounds_R2.qasm",
+ "cred": ""
+}

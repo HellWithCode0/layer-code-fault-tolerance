@@ -1,0 +1,15 @@
+{
+  "tier": "paper",
+  "started_epoch": 1789749382.97861,
+  "versions": {
+    "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+    "platform": "Linux-6.12.94+-x86_64-with-glibc2.41",
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2",
+    "networkx": "3.6.1",
+    "stim": "1.16.0",
+    "pymatching": "2.4.0",
+    "ldpc": "2.4.1"
+  },
+  "scope": "finite machine checks and Monte Carlo evidence for theorem interfaces; not a numerical proof of the asymptotic local-stochastic threshold theorem"
+}

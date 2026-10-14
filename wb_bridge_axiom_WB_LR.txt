@@ -1,0 +1,33 @@
+Axiom (WB-LR) — RETIRED
+======================
+Residual local-realizability statement
+--------------------------------------
+No un-audited local-realizability axiom remains beyond the explicitly transcribed
+published Williamson–Baspin Sec. VI B stabilizer cells.  Those source cells remain
+cited inputs; the finite boundary-value realizability used by the slab proof is
+certified here rather than separately assumed.
+
+Theorem primitives (proof-critical)
+-----------------------------------
+  * H_end = [1 1], H_mid = [1 1 1] with kernels {00,11} and {000,110,101,011}
+    (110 = pass-through; 101, 011 = attachment orientations).
+  * Sec. VI B first/middle/last stabilizer cells (items 3–8), transcribed into
+    wb_exact_cell_patch_catalog.csv (novel / retained / replaced / boundary_port /
+    boundary_adjacent — no catalog-touch exemption).
+  * Exact GF(2) finite-patch certificate: A_int p = 0, B p = w for every kernel
+    word (wb_exact_cell_word_certificate.csv; target 16/16 PASS).
+
+Defensible closure statement
+----------------------------
+No residual un-audited local-realizability assumption remains beyond the
+explicitly transcribed Williamson–Baspin stabilizer cells.
+
+Demoted / SM-only
+-----------------
+  * R=2/R=3 ordinary-bulk exterior-syndrome test = independent locality stress.
+  * Bullet/plus geometric audit = explanatory cross-check only (not a theorem
+    microscopic primitive).
+
+Status
+------
+WB-LR RETIRED (2026-09-19 Europe/Paris).  Replaced by exact cell certificates.

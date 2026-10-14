@@ -1,0 +1,9 @@
+{
+  "points": 255,
+  "shots": 4534000,
+  "noiseless_points": 15,
+  "noiseless_failures": 0,
+  "all_rates_match_counts": true,
+  "numerical_source": "numerical\\continuous_transition\\threshold_estimate\\all_points.csv",
+  "crossings": "Archived rounded Jeffreys estimates; no new Monte Carlo runs."
+}

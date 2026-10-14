@@ -1,0 +1,6 @@
+spacing,interface,block_qubits,edge_qubits,ports,interface_cut,rounds_per_phase,deformed_qubits,deformed_anticommuting,deformed_k,dX,dX_exact,dZ,dZ_exact,X_noiseless_deterministic,X_detectors,fd_m,fd_m_lower,fd_m_status,fd_X1a,fd_X1a_lower,fd_X1a_status,fd_X2a,fd_X2a_lower,fd_X2a_status,Z_noiseless_deterministic,Z_detectors,fd_Z1aZ1b,fd_Z1aZ1b_lower,fd_Z1aZ1b_status,fd_Z2a,fd_Z2a_lower,fd_Z2a_status,seconds
+2,bridge w=1,224,156,24,1,4,604,0,3,1,True,4,False,True,6147,4,4,OPTIMAL,10,4,FEASIBLE,4,4,OPTIMAL,True,6151,1,1,OPTIMAL,12,4,FEASIBLE,776.7
+2,bridge w=2,224,163,24,2,4,611,0,3,2,True,4,False,True,6176,4,4,OPTIMAL,12,4,FEASIBLE,4,4,OPTIMAL,True,6180,2,2,OPTIMAL,12,5,FEASIBLE,677.6
+2,bridge w=3,224,170,24,3,4,618,0,3,3,True,4,False,True,6205,4,4,OPTIMAL,10,4,FEASIBLE,4,4,OPTIMAL,True,6209,3,3,OPTIMAL,13,5,FEASIBLE,675.4
+2,thick x1,224,184,24,5,4,632,0,3,5,True,4,False,True,6263,4,4,OPTIMAL,10,4,FEASIBLE,4,4,OPTIMAL,True,6267,5,5,OPTIMAL,12,5,FEASIBLE,840.7
+2,thick x2,224,368,24,10,4,816,0,3,5,True,4,False,True,7183,4,4,OPTIMAL,10,4,FEASIBLE,4,4,OPTIMAL,True,7187,5,4,FEASIBLE,12,5,FEASIBLE,836.7

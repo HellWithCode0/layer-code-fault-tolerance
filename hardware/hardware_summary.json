@@ -1,0 +1,693 @@
+{
+ "cut": {
+  "IQM run 1 w1": {
+   "failures": 97,
+   "kept": 3911,
+   "shots": 5000,
+   "error": 0.024801840961390948,
+   "wilson95": [
+    0.020374106410693822,
+    0.030162191149851157
+   ],
+   "model": 0.04218733311972658
+  },
+  "IQM run 1 w2": {
+   "failures": 2,
+   "kept": 3571,
+   "shots": 5000,
+   "error": 0.0005600672080649678,
+   "wilson95": [
+    0.0001536008528339245,
+    0.0020399508838360304
+   ],
+   "control": {
+    "failures": 99,
+    "kept": 3730,
+    "error": 0.026541554959785524
+   },
+   "model": 0.002182054535887833
+  },
+  "IQM run 1 w3": {
+   "failures": 0,
+   "kept": 3424,
+   "shots": 5000,
+   "error": 0.0,
+   "wilson95": [
+    0.0,
+    0.0011207052274527503
+   ],
+   "control": {
+    "failures": 122,
+    "kept": 3713,
+    "error": 0.03285752760570967
+   },
+   "model": 0.000218278830995594
+  },
+  "IQM run 2 w1": {
+   "failures": 91,
+   "kept": 3820,
+   "shots": 5000,
+   "error": 0.02382198952879581,
+   "wilson95": [
+    0.019443285638632693,
+    0.029157472300712917
+   ],
+   "model": 0.04210473794130855
+  },
+  "IQM run 2 w2": {
+   "failures": 7,
+   "kept": 3513,
+   "shots": 5000,
+   "error": 0.0019925989183034445,
+   "wilson95": [
+    0.0009655446207792711,
+    0.00410764377644624
+   ],
+   "control": {
+    "failures": 83,
+    "kept": 3773,
+    "error": 0.021998409753511795
+   },
+   "model": 0.0019271252554021424
+  },
+  "IQM run 3 w2": {
+   "failures": 2,
+   "kept": 8700,
+   "shots": 12000,
+   "error": 0.00022988505747126436,
+   "wilson95": [
+    6.304371868984097e-05,
+    0.0008378917946586557
+   ],
+   "control": {
+    "failures": 239,
+    "kept": 9085,
+    "error": 0.02630709961474959
+   },
+   "model": 0.002182054535887833
+  },
+  "IQM run 3 w3": {
+   "failures": 0,
+   "kept": 8105,
+   "shots": 12000,
+   "error": 0.0,
+   "wilson95": [
+    0.0,
+    0.0004737544756084519
+   ],
+   "control": {
+    "failures": 243,
+    "kept": 8832,
+    "error": 0.02751358695652174
+   },
+   "model": 0.000218278830995594
+  },
+  "IBM fez w0": {
+   "failures": 1,
+   "kept": 47715,
+   "shots": 50000,
+   "error": 2.0957770093262077e-05,
+   "wilson95": [
+    3.6994754555352057e-06,
+    0.0001187175783566009
+   ],
+   "model": 2.2521127632860576e-05
+  },
+  "IBM fez w1": {
+   "failures": 1611,
+   "kept": 27931,
+   "shots": 50000,
+   "error": 0.057677848984998746,
+   "wilson95": [
+    0.055004071772747416,
+    0.0604732825001331
+   ],
+   "model": 0.03322978443001035
+  },
+  "IBM fez w2": {
+   "failures": 144,
+   "kept": 24220,
+   "shots": 50000,
+   "error": 0.005945499587118084,
+   "wilson95": [
+    0.005052554832952798,
+    0.006995146139464392
+   ],
+   "control": {
+    "failures": 1983,
+    "kept": 27437,
+    "error": 0.07227466559755075
+   },
+   "model": 0.0015783556273062732
+  },
+  "IBM fez w3": {
+   "failures": 29,
+   "kept": 21181,
+   "shots": 50000,
+   "error": 0.0013691515981304,
+   "wilson95": [
+    0.0009534948233305274,
+    0.0019656490233716352
+   ],
+   "control": {
+    "failures": 2024,
+    "kept": 25647,
+    "error": 0.07891761219635825
+   },
+   "model": 0.0001202591584865385
+  }
+ },
+ "multiplicity": {
+  "IQM w1 m2": {
+   "failures": 11,
+   "kept": 2075,
+   "shots": 3000,
+   "error": 0.005301204819277108,
+   "wilson95": [
+    0.002962667953552141,
+    0.00946810118248978
+   ],
+   "control": {
+    "failures": 49,
+    "kept": 2172,
+    "error": 0.02255985267034991
+   }
+  }
+ },
+ "rounds": {
+  "IQM fresh R1": {
+   "failures": 561,
+   "kept": 8979,
+   "shots": 10000,
+   "error": 0.06247911794186435,
+   "wilson95": [
+    0.057657696730394455,
+    0.06767475931558548
+   ],
+   "model": 0.069236834790304
+  },
+  "IQM fresh R2": {
+   "failures": 49,
+   "kept": 15703,
+   "shots": 20000,
+   "error": 0.0031204228491371077,
+   "wilson95": [
+    0.002361277524804527,
+    0.004122623095928798
+   ],
+   "control": {
+    "failures": 1385,
+    "kept": 17883,
+    "error": 0.07744785550522842
+   },
+   "model": 0.0033889554471501666
+  },
+  "IBM kingston A R1": {
+   "failures": 16071,
+   "kept": 349885,
+   "shots": 400000,
+   "error": 0.045932234877173926,
+   "wilson95": [
+    0.04524355393513837,
+    0.04663088668148974
+   ],
+   "model": 0.03658679021105462
+  },
+  "IBM kingston A R2": {
+   "failures": 8677,
+   "kept": 765042,
+   "shots": 1100000,
+   "error": 0.011341860969724537,
+   "wilson95": [
+    0.01110701304771064,
+    0.011581616386178172
+   ],
+   "control": {
+    "failures": 37270,
+    "kept": 842858,
+    "error": 0.04421859909972973
+   },
+   "model": 0.0018471060457673017,
+   "persistence": {
+    "events": 21311,
+    "trials": 2200000,
+    "rate": 0.009686818181818182,
+    "independent": 0.0004146446533501352
+   }
+  },
+  "IBM kingston A R3": {
+   "failures": 7127,
+   "kept": 1212715,
+   "shots": 2100000,
+   "error": 0.00587689605554479,
+   "wilson95": [
+    0.005742411225370897,
+    0.006014511410702708
+   ],
+   "control": {
+    "failures": 61084,
+    "kept": 1421208,
+    "error": 0.04298033785343173
+   },
+   "model": 8.592169658791663e-05,
+   "persistence": {
+    "events": 40841,
+    "trials": 4200000,
+    "rate": 0.009724047619047618,
+    "independent": 0.00041174113354121495
+   }
+  },
+  "IBM kingston B R3_double": {
+   "failures": 2938,
+   "kept": 431173,
+   "shots": 800000,
+   "error": 0.006813970262516437,
+   "wilson95": [
+    0.0065727728558901,
+    0.007063955819474826
+   ],
+   "control": {
+    "failures": 21333,
+    "kept": 498237,
+    "error": 0.0428169726455482
+   },
+   "model": 2.1588573599765115e-05,
+   "persistence": {
+    "events": 17691,
+    "trials": 1600000,
+    "rate": 0.011056875,
+    "independent": 0.0005024472705215989
+   }
+  },
+  "IBM kingston B R3_single": {
+   "failures": 3469,
+   "kept": 459123,
+   "shots": 800000,
+   "error": 0.00755570947218937,
+   "wilson95": [
+    0.0073093117083476945,
+    0.007810347982661755
+   ],
+   "control": {
+    "failures": 23161,
+    "kept": 535544,
+    "error": 0.04324761364145616
+   },
+   "model": 8.079567581543036e-06,
+   "persistence": {
+    "events": 18383,
+    "trials": 1600000,
+    "rate": 0.011489375,
+    "independent": 0.0005120793733245118
+   }
+  },
+  "IBM kingston B R2_double": {
+   "failures": 4978,
+   "kept": 405271,
+   "shots": 600000,
+   "error": 0.012283138936662134,
+   "wilson95": [
+    0.011948611461012575,
+    0.012626912548025738
+   ],
+   "control": {
+    "failures": 19678,
+    "kept": 443083,
+    "error": 0.04441154366111993
+   },
+   "model": 0.0006064577538922174,
+   "persistence": {
+    "events": 13377,
+    "trials": 1200000,
+    "rate": 0.0111475,
+    "independent": 0.0005174388840986724
+   }
+  },
+  "IBM kingston B R2_single": {
+   "failures": 5258,
+   "kept": 419450,
+   "shots": 600000,
+   "error": 0.012535463106448921,
+   "wilson95": [
+    0.01220319658562821,
+    0.01287665858954966
+   ],
+   "control": {
+    "failures": 20043,
+    "kept": 460296,
+    "error": 0.043543719693414674
+   },
+   "model": 0.000624164619266528,
+   "persistence": {
+    "events": 13759,
+    "trials": 1200000,
+    "rate": 0.011465833333333333,
+    "independent": 0.0005054320579989608
+   }
+  },
+  "IBM kingston B R1": {
+   "failures": 8250,
+   "kept": 177413,
+   "shots": 200000,
+   "error": 0.04650166560511349,
+   "wilson95": [
+    0.04553160115357249,
+    0.047491369220396776
+   ],
+   "model": 0.023209654879838747
+  }
+ },
+ "tests": {
+  "IQM run 1: w2 below w1": {
+   "p": 3.0648915259765917e-25,
+   "a": [
+    97,
+    3911
+   ],
+   "b": [
+    2,
+    3571
+   ],
+   "preregistered": false
+  },
+  "IQM run 2: w2 below w1": {
+   "p": 9.503483220754395e-19,
+   "a": [
+    91,
+    3820
+   ],
+   "b": [
+    7,
+    3513
+   ],
+   "preregistered": false
+  },
+  "IQM runs 1+3: w3 below w2": {
+   "p": 0.07064950376459596,
+   "a": [
+    4,
+    12271
+   ],
+   "b": [
+    0,
+    11529
+   ],
+   "preregistered": true
+  },
+  "IBM fez: w2 below w1": {
+   "p": 1.7426357359074723e-278,
+   "a": [
+    1611,
+    27931
+   ],
+   "b": [
+    144,
+    24220
+   ],
+   "preregistered": false
+  },
+  "IBM fez: w3 below w2": {
+   "p": 1.0903566773765734e-16,
+   "a": [
+    144,
+    24220
+   ],
+   "b": [
+    29,
+    21181
+   ],
+   "preregistered": false
+  },
+  "IQM run 1, decoded: w3 below w2": {
+   "p": 1.3763409064118011e-12,
+   "a": [
+    167,
+    5000
+   ],
+   "b": [
+    63,
+    5000
+   ],
+   "preregistered": false
+  },
+  "IQM run 3, decoded: w3 below w2": {
+   "p": 6.37904401516374e-12,
+   "a": [
+    366,
+    12000
+   ],
+   "b": [
+    206,
+    12000
+   ],
+   "preregistered": false
+  },
+  "IQM: two parallel bridge qubits below one bridge qubit (runs 1+2)": {
+   "p": 5.07002942049779e-10,
+   "a": [
+    188,
+    7731
+   ],
+   "b": [
+    11,
+    2075
+   ],
+   "preregistered": false
+  },
+  "IQM: two separate bridge edges below two parallel bridge qubits (runs 1+2)": {
+   "p": 0.0016793163286644107,
+   "a": [
+    11,
+    2075
+   ],
+   "b": [
+    9,
+    7084
+   ],
+   "preregistered": false
+  },
+  "IQM rounds: R2 below R1": {
+   "p": 2.353324272015575e-188,
+   "a": [
+    561,
+    8979
+   ],
+   "b": [
+    49,
+    15703
+   ],
+   "preregistered": true
+  },
+  "IBM rounds A: R2 below R1": {
+   "p": 0.0,
+   "a": [
+    16071,
+    349885
+   ],
+   "b": [
+    8677,
+    765042
+   ],
+   "preregistered": true
+  },
+  "IBM rounds A: R3 below R2": {
+   "p": 0.0,
+   "a": [
+    8677,
+    765042
+   ],
+   "b": [
+    7127,
+    1212715
+   ],
+   "preregistered": true
+  },
+  "IBM rounds B (single reset): R2 below R1": {
+   "p": 0.0,
+   "a": [
+    8250,
+    177413
+   ],
+   "b": [
+    5258,
+    419450
+   ],
+   "preregistered": true
+  },
+  "IBM rounds B (single reset): R3 below R2": {
+   "p": 9.293331407436271e-123,
+   "a": [
+    5258,
+    419450
+   ],
+   "b": [
+    3469,
+    459123
+   ],
+   "preregistered": true
+  },
+  "IBM rounds B (double reset): R2 below R1": {
+   "p": 0.0,
+   "a": [
+    8250,
+    177413
+   ],
+   "b": [
+    4978,
+    405271
+   ],
+   "preregistered": true
+  },
+  "IBM rounds B (double reset): R3 below R2": {
+   "p": 2.4963687780577417e-148,
+   "a": [
+    4978,
+    405271
+   ],
+   "b": [
+    2938,
+    431173
+   ],
+   "preregistered": true
+  },
+  "IBM rounds B: R2 error lower with two resets": {
+   "p": 0.15273691101653925,
+   "a": [
+    5258,
+    419450
+   ],
+   "b": [
+    4978,
+    405271
+   ],
+   "preregistered": true
+  },
+  "IBM rounds B: R3 error lower with two resets": {
+   "p": 1.8272278346361606e-05,
+   "a": [
+    3469,
+    459123
+   ],
+   "b": [
+    2938,
+    431173
+   ],
+   "preregistered": true
+  },
+  "IBM rounds B: persistence lower with two resets": {
+   "p": 8.844937674964335e-06,
+   "a": [
+    32142,
+    2800000
+   ],
+   "b": [
+    31068,
+    2800000
+   ],
+   "preregistered": true
+  }
+ },
+ "jobs": {
+  "IQM run 1": [
+   "76523bf2-37c2-41a9-8010-cfdcaffd78f4",
+   "26a4a49b-1fa6-41a3-ab01-f9f3b00b945a",
+   "4a3007ee-b25e-4c62-a71e-90955262b26d"
+  ],
+  "IQM run 2": [
+   "ba5b6688-4968-4630-afb8-44aaba8e306f",
+   "54ff9822-1a3a-4f27-84e4-42d4cf2fdb5a"
+  ],
+  "IQM run 3": [
+   "b8b1501c-97ce-4984-857d-bc4f3b46cd4e",
+   "d76d9454-b928-414f-ace9-031a095b98aa"
+  ],
+  "IQM multiplicity": [
+   "27904b35-b3f2-47ff-8af5-d6e4ccff91a9"
+  ],
+  "IQM rounds": [
+   "b131debc-9f37-415c-a544-5383426c6a07",
+   "d2deac85-ca19-4507-a451-8e19fc0a10fd"
+  ],
+  "IBM fez widths": [
+   "db77vtor1c5c738juki0"
+  ],
+  "IBM kingston rounds A": [
+   "db7abvgr1c5c738k42k0"
+  ],
+  "IBM kingston rounds B": [
+   "db7aqdqraffc73fa5a20"
+  ]
+ },
+ "excluded": {
+  "Rigetti Cepheus-1-108Q, compiler placement": {
+   "w1": [
+    351,
+    1873,
+    10000
+   ],
+   "w2": [
+    143,
+    697,
+    10000
+   ],
+   "w3": [
+    92,
+    341,
+    10000
+   ]
+  },
+  "Rigetti Cepheus-1-108Q, fixed placement": {
+   "w1": [
+    1350,
+    3061,
+    20000
+   ],
+   "w2": [
+    327,
+    1591,
+    20000
+   ],
+   "w3": [
+    159,
+    895,
+    20000
+   ]
+  },
+  "stuck_qubit_76_reads_1": [
+   30000,
+   30000
+  ]
+ },
+ "cut_decoded": {
+  "IQM run 1": {
+   "1": [
+    406,
+    5000
+   ],
+   "2": [
+    167,
+    5000
+   ],
+   "3": [
+    63,
+    5000
+   ]
+  },
+  "IQM run 3": {
+   "2": [
+    366,
+    12000
+   ],
+   "3": [
+    206,
+    12000
+   ]
+  }
+ },
+ "qpu_seconds": {
+  "IBM fez widths": 54,
+  "IBM kingston rounds A": 485,
+  "IBM kingston rounds B": 407
+ },
+ "total_shots_analyzed": 6882000
+}

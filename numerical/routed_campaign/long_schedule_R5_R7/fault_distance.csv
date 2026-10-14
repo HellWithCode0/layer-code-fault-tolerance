@@ -1,0 +1,42 @@
+input,interface,observable,basis,rounds,m,cut,nE,qubits,instructions,dX_lb,dZ_lb,dX_slab_upper,dZ_slab_upper,distance,lower_bound,proved_at_least,status,phase2,mechanisms,dem_errors,detectors,seconds,error,note,meets,query
+iceberg_422,bridge,Z1aZ1b,Z,5,1,1,156,3040,55701,5,4,12,10,1,1,1,OPTIMAL,,21951,154533,3968,0.9,,query=exact workers=8 mem_cap_mb=3090 build_s=133.5,YES,exact
+iceberg_422,bridge,Z2a,Z,5,1,1,156,3040,55701,5,4,12,10,12,6,,FEASIBLE,,21950,154533,3968,1200.3,,query=exact workers=8 mem_cap_mb=2876 build_s=133.5,NOT_REQUIRED,exact
+iceberg_422,bridge,Z2b,Z,5,1,1,156,3040,55701,5,4,12,10,12,6,,FEASIBLE,,21950,154533,3968,1200.3,,query=exact workers=8 mem_cap_mb=2368 build_s=133.5,NOT_REQUIRED,exact
+iceberg_422,bridge,m,X,5,1,1,156,3040,55699,5,4,12,10,5,5,5,OPTIMAL,,21539,158363,3892,284.6,,query=exact workers=8 mem_cap_mb=2975 build_s=130.2,YES,exact
+iceberg_422,bridge,X1a,X,5,1,1,156,3040,55699,5,4,12,10,10,5,,FEASIBLE,,21539,158363,3892,1200.9,,query=exact workers=8 mem_cap_mb=2352 build_s=130.2,INCOMPLETE,exact
+iceberg_422,bridge,X1b,X,5,1,1,156,3040,55699,5,4,12,10,10,5,,FEASIBLE,,21539,158363,3892,1200.5,,query=exact workers=8 mem_cap_mb=2402 build_s=130.2,INCOMPLETE,exact
+iceberg_422,bridge,X2a,X,5,1,1,156,3040,55699,5,4,12,10,4,4,4,OPTIMAL,,21539,158363,3892,75.8,,query=exact workers=8 mem_cap_mb=2222 build_s=130.2,NOT_REQUIRED,exact
+iceberg_422,bridge,X2b,X,5,1,1,156,3040,55699,5,4,12,10,4,4,4,OPTIMAL,,21539,158363,3892,42.8,,query=exact workers=8 mem_cap_mb=2315 build_s=130.2,NOT_REQUIRED,exact
+iceberg_422,thick,Z1aZ1b,Z,5,1,5,184,3144,56425,5,4,12,10,5,5,5,OPTIMAL,,22467,157547,4064,1160.4,,query=exact workers=8 mem_cap_mb=2997 build_s=125.7,YES,exact
+iceberg_422,thick,Z2a,Z,5,1,5,184,3144,56425,5,4,12,10,12,6,,FEASIBLE,,22467,157547,4064,1200.4,,query=exact workers=8 mem_cap_mb=2033 build_s=125.7,NOT_REQUIRED,exact
+iceberg_422,thick,Z2b,Z,5,1,5,184,3144,56425,5,4,12,10,12,6,,FEASIBLE,,22467,157547,4064,1201.4,,query=exact workers=8 mem_cap_mb=1908 build_s=125.7,NOT_REQUIRED,exact
+iceberg_422,thick,m,X,5,1,5,184,3144,56423,5,4,12,10,5,5,5,OPTIMAL,,21859,161475,3940,267.7,,query=exact workers=8 mem_cap_mb=2933 build_s=140.9,YES,exact
+iceberg_422,thick,X1a,X,5,1,5,184,3144,56423,5,4,12,10,10,5,,FEASIBLE,,21859,161475,3940,1201.2,,query=exact workers=8 mem_cap_mb=2436 build_s=140.9,INCOMPLETE,exact
+iceberg_422,thick,X1b,X,5,1,5,184,3144,56423,5,4,12,10,10,5,,FEASIBLE,,21859,161475,3940,1200.4,,query=exact workers=8 mem_cap_mb=2208 build_s=140.9,INCOMPLETE,exact
+iceberg_422,thick,X2a,X,5,1,5,184,3144,56423,5,4,12,10,4,4,4,OPTIMAL,,21859,161475,3940,90.0,,query=exact workers=8 mem_cap_mb=2264 build_s=140.9,NOT_REQUIRED,exact
+iceberg_422,thick,X2b,X,5,1,5,184,3144,56423,5,4,12,10,4,4,4,OPTIMAL,,21859,161475,3940,45.1,,query=exact workers=8 mem_cap_mb=2244 build_s=140.9,NOT_REQUIRED,exact
+iceberg_422,idle,Z1aZ1b,Z,5,1,5,184,2352,38406,5,4,12,10,5,5,5,OPTIMAL,,19678,139004,3584,650.2,,query=exact workers=8 mem_cap_mb=3035 build_s=73.8; idle has no gauging; rounds are pre+rg+post of the original extraction,YES,exact
+iceberg_422,idle,Z2a,Z,5,1,5,184,2352,38406,5,4,12,10,12,6,,FEASIBLE,,19678,139004,3584,1201.1,,query=exact workers=8 mem_cap_mb=2231 build_s=73.8; idle has no gauging; rounds are pre+rg+post of the original extraction,NOT_REQUIRED,exact
+iceberg_422,idle,Z2b,Z,5,1,5,184,2352,38406,5,4,12,10,12,6,,FEASIBLE,,19678,139004,3584,1200.3,,query=exact workers=8 mem_cap_mb=2004 build_s=73.8; idle has no gauging; rounds are pre+rg+post of the original extraction,NOT_REQUIRED,exact
+iceberg_422,idle,X1a,X,5,1,5,184,2352,38403,5,4,12,10,10,6,,FEASIBLE,,19438,142932,3520,1200.4,,query=exact workers=8 mem_cap_mb=2971 build_s=73.1; idle has no gauging; rounds are pre+rg+post of the original extraction,INCOMPLETE,exact
+iceberg_422,idle,X1b,X,5,1,5,184,2352,38403,5,4,12,10,10,6,,FEASIBLE,,19438,142932,3520,1200.3,,query=exact workers=8 mem_cap_mb=2242 build_s=73.1; idle has no gauging; rounds are pre+rg+post of the original extraction,INCOMPLETE,exact
+iceberg_422,idle,X2a,X,5,1,5,184,2352,38403,5,4,12,10,4,4,4,OPTIMAL,,19438,142932,3520,46.6,,query=exact workers=8 mem_cap_mb=2234 build_s=73.1; idle has no gauging; rounds are pre+rg+post of the original extraction,NOT_REQUIRED,exact
+iceberg_422,idle,X2b,X,5,1,5,184,2352,38403,5,4,12,10,4,4,4,OPTIMAL,,19438,142932,3520,29.6,,query=exact workers=8 mem_cap_mb=2309 build_s=73.1; idle has no gauging; rounds are pre+rg+post of the original extraction,NOT_REQUIRED,exact
+band_m2,bridge,Z1aZ1b,Z,7,1,1,828,9780,187283,7,6,16,14,1,1,1,OPTIMAL,,108833,785073,18912,3.1,,query=exact extra_le=None workers=8 mem_cap_mb=2781 build_s=1049.1,YES,exact
+band_m2,bridge,Z2a,Z,7,1,1,828,9780,187283,7,6,16,14,7,4,,FEASIBLE,,108832,785073,18912,1801.2,,query=exact extra_le=None workers=8 mem_cap_mb=1670 build_s=1049.1,NOT_REQUIRED,exact
+band_m2,bridge,Z2b,Z,7,1,1,828,9780,187283,7,6,16,14,7,4,,FEASIBLE,,108832,785073,18912,1801.1,,query=exact extra_le=None workers=8 mem_cap_mb=2140 build_s=1049.1,NOT_REQUIRED,exact
+band_m2,bridge,m,X,7,1,1,828,9780,187281,7,6,16,14,6,4,,FEASIBLE,,106343,798115,18422,1803.6,,query=exact extra_le=None workers=8 mem_cap_mb=1762 build_s=5657.3; weight-6 witness proves d_f(m)<=6<7,NO,exact
+band_m2,bridge,X1a,X,7,1,1,828,9780,187281,7,6,16,14,6,4,,FEASIBLE,,106343,798115,18422,1803.5,,query=exact extra_le=None workers=8 mem_cap_mb=3898 build_s=5657.3; witness 6 below R=7,NOTE,exact
+band_m2,bridge,X1b,X,7,1,1,828,9780,187281,7,6,16,14,6,4,,FEASIBLE,,106343,798115,18422,1802.4,,query=exact extra_le=None workers=8 mem_cap_mb=3514 build_s=5657.3; witness 6 below R=7,NOTE,exact
+band_m2,bridge,X2a,X,7,1,1,828,9780,187281,7,6,16,14,24,5,,FEASIBLE,,106343,798115,18422,1801.6,,query=exact extra_le=None workers=8 mem_cap_mb=2867 build_s=5657.3,NOT_REQUIRED,exact
+band_m2,bridge,X2b,X,7,1,1,828,9780,187281,7,6,16,14,23,5,,FEASIBLE,,106343,798115,18422,1801.4,,query=exact extra_le=None workers=8 mem_cap_mb=3083 build_s=5657.3,NOT_REQUIRED,exact
+band_m2,thick,Z1aZ1b,Z,7,1,17,940,9842,199024,7,6,16,14,,4,,UNKNOWN,,111727,802938,19424,31256.6,,query=le6 extra_le=6 workers=8 mem_cap_mb=6002 build_s=1272.5,INCOMPLETE,le6
+band_m2,thick,Z2a,Z,7,1,17,940,9842,199024,7,6,16,14,,3,,UNKNOWN,,111727,802938,19424,1202.3,,query=le6 extra_le=6 workers=8 mem_cap_mb=3453 build_s=1272.5,NOT_REQUIRED,le6
+band_m2,thick,Z2b,Z,7,1,17,940,9842,199024,7,6,16,14,,3,,UNKNOWN,,111727,802938,19424,1202.4,,query=le6 extra_le=6 workers=8 mem_cap_mb=7218 build_s=1272.5,NOT_REQUIRED,le6
+band_m2,thick,m,X,7,1,17,940,9842,199022,7,6,16,14,6,2,,FEASIBLE,,108295,816124,18710,9442.7,,query=le6 extra_le=6 workers=8 mem_cap_mb=10404 build_s=1312.5,NO,le6
+band_m2,thick,X1a,X,7,1,17,940,9842,199022,7,6,16,14,6,4,,FEASIBLE,,108295,816124,18710,5404.6,,query=le6 extra_le=6 workers=8 mem_cap_mb=2157 build_s=1312.5,NO,le6
+band_m2,idle,X1a,X,7,1,17,940,7200,107236,7,6,16,14,6,2,,FEASIBLE,,90774,677232,15752,5529.9,,query=le6 extra_le=6 workers=8 mem_cap_mb=12217 build_s=532.3; idle has no gauging; not a boxed band target,NOTE,le6
+band_m2,thick,X1b,X,7,1,17,940,9842,199022,7,6,16,14,6,3,,FEASIBLE,,108295,816124,18710,5407.1,,query=le6 extra_le=6 workers=8 mem_cap_mb=7115 build_s=1460.4,NO,le6
+band_m2,thick,X2a,X,7,1,17,940,9842,199022,7,6,16,14,,3,,UNKNOWN,,108295,816124,18710,2275.2,,query=le6 extra_le=6 workers=8 mem_cap_mb=4734 build_s=1460.4,NOT_REQUIRED,le6
+band_m2,thick,X2b,X,7,1,17,940,9842,199022,7,6,16,14,,3,,UNKNOWN,,108295,816124,18710,1233.0,,query=le6 extra_le=6 workers=8 mem_cap_mb=2367 build_s=1460.4,NOT_REQUIRED,le6
+band_m2,idle,Z1aZ1b,Z,7,1,17,940,7200,107239,7,6,16,14,,4,,UNKNOWN,,91110,664046,15840,5407.9,,query=le6 extra_le=6 workers=8 mem_cap_mb=11691 build_s=569.1; idle has no gauging; not a boxed band target,INCOMPLETE,le6

@@ -1,0 +1,21 @@
+{
+  "python": "3.11.15",
+  "packages": {
+    "numpy": "2.4.6",
+    "matplotlib": "3.11.2",
+    "pymupdf": "1.28.2",
+    "networkx": "3.6.1"
+  },
+  "tex": "TeX Live (Debian/Ubuntu packages) with REVTeX 4.2",
+  "purpose": "Revision build, figure regeneration, deterministic checks, and PDF QA; not a new simulation environment.",
+  "figure_pass": {
+    "python": "3.13.14",
+    "packages": {
+      "numpy": "2.5.3",
+      "matplotlib": "3.11.2",
+      "pymupdf": "1.28.2"
+    },
+    "tex": "MiKTeX 25.12 (pdfTeX 4.23) with REVTeX 4.2 and lmodern",
+    "purpose": "make_publication_figures.py, PDF build, and link finalization for the figure pass of 26 September 2026."
+  }
+}

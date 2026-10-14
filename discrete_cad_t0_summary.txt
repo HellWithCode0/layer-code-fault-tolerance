@@ -1,0 +1,5 @@
+concrete_integer_t0=3
+catalog_max_r_inf=1
+per_L=L3:2,L4:2,L5:3,L6:3
+SCOPE=unit Z^3 embedding of truncated WB; engineering t0=3 fixed; asymptotic O(1)
+Interface completeness: thm:slab-resolved uses ONLY audited finite cells + Delta_cell.

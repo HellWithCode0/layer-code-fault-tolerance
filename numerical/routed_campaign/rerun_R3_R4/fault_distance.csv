@@ -1,0 +1,11 @@
+input,interface,observable,basis,rounds,m,cut,nE,qubits,instructions,dX_lb,dZ_lb,dX_slab_upper,dZ_slab_upper,distance,lower_bound,proved_at_least,status,phase2,mechanisms,dem_errors,detectors,seconds,error,note
+iceberg_422,bridge,Z1aZ1b,Z,3,1,1,156,3040,33503,5,4,12,10,1,1,1,OPTIMAL,,13411,89509,2496,70.4,,
+iceberg_422,bridge,m,X,3,1,1,156,3040,33501,5,4,12,10,3,3,3,OPTIMAL,,12873,93385,2386,80.0,,"X column is separate from the Z cut; a weight-1 hook is a routed fault, not the geometric cut"
+iceberg_422,thick,Z1aZ1b,Z,3,1,5,184,3144,33939,5,4,12,10,5,5,5,OPTIMAL,,13733,91097,2560,469.0,,
+iceberg_422,thick,m,X,3,1,5,184,3144,33937,5,4,12,10,3,3,3,OPTIMAL,,13025,95025,2410,73.0,,"X column is separate from the Z cut; a weight-1 hook is a routed fault, not the geometric cut"
+band_m2,bridge,Z1aZ1b,Z,4,1,1,828,9780,107306,7,6,16,14,1,1,1,OPTIMAL,,63161,434757,11280,672.7,,
+band_m2,bridge,m,X,4,1,1,828,9780,107304,7,6,16,14,4,4,4,OPTIMAL,,60110,447868,10643,1007.9,,"X column is separate from the Z cut; a weight-1 hook is a routed fault, not the geometric cut"
+band_m2,thick,Z1aZ1b,Z,4,1,17,940,9842,114022,7,6,16,14,17,5,,FEASIBLE,UNKNOWN,64864,444006,11600,25598.8,,
+band_m2,thick,m,X,4,1,17,940,9842,114020,7,6,16,14,4,4,4,OPTIMAL,,61054,457192,10787,1259.7,,"X column is separate from the Z cut; a weight-1 hook is a routed fault, not the geometric cut"
+iceberg_422,idle,Z1aZ1b,Z,3,1,5,184,2352,23136,5,4,12,10,5,5,5,OPTIMAL,,11986,81332,2240,302.6,,idle has no gauging; rounds are pre+rg+post of the original extraction
+iceberg_422,idle,X1a,X,3,1,5,184,2352,23133,5,4,12,10,10,6,,FEASIBLE,,11842,85260,2200,2448.1,,idle has no gauging; rounds are pre+rg+post of the original extraction

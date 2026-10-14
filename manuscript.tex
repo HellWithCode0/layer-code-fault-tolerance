@@ -1,0 +1,33 @@
+\documentclass[aps,prx,reprint,superscriptaddress,nofootinbib,floatfix,longbibliography]{revtex4-2}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{lmodern}
+\usepackage{amsmath,amssymb,amsthm}
+\usepackage{booktabs}
+\usepackage{graphicx}
+\graphicspath{{figures/}}
+\usepackage{microtype}
+\usepackage{bm}
+\usepackage{xr-hyper}
+\usepackage[colorlinks=true,linkcolor=black,citecolor=black,urlcolor=black,hypertexnames=false]{hyperref}
+\setlength{\emergencystretch}{2em}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{corollary}[theorem]{Corollary}
+\theoremstyle{definition}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{assumption}[theorem]{Assumption}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem*{namedlemma}{Lemma}
+\newtheorem*{namedtheorem}{Theorem}
+\newtheorem*{namedproposition}{Proposition}
+\DeclareMathOperator{\rank}{rank}
+\hypersetup{pdftitle={Universal Fault-Tolerant Computation on Three-Dimensional Layer Codes at Optimal Distance},pdfauthor={Aryaman Katoch}}
+\externaldocument[SM-]{supplement}[supplement.pdf]
+\input{hardware_macros.tex}
+\begin{document}
+\title{Universal Fault-Tolerant Computation on Three-Dimensional\\ Layer Codes at Optimal Distance}
+\author{Aryaman Katoch}
+\input{main_body.tex}
+\end{document}

@@ -1,0 +1,4 @@
+PASS ideal factory-map audit
+  Steane: (Sdagger)^7 maps encoded |+> to encoded |Y>; all single-Z syndromes unique
+  RM15:   (Tdagger)^15 maps encoded |+> to encoded |A>; all single-Z syndromes unique
+  wrote factory_map_audit.csv

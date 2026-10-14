@@ -1,0 +1,2 @@
+spacing,interface,block_qubits,edge_qubits,ports,interface_cut,rounds_per_phase,X_noiseless_deterministic,X_detectors,seed_X,fail_m,nfail_m,fail_X1a,nfail_X1a,fail_X1b,nfail_X1b,fail_X2a,nfail_X2a,fail_X2b,nfail_X2b,fail_any_X,nfail_any_X,p,shots,Z_noiseless_deterministic,Z_detectors,seed_Z,fail_Z1aZ1b,nfail_Z1aZ1b,fail_Z2a,nfail_Z2a,fail_Z2b,nfail_Z2b,fail_any_Z,nfail_any_Z,seconds
+2,thick x2,224,368,24,10,4,True,7183,1140469290,0.06,15,0.0,0,0.0,0,0.004,1,0.0,0,0.064,16,0.002,250,True,7187,771788030,0.004,1,0.0,0,0.0,0,0.004,1,3360.2

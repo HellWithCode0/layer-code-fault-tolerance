@@ -1,0 +1,17 @@
+L,H,multiplicity,ancilla,data_qubits,grid_edge_qubits,undeformed_dX,cut_logical_weight,beta_lower_bound,deformed_dX_lower,deformed_dX_upper,css_valid,cut_commutes_with_Z,cut_is_nontrivial,cut_equiv_to_Xa,measured_product_is_stabilizer
+3,1,1,sheet (H=1),162,27,9,3,0.1667,1.5,3,True,True,True,True,True
+3,2,1,thin slab (H=2),162,72,9,6,0.3333,3.0,6,True,True,True,True,True
+3,3,1,thick box (H=L=3),162,117,9,9,0.5,4.5,9,True,True,True,True,True
+3,3,2,"thick box (H=L=3), edge multiplicity 2",162,234,9,18,1.0,9.0,9,True,True,True,True,True
+4,1,1,sheet (H=1),384,52,16,4,0.125,2.0,4,True,True,True,True,True
+4,2,1,thin slab (H=2),384,136,16,8,0.25,4.0,8,True,True,True,True,True
+4,4,1,thick box (H=L=4),384,304,16,16,0.5,8.0,16,True,True,True,True,True
+4,4,2,"thick box (H=L=4), edge multiplicity 2",384,608,16,32,1.0,16.0,16,True,True,True,True,True
+5,1,1,sheet (H=1),750,85,25,5,0.1,2.5,5,True,True,True,True,True
+5,2,1,thin slab (H=2),750,220,25,10,0.2,5.0,10,True,True,True,True,True
+5,5,1,thick box (H=L=5),750,625,25,25,0.5,12.5,25,True,True,True,True,True
+5,5,2,"thick box (H=L=5), edge multiplicity 2",750,1250,25,50,1.0,25.0,25,True,True,True,True,True
+6,1,1,sheet (H=1),1296,126,36,6,0.0833,3.0,6,True,True,True,True,True
+6,2,1,thin slab (H=2),1296,324,36,12,0.1667,6.0,12,True,True,True,True,True
+6,6,1,thick box (H=L=6),1296,1116,36,36,0.5,18.0,36,True,True,True,True,True
+6,6,2,"thick box (H=L=6), edge multiplicity 2",1296,2232,36,72,1.0,36.0,36,True,True,True,True,True

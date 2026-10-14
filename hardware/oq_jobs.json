@@ -1,0 +1,26 @@
+{
+ "backend": "rigetti:cepheus-1-108q",
+ "shots": 10000,
+ "jobs": {
+  "0": {
+   "job_id": "b328c24a-5659-4696-928e-0932ffe90b77",
+   "cost": 3,
+   "status": "Created"
+  },
+  "1": {
+   "job_id": "fb63062d-b406-4377-a6e1-929c18013100",
+   "cost": 3,
+   "status": "Created"
+  },
+  "2": {
+   "job_id": "43f4eae6-286e-4d20-ae9b-6ea738193251",
+   "cost": 3,
+   "status": "Created"
+  },
+  "3": {
+   "job_id": "3b0d28e8-20f9-41ba-b6b3-8c0c7f9f899a",
+   "cost": 3,
+   "status": "Created"
+  }
+ }
+}

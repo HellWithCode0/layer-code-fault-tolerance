@@ -1,0 +1,381 @@
+11:01:22 iceberg start MemAvailable_kib=3985468 rss_kib=13276 rounds=5
+11:01:22 START params_iceberg_422
+11:01:23 params iceberg_422 bridge m=1
+11:01:24 params iceberg_422 thick m=1
+11:01:25 params done iceberg_422 dX_lb=5 slab=12 bridge_cut=1 grid_cut=5 grid_m=1
+11:01:25 END params_iceberg_422 rc=0
+11:01:25 START certify_iceberg_422_bridge_Z
+11:01:26 certify iceberg_422 bridge Z R=5 m=1
+11:01:34 cert built qubits=3040 inst=17668 cut=1 avail_kib=3898368 rss_kib=96832
+11:01:34 cert iceberg_422 bridge Z PASS 8.0s qubits=3040
+11:01:34 END certify_iceberg_422_bridge_Z rc=0
+11:01:34 START certify_iceberg_422_bridge_X
+11:01:34 certify iceberg_422 bridge X R=5 m=1
+11:01:42 cert built qubits=3040 inst=17666 cut=1 avail_kib=3900760 rss_kib=96876
+11:01:42 cert iceberg_422 bridge X PASS 7.7s qubits=3040
+11:01:42 END certify_iceberg_422_bridge_X rc=0
+11:01:42 START certify_iceberg_422_thick_Z
+11:01:43 certify iceberg_422 thick Z R=5 m=1
+11:01:51 cert built qubits=3144 inst=17937 cut=5 avail_kib=3939452 rss_kib=97052
+11:01:51 cert iceberg_422 thick Z PASS 8.1s qubits=3144
+11:01:51 END certify_iceberg_422_thick_Z rc=0
+11:01:51 START certify_iceberg_422_thick_X
+11:01:51 certify iceberg_422 thick X R=5 m=1
+11:01:59 cert built qubits=3144 inst=17935 cut=5 avail_kib=3940736 rss_kib=96340
+11:01:59 cert iceberg_422 thick X PASS 7.9s qubits=3144
+11:01:59 END certify_iceberg_422_thick_X rc=0
+11:01:59 START certify_iceberg_422_idle_Z
+11:02:00 certify iceberg_422 idle Z R=5 m=1
+11:02:06 cert built qubits=2352 inst=13955 cut=5 avail_kib=3952948 rss_kib=93824
+11:02:06 cert iceberg_422 idle Z PASS 5.7s qubits=2352
+11:02:06 END certify_iceberg_422_idle_Z rc=0
+11:02:06 START certify_iceberg_422_idle_X
+11:02:06 certify iceberg_422 idle X R=5 m=1
+11:02:12 cert built qubits=2352 inst=13952 cut=5 avail_kib=3951332 rss_kib=93508
+11:02:12 cert iceberg_422 idle X PASS 5.8s qubits=2352
+11:02:12 END certify_iceberg_422_idle_X rc=0
+11:02:13 START fault_iceberg_422_bridge_Z
+11:02:13 fault-all iceberg_422 bridge Z R=5 m=1
+11:02:13 pre-circuit mem_avail_kib=3917336 rss_kib=86200
+11:03:59 observable names bridge Z: ['Z1aZ1b', 'Z2a', 'Z2b']
+11:03:59 todo ['Z1aZ1b', 'Z2a', 'Z2b'] already []
+11:03:59 fault built iceberg_422 bridge Z qubits=3040 inst=55701 cut=1 avail_kib=3903244 rss_kib=145748
+11:03:59 dem build mem_avail_kib=3903244 rss_kib=145748 qubits=3040 inst=55701
+11:04:22 dem iceberg_422 bridge Z detectors=7640 observables=3 error_instructions=154533
+11:04:24 mechanisms iceberg_422 bridge Z1aZ1b 21951 keep_det=3968
+11:04:25 mechanisms iceberg_422 bridge Z2a 21950 keep_det=3968
+11:04:27 mechanisms iceberg_422 bridge Z2b 21950 keep_det=3968
+11:04:27 dem released, build_seconds=133.5
+11:04:27 solve-start Z1aZ1b mem_avail_kib=3881636 rss_kib=165000 mem_cap_mb=3090
+11:04:28 solve iceberg_422/bridge/Z/Z1aZ1b/exact OPTIMAL d=1 lb=1 mech=21951 0.5s cap=1200
+11:04:28 fault row iceberg_422 bridge Z1aZ1b OPTIMAL d=1 lb=1 proved=1 meets=YES 0.9s
+11:04:28 solve-start Z2a mem_avail_kib=3661952 rss_kib=415308 mem_cap_mb=2876
+11:24:28 solve iceberg_422/bridge/Z/Z2a/exact FEASIBLE d=12 lb=6 mech=21950 1200.2s cap=1200
+11:24:28 fault row iceberg_422 bridge Z2a FEASIBLE d=12 lb=6 proved= meets=NOT_REQUIRED 1200.3s
+11:24:28 solve-start Z2b mem_avail_kib=3142252 rss_kib=838936 mem_cap_mb=2368
+11:44:29 solve iceberg_422/bridge/Z/Z2b/exact FEASIBLE d=12 lb=6 mech=21950 1200.2s cap=1200
+11:44:29 fault row iceberg_422 bridge Z2b FEASIBLE d=12 lb=6 proved= meets=NOT_REQUIRED 1200.3s
+11:44:29 END fault_iceberg_422_bridge_Z rc=0
+11:44:29 START fault_iceberg_422_bridge_X
+11:44:29 fault-all iceberg_422 bridge X R=5 m=1
+11:44:29 pre-circuit mem_avail_kib=3855156 rss_kib=86188
+11:46:11 observable names bridge X: ['m', 'X1a', 'X1b', 'X2a', 'X2b']
+11:46:11 todo ['m', 'X1a', 'X1b', 'X2a', 'X2b'] already ['Z1aZ1b', 'Z2a', 'Z2b']
+11:46:11 fault built iceberg_422 bridge X qubits=3040 inst=55699 cut=1 avail_kib=3810560 rss_kib=145640
+11:46:11 dem build mem_avail_kib=3810560 rss_kib=145640 qubits=3040 inst=55699
+11:46:34 dem iceberg_422 bridge X detectors=7636 observables=5 error_instructions=158363
+11:46:35 mechanisms iceberg_422 bridge m 21539 keep_det=3892
+11:46:36 mechanisms iceberg_422 bridge X1a 21539 keep_det=3892
+11:46:38 mechanisms iceberg_422 bridge X1b 21539 keep_det=3892
+11:46:39 mechanisms iceberg_422 bridge X2a 21539 keep_det=3892
+11:46:40 mechanisms iceberg_422 bridge X2b 21539 keep_det=3892
+11:46:40 dem released, build_seconds=130.2
+11:46:40 solve-start m mem_avail_kib=3764012 rss_kib=173044 mem_cap_mb=2975
+11:51:24 solve iceberg_422/bridge/X/m/exact OPTIMAL d=5 lb=5 mech=21539 284.3s cap=1200
+11:51:24 fault row iceberg_422 bridge m OPTIMAL d=5 lb=5 proved=5 meets=YES 284.6s
+11:51:24 solve-start X1a mem_avail_kib=3125872 rss_kib=850784 mem_cap_mb=2352
+12:11:25 solve iceberg_422/bridge/X/X1a/exact FEASIBLE d=10 lb=5 mech=21539 1200.6s cap=1200
+12:11:25 fault row iceberg_422 bridge X1a FEASIBLE d=10 lb=5 proved= meets=INCOMPLETE 1200.9s
+12:11:27 solve-start X1b mem_avail_kib=3176976 rss_kib=839856 mem_cap_mb=2402
+12:31:28 solve iceberg_422/bridge/X/X1b/exact FEASIBLE d=10 lb=5 mech=21539 1200.2s cap=1200
+12:31:28 fault row iceberg_422 bridge X1b FEASIBLE d=10 lb=5 proved= meets=INCOMPLETE 1200.5s
+12:31:28 solve-start X2a mem_avail_kib=2993100 rss_kib=990756 mem_cap_mb=2222
+12:32:44 solve iceberg_422/bridge/X/X2a/exact OPTIMAL d=4 lb=4 mech=21539 75.5s cap=1200
+12:32:44 fault row iceberg_422 bridge X2a OPTIMAL d=4 lb=4 proved=4 meets=NOT_REQUIRED 75.8s
+12:32:44 solve-start X2b mem_avail_kib=3088112 rss_kib=892476 mem_cap_mb=2315
+12:33:27 solve iceberg_422/bridge/X/X2b/exact OPTIMAL d=4 lb=4 mech=21539 42.7s cap=1200
+12:33:27 fault row iceberg_422 bridge X2b OPTIMAL d=4 lb=4 proved=4 meets=NOT_REQUIRED 42.8s
+12:33:27 END fault_iceberg_422_bridge_X rc=0
+12:33:27 START fault_iceberg_422_thick_Z
+12:33:28 fault-all iceberg_422 thick Z R=5 m=1
+12:33:28 pre-circuit mem_avail_kib=3871976 rss_kib=85936
+12:35:06 observable names thick Z: ['Z1aZ1b', 'Z2a', 'Z2b']
+12:35:06 todo ['Z1aZ1b', 'Z2a', 'Z2b'] already []
+12:35:06 fault built iceberg_422 thick Z qubits=3144 inst=56425 cut=5 avail_kib=3804960 rss_kib=147276
+12:35:06 dem build mem_avail_kib=3804960 rss_kib=147276 qubits=3144 inst=56425
+12:35:31 dem iceberg_422 thick Z detectors=7784 observables=3 error_instructions=157547
+12:35:32 mechanisms iceberg_422 thick Z1aZ1b 22467 keep_det=4064
+12:35:33 mechanisms iceberg_422 thick Z2a 22467 keep_det=4064
+12:35:34 mechanisms iceberg_422 thick Z2b 22467 keep_det=4064
+12:35:34 dem released, build_seconds=125.7
+12:35:34 solve-start Z1aZ1b mem_avail_kib=3786260 rss_kib=166116 mem_cap_mb=2997
+12:54:54 solve iceberg_422/thick/Z/Z1aZ1b/exact OPTIMAL d=5 lb=5 mech=22467 1159.9s cap=1200
+12:54:54 fault row iceberg_422 thick Z1aZ1b OPTIMAL d=5 lb=5 proved=5 meets=YES 1160.4s
+12:54:54 solve-start Z2a mem_avail_kib=2799612 rss_kib=1157784 mem_cap_mb=2033
+13:14:55 solve iceberg_422/thick/Z/Z2a/exact FEASIBLE d=12 lb=6 mech=22467 1200.2s cap=1200
+13:14:55 fault row iceberg_422 thick Z2a FEASIBLE d=12 lb=6 proved= meets=NOT_REQUIRED 1200.4s
+13:14:55 solve-start Z2b mem_avail_kib=2670616 rss_kib=1307168 mem_cap_mb=1908
+13:34:56 solve iceberg_422/thick/Z/Z2b/exact FEASIBLE d=12 lb=6 mech=22467 1201.2s cap=1200
+13:34:56 fault row iceberg_422 thick Z2b FEASIBLE d=12 lb=6 proved= meets=NOT_REQUIRED 1201.4s
+13:34:57 END fault_iceberg_422_thick_Z rc=0
+13:34:57 START fault_iceberg_422_thick_X
+13:34:58 fault-all iceberg_422 thick X R=5 m=1
+13:34:58 pre-circuit mem_avail_kib=3819544 rss_kib=86284
+13:36:48 observable names thick X: ['m', 'X1a', 'X1b', 'X2a', 'X2b']
+13:36:48 todo ['m', 'X1a', 'X1b', 'X2a', 'X2b'] already ['Z1aZ1b', 'Z2a', 'Z2b']
+13:36:48 fault built iceberg_422 thick X qubits=3144 inst=56423 cut=5 avail_kib=3749108 rss_kib=147572
+13:36:48 dem build mem_avail_kib=3749108 rss_kib=147572 qubits=3144 inst=56423
+13:37:13 dem iceberg_422 thick X detectors=7780 observables=5 error_instructions=161475
+13:37:15 mechanisms iceberg_422 thick m 21859 keep_det=3940
+13:37:16 mechanisms iceberg_422 thick X1a 21859 keep_det=3940
+13:37:17 mechanisms iceberg_422 thick X1b 21859 keep_det=3940
+13:37:18 mechanisms iceberg_422 thick X2a 21859 keep_det=3940
+13:37:19 mechanisms iceberg_422 thick X2b 21859 keep_det=3940
+13:37:19 dem released, build_seconds=140.9
+13:37:19 solve-start m mem_avail_kib=3720728 rss_kib=174352 mem_cap_mb=2933
+13:41:46 solve iceberg_422/thick/X/m/exact OPTIMAL d=5 lb=5 mech=21859 267.0s cap=1200
+13:41:47 fault row iceberg_422 thick m OPTIMAL d=5 lb=5 proved=5 meets=YES 267.7s
+13:41:47 solve-start X1a mem_avail_kib=3211452 rss_kib=761088 mem_cap_mb=2436
+14:01:48 solve iceberg_422/thick/X/X1a/exact FEASIBLE d=10 lb=5 mech=21859 1200.9s cap=1200
+14:01:48 fault row iceberg_422 thick X1a FEASIBLE d=10 lb=5 proved= meets=INCOMPLETE 1201.2s
+14:01:51 solve-start X1b mem_avail_kib=2978540 rss_kib=984640 mem_cap_mb=2208
+14:21:51 solve iceberg_422/thick/X/X1b/exact FEASIBLE d=10 lb=5 mech=21859 1200.2s cap=1200
+14:21:51 fault row iceberg_422 thick X1b FEASIBLE d=10 lb=5 proved= meets=INCOMPLETE 1200.4s
+14:21:51 solve-start X2a mem_avail_kib=3035836 rss_kib=921136 mem_cap_mb=2264
+14:23:21 solve iceberg_422/thick/X/X2a/exact OPTIMAL d=4 lb=4 mech=21859 89.8s cap=1200
+14:23:21 fault row iceberg_422 thick X2a OPTIMAL d=4 lb=4 proved=4 meets=NOT_REQUIRED 90.0s
+14:23:21 solve-start X2b mem_avail_kib=3015116 rss_kib=954648 mem_cap_mb=2244
+14:24:06 solve iceberg_422/thick/X/X2b/exact OPTIMAL d=4 lb=4 mech=21859 45.0s cap=1200
+14:24:06 fault row iceberg_422 thick X2b OPTIMAL d=4 lb=4 proved=4 meets=NOT_REQUIRED 45.1s
+14:24:07 END fault_iceberg_422_thick_X rc=0
+14:24:07 START fault_iceberg_422_idle_Z
+14:24:08 fault-all iceberg_422 idle Z R=5 m=1
+14:24:08 pre-circuit mem_avail_kib=3896628 rss_kib=85620
+14:25:06 observable names idle Z: ['Z1aZ1b', 'Z2a', 'Z2b']
+14:25:06 todo ['Z1aZ1b', 'Z2a', 'Z2b'] already []
+14:25:06 fault built iceberg_422 idle Z qubits=2352 inst=38406 cut=5 avail_kib=3852220 rss_kib=125428
+14:25:06 dem build mem_avail_kib=3852220 rss_kib=125428 qubits=2352 inst=38406
+14:25:19 dem iceberg_422 idle Z detectors=6884 observables=3 error_instructions=139004
+14:25:20 mechanisms iceberg_422 idle Z1aZ1b 19678 keep_det=3584
+14:25:21 mechanisms iceberg_422 idle Z2a 19678 keep_det=3584
+14:25:22 mechanisms iceberg_422 idle Z2b 19678 keep_det=3584
+14:25:22 dem released, build_seconds=73.8
+14:25:22 solve-start Z1aZ1b mem_avail_kib=3824824 rss_kib=153176 mem_cap_mb=3035
+14:36:12 solve iceberg_422/idle/Z/Z1aZ1b/exact OPTIMAL d=5 lb=5 mech=19678 649.7s cap=1200
+14:36:12 fault row iceberg_422 idle Z1aZ1b OPTIMAL d=5 lb=5 proved=5 meets=YES 650.2s
+14:36:12 solve-start Z2a mem_avail_kib=3001852 rss_kib=965652 mem_cap_mb=2231
+14:56:13 solve iceberg_422/idle/Z/Z2a/exact FEASIBLE d=12 lb=6 mech=19678 1201.0s cap=1200
+14:56:13 fault row iceberg_422 idle Z2a FEASIBLE d=12 lb=6 proved= meets=NOT_REQUIRED 1201.1s
+14:56:13 solve-start Z2b mem_avail_kib=2769556 rss_kib=1185744 mem_cap_mb=2004
+15:16:13 solve iceberg_422/idle/Z/Z2b/exact FEASIBLE d=12 lb=6 mech=19678 1200.1s cap=1200
+15:16:13 fault row iceberg_422 idle Z2b FEASIBLE d=12 lb=6 proved= meets=NOT_REQUIRED 1200.3s
+15:16:14 END fault_iceberg_422_idle_Z rc=0
+15:16:14 START fault_iceberg_422_idle_X
+15:16:14 fault-all iceberg_422 idle X R=5 m=1
+15:16:14 pre-circuit mem_avail_kib=3846636 rss_kib=85712
+15:17:10 observable names idle X: ['X1a', 'X1b', 'X2a', 'X2b']
+15:17:10 todo ['X1a', 'X1b', 'X2a', 'X2b'] already ['Z1aZ1b', 'Z2a', 'Z2b']
+15:17:10 fault built iceberg_422 idle X qubits=2352 inst=38403 cut=5 avail_kib=3819308 rss_kib=125632
+15:17:10 dem build mem_avail_kib=3819308 rss_kib=125632 qubits=2352 inst=38403
+15:17:24 dem iceberg_422 idle X detectors=6880 observables=4 error_instructions=142932
+15:17:25 mechanisms iceberg_422 idle X1a 19438 keep_det=3520
+15:17:25 mechanisms iceberg_422 idle X1b 19438 keep_det=3520
+15:17:26 mechanisms iceberg_422 idle X2a 19438 keep_det=3520
+15:17:27 mechanisms iceberg_422 idle X2b 19438 keep_det=3520
+15:17:27 dem released, build_seconds=73.1
+15:17:27 solve-start X1a mem_avail_kib=3759508 rss_kib=164492 mem_cap_mb=2971
+15:37:28 solve iceberg_422/idle/X/X1a/exact FEASIBLE d=10 lb=6 mech=19438 1200.1s cap=1200
+15:37:28 fault row iceberg_422 idle X1a FEASIBLE d=10 lb=6 proved= meets=INCOMPLETE 1200.4s
+15:37:28 solve-start X1b mem_avail_kib=3013128 rss_kib=934292 mem_cap_mb=2242
+15:57:28 solve iceberg_422/idle/X/X1b/exact FEASIBLE d=10 lb=6 mech=19438 1200.1s cap=1200
+15:57:28 fault row iceberg_422 idle X1b FEASIBLE d=10 lb=6 proved= meets=INCOMPLETE 1200.3s
+15:57:28 solve-start X2a mem_avail_kib=3004588 rss_kib=948228 mem_cap_mb=2234
+15:58:15 solve iceberg_422/idle/X/X2a/exact OPTIMAL d=4 lb=4 mech=19438 46.5s cap=1200
+15:58:15 fault row iceberg_422 idle X2a OPTIMAL d=4 lb=4 proved=4 meets=NOT_REQUIRED 46.6s
+15:58:15 solve-start X2b mem_avail_kib=3081432 rss_kib=889224 mem_cap_mb=2309
+15:58:44 solve iceberg_422/idle/X/X2b/exact OPTIMAL d=4 lb=4 mech=19438 29.5s cap=1200
+15:58:44 fault row iceberg_422 idle X2b OPTIMAL d=4 lb=4 proved=4 meets=NOT_REQUIRED 29.6s
+15:58:45 END fault_iceberg_422_idle_X rc=0
+15:58:45 ICEBERG DONE
+16:38:51 band start MemAvailable_kib=3950848 rss_kib=13300 rounds=7
+16:38:51 START params_band_m2
+16:38:51 params band_m2 bridge m=1
+16:39:02 params band_m2 thick m=1
+16:39:14 params done band_m2 dX_lb=7 slab=16 bridge_cut=1 grid_cut=17 grid_m=1
+16:39:14 END params_band_m2 rc=0
+16:39:14 START certify_band_m2_bridge_Z
+16:39:14 certify band_m2 bridge Z R=7 m=1
+16:40:47 cert built qubits=9780 inst=71668 cut=1 avail_kib=3845780 rss_kib=124112
+16:40:47 cert band_m2 bridge Z PASS 92.5s qubits=9780
+16:40:47 END certify_band_m2_bridge_Z rc=0
+16:40:47 START certify_band_m2_bridge_X
+16:40:48 certify band_m2 bridge X R=7 m=1
+16:42:19 cert built qubits=9780 inst=71666 cut=1 avail_kib=3865988 rss_kib=124356
+16:42:20 cert band_m2 bridge X PASS 92.0s qubits=9780
+16:42:20 END certify_band_m2_bridge_X rc=0
+16:42:20 START certify_band_m2_thick_Z
+16:42:20 certify band_m2 thick Z R=7 m=1
+16:43:58 cert built qubits=9842 inst=75345 cut=17 avail_kib=3863692 rss_kib=126100
+16:43:58 cert band_m2 thick Z PASS 97.9s qubits=9842
+16:43:58 END certify_band_m2_thick_Z rc=0
+16:43:58 START certify_band_m2_thick_X
+16:43:59 certify band_m2 thick X R=7 m=1
+16:45:34 cert built qubits=9842 inst=75343 cut=17 avail_kib=3855744 rss_kib=126192
+16:45:34 cert band_m2 thick X PASS 95.1s qubits=9842
+16:45:34 END certify_band_m2_thick_X rc=0
+16:45:34 START certify_band_m2_idle_Z
+16:45:34 certify band_m2 idle Z R=7 m=1
+16:46:35 cert built qubits=7200 inst=50118 cut=17 avail_kib=3863572 rss_kib=110052
+16:46:35 cert band_m2 idle Z PASS 61.0s qubits=7200
+16:46:35 END certify_band_m2_idle_Z rc=0
+16:46:35 START certify_band_m2_idle_X
+16:46:36 certify band_m2 idle X R=7 m=1
+16:47:37 cert built qubits=7200 inst=50115 cut=17 avail_kib=3847420 rss_kib=109172
+16:47:37 cert band_m2 idle X PASS 60.7s qubits=7200
+16:47:37 END certify_band_m2_idle_X rc=0
+16:47:37 START fault_band_m2_bridge_Z
+16:47:38 fault-all band_m2 bridge Z R=7 m=1 query=exact
+16:47:38 pre-circuit mem_avail_kib=3831516 rss_kib=85796
+17:00:56 observable names bridge Z: ['Z1aZ1b', 'Z2a', 'Z2b']
+17:00:56 todo ['Z1aZ1b', 'Z2a', 'Z2b'] already []
+17:00:56 fault built band_m2 bridge Z qubits=9780 inst=187283 cut=1 avail_kib=3383204 rss_kib=554560
+17:00:57 dem build mem_avail_kib=3383204 rss_kib=554560 qubits=9780 inst=187283
+17:04:53 dem band_m2 bridge Z detectors=36618 observables=3 error_instructions=785073
+17:04:58 mechanisms band_m2 bridge Z1aZ1b 108833 keep_det=18912
+17:05:02 mechanisms band_m2 bridge Z2a 108832 keep_det=18912
+17:05:07 mechanisms band_m2 bridge Z2b 108832 keep_det=18912
+17:05:07 dem released, build_seconds=1049.1
+17:05:07 solve-start Z1aZ1b query=exact extra=None cap_s=1800 mem_avail_kib=3564600 rss_kib=293864 mem_cap_mb=2781
+17:05:10 solve band_m2/bridge/Z/Z1aZ1b/exact OPTIMAL d=1 lb=1 mech=108833 2.1s cap=1800
+17:05:10 fault row band_m2 bridge Z1aZ1b OPTIMAL d=1 lb=1 proved=1 meets=YES 3.1s
+17:05:10 solve-start Z2a query=exact extra=None cap_s=1800 mem_avail_kib=2427676 rss_kib=1387340 mem_cap_mb=1670
+17:35:11 solve band_m2/bridge/Z/Z2a/exact FEASIBLE d=7 lb=4 mech=108832 1800.5s cap=1800
+17:35:11 fault row band_m2 bridge Z2a FEASIBLE d=7 lb=4 proved= meets=NOT_REQUIRED 1801.2s
+17:35:11 solve-start Z2b query=exact extra=None cap_s=1800 mem_avail_kib=2908280 rss_kib=3037672 mem_cap_mb=2140
+18:05:13 solve band_m2/bridge/Z/Z2b/exact FEASIBLE d=7 lb=4 mech=108832 1800.5s cap=1800
+18:05:13 fault row band_m2 bridge Z2b FEASIBLE d=7 lb=4 proved= meets=NOT_REQUIRED 1801.1s
+18:05:13 END fault_band_m2_bridge_Z rc=0
+18:05:13 START fault_band_m2_bridge_X
+18:05:14 fault-all band_m2 bridge X R=7 m=1 query=exact
+18:05:14 pre-circuit mem_avail_kib=10122464 rss_kib=85912
+18:17:46 observable names bridge X: ['m', 'X1a', 'X1b', 'X2a', 'X2b']
+18:17:46 todo ['m', 'X1a', 'X1b', 'X2a', 'X2b'] already ['Z1aZ1b', 'Z2a', 'Z2b']
+18:17:46 fault built band_m2 bridge X qubits=9780 inst=187281 cut=1 avail_kib=9678460 rss_kib=555240
+18:17:46 dem build mem_avail_kib=9678460 rss_kib=555240 qubits=9780 inst=187281
+19:38:59 dem band_m2 bridge X detectors=36614 observables=5 error_instructions=798115
+19:39:06 mechanisms band_m2 bridge m 106343 keep_det=18422
+19:39:12 mechanisms band_m2 bridge X1a 106343 keep_det=18422
+19:39:18 mechanisms band_m2 bridge X1b 106343 keep_det=18422
+19:39:24 mechanisms band_m2 bridge X2a 106343 keep_det=18422
+19:39:31 mechanisms band_m2 bridge X2b 106343 keep_det=18422
+19:39:31 dem released, build_seconds=5657.3
+19:39:31 solve-start m query=exact extra=None cap_s=1800 mem_avail_kib=2521172 rss_kib=440316 mem_cap_mb=1762
+20:09:34 solve band_m2/bridge/X/m/exact FEASIBLE d=6 lb=4 mech=106343 1802.0s cap=1800
+20:09:35 fault row band_m2 bridge m FEASIBLE d=6 lb=4 proved= meets=INCOMPLETE 1803.6s
+20:09:38 solve-start X1a query=exact extra=None cap_s=1800 mem_avail_kib=4708584 rss_kib=2505108 mem_cap_mb=3898
+20:39:42 solve band_m2/bridge/X/X1a/exact FEASIBLE d=6 lb=4 mech=106343 1802.5s cap=1800
+20:39:42 fault row band_m2 bridge X1a FEASIBLE d=6 lb=4 proved= meets=INCOMPLETE 1803.5s
+20:39:44 solve-start X1b query=exact extra=None cap_s=1800 mem_avail_kib=4315504 rss_kib=2876700 mem_cap_mb=3514
+21:09:46 solve band_m2/bridge/X/X1b/exact FEASIBLE d=6 lb=4 mech=106343 1801.3s cap=1800
+21:09:46 fault row band_m2 bridge X1b FEASIBLE d=6 lb=4 proved= meets=INCOMPLETE 1802.4s
+21:09:49 solve-start X2a query=exact extra=None cap_s=1800 mem_avail_kib=3653108 rss_kib=3573548 mem_cap_mb=2867
+21:39:50 solve band_m2/bridge/X/X2a/exact FEASIBLE d=24 lb=5 mech=106343 1800.6s cap=1800
+21:39:50 fault row band_m2 bridge X2a FEASIBLE d=24 lb=5 proved= meets=NOT_REQUIRED 1801.6s
+21:39:51 solve-start X2b query=exact extra=None cap_s=1800 mem_avail_kib=3874432 rss_kib=3351036 mem_cap_mb=3083
+22:09:52 solve band_m2/bridge/X/X2b/exact FEASIBLE d=23 lb=5 mech=106343 1800.6s cap=1800
+22:09:52 fault row band_m2 bridge X2b FEASIBLE d=23 lb=5 proved= meets=NOT_REQUIRED 1801.4s
+22:09:54 END fault_band_m2_bridge_X rc=0
+22:09:54 START fault_band_m2_thick_Z
+22:09:55 fault-all band_m2 thick Z R=7 m=1 query=le6
+22:09:55 pre-circuit mem_avail_kib=7124604 rss_kib=85844
+22:25:52 observable names thick Z: ['Z1aZ1b', 'Z2a', 'Z2b']
+22:25:52 todo ['Z1aZ1b', 'Z2a', 'Z2b'] already []
+22:25:52 fault built band_m2 thick Z qubits=9842 inst=199024 cut=17 avail_kib=6667280 rss_kib=596304
+22:25:52 dem build mem_avail_kib=6667280 rss_kib=596304 qubits=9842 inst=199024
+22:30:50 dem band_m2 thick Z detectors=37418 observables=3 error_instructions=802938
+22:30:56 mechanisms band_m2 thick Z1aZ1b 111727 keep_det=19424
+22:31:02 mechanisms band_m2 thick Z2a 111727 keep_det=19424
+22:31:07 mechanisms band_m2 thick Z2b 111727 keep_det=19424
+22:31:08 dem released, build_seconds=1272.5
+22:31:08 solve-start Z1aZ1b query=le6 extra=6 cap_s=5400 mem_avail_kib=6863044 rss_kib=298468 mem_cap_mb=6002
+07:12:04 solve band_m2/thick/Z/Z1aZ1b/le6 UNKNOWN d=None lb=4 mech=111727 31254.9s cap=5400
+07:12:04 fault row band_m2 thick Z1aZ1b UNKNOWN d= lb=4 proved= meets=INCOMPLETE 31256.6s
+07:12:05 solve-start Z2a query=le6 extra=6 cap_s=1200 mem_avail_kib=4253372 rss_kib=3237900 mem_cap_mb=3453
+07:32:07 solve band_m2/thick/Z/Z2a/le6 UNKNOWN d=None lb=3 mech=111727 1201.0s cap=1200
+07:32:07 fault row band_m2 thick Z2a UNKNOWN d= lb=3 proved= meets=NOT_REQUIRED 1202.3s
+07:32:08 solve-start Z2b query=le6 extra=6 cap_s=1200 mem_avail_kib=8108136 rss_kib=3705948 mem_cap_mb=7218
+07:52:10 solve band_m2/thick/Z/Z2b/le6 UNKNOWN d=None lb=3 mech=111727 1200.9s cap=1200
+07:52:10 fault row band_m2 thick Z2b UNKNOWN d= lb=3 proved= meets=NOT_REQUIRED 1202.4s
+07:52:11 END fault_band_m2_thick_Z rc=0
+07:52:11 START fault_band_m2_thick_X
+07:52:12 fault-all band_m2 thick X R=7 m=1 query=le6
+07:52:12 pre-circuit mem_avail_kib=11697140 rss_kib=85684
+08:08:23 observable names thick X: ['m', 'X1a', 'X1b', 'X2a', 'X2b']
+08:08:23 todo ['m', 'X1a', 'X1b', 'X2a', 'X2b'] already ['Z1aZ1b', 'Z2a', 'Z2b']
+08:08:23 fault built band_m2 thick X qubits=9842 inst=199022 cut=17 avail_kib=11192596 rss_kib=597280
+08:08:23 dem build mem_avail_kib=11192596 rss_kib=597280 qubits=9842 inst=199022
+08:13:34 dem band_m2 thick X detectors=37414 observables=5 error_instructions=816124
+08:13:40 mechanisms band_m2 thick m 108295 keep_det=18710
+08:13:46 mechanisms band_m2 thick X1a 108295 keep_det=18710
+08:13:52 mechanisms band_m2 thick X1b 108295 keep_det=18710
+08:13:58 mechanisms band_m2 thick X2a 108295 keep_det=18710
+08:14:04 mechanisms band_m2 thick X2b 108295 keep_det=18710
+08:14:04 dem released, build_seconds=1312.5
+08:14:04 solve-start m query=le6 extra=6 cap_s=5400 mem_avail_kib=11370928 rss_kib=380312 mem_cap_mb=10404
+10:51:27 solve band_m2/thick/X/m/le6 FEASIBLE d=6 lb=2 mech=108295 9441.0s cap=5400
+10:51:27 fault row band_m2 thick m FEASIBLE d=6 lb=2 proved= meets=NO 9442.7s
+10:51:29 solve-start X1a query=le6 extra=6 cap_s=5400 mem_avail_kib=2926324 rss_kib=4448040 mem_cap_mb=2157
+12:21:33 solve band_m2/thick/X/X1a/le6 FEASIBLE d=6 lb=4 mech=108295 5403.0s cap=5400
+12:21:33 fault row band_m2 thick X1a FEASIBLE d=6 lb=4 proved= meets=NO 5404.6s
+12:21:38 solve-start X1b query=le6 extra=6 cap_s=5400 mem_avail_kib=3908744 rss_kib=9560564 mem_cap_mb=3117
+15:51:55 reorder: grid X1a row present; stopping band runner for idle X1a first
+15:52:03 reorder: START idle X ONLY_OBS=X1a
+15:52:03 fault-all band_m2 idle X R=7 m=1 query=le6
+15:52:03 pre-circuit mem_avail_kib=13459652 rss_kib=85952
+15:59:01 observable names idle X: ['X1a', 'X1b', 'X2a', 'X2b']
+15:59:01 ONLY_OBS=['X1a'] restricts todo
+15:59:01 todo ['X1a'] already []
+15:59:01 fault built band_m2 idle X qubits=7200 inst=107236 cut=17 avail_kib=13225584 rss_kib=305876
+15:59:01 dem build mem_avail_kib=13225584 rss_kib=305876 qubits=7200 inst=107236
+16:00:51 dem band_m2 idle X detectors=30872 observables=4 error_instructions=677232
+16:00:55 mechanisms band_m2 idle X1a 90774 keep_det=15752
+16:00:56 dem released, build_seconds=532.3
+16:00:56 solve-start X1a query=le6 extra=6 cap_s=5400 mem_avail_kib=13227368 rss_kib=279964 mem_cap_mb=12217
+17:33:05 solve band_m2/idle/X/X1a/le6 FEASIBLE d=6 lb=2 mech=90774 5528.6s cap=5400
+17:33:05 fault row band_m2 idle X1a FEASIBLE d=6 lb=2 proved= meets=NOTE 5529.9s
+17:33:07 reorder: END idle X1a rc=0 ; resuming band runner
+17:33:07 band start MemAvailable_kib=8169144 rss_kib=13324 rounds=7
+17:33:07 cert exists bridge Z PASS
+17:33:07 cert exists bridge X PASS
+17:33:07 cert exists thick Z PASS
+17:33:07 cert exists thick X PASS
+17:33:07 cert exists idle Z PASS
+17:33:07 cert exists idle X PASS
+17:33:08 START fault_band_m2_thick_X
+17:33:09 fault-all band_m2 thick X R=7 m=1 query=le6
+17:33:09 pre-circuit mem_avail_kib=8238748 rss_kib=85492
+17:51:24 observable names thick X: ['m', 'X1a', 'X1b', 'X2a', 'X2b']
+17:51:24 todo ['X1b', 'X2a', 'X2b'] already ['X1a', 'Z1aZ1b', 'Z2a', 'Z2b', 'm']
+17:51:24 fault built band_m2 thick X qubits=9842 inst=199022 cut=17 avail_kib=7722332 rss_kib=597640
+17:51:24 dem build mem_avail_kib=7722332 rss_kib=597640 qubits=9842 inst=199022
+17:57:06 dem band_m2 thick X detectors=37414 observables=5 error_instructions=816124
+17:57:15 mechanisms band_m2 thick X1b 108295 keep_det=18710
+17:57:22 mechanisms band_m2 thick X2a 108295 keep_det=18710
+17:57:29 mechanisms band_m2 thick X2b 108295 keep_det=18710
+17:57:29 dem released, build_seconds=1460.4
+17:57:29 solve-start X1b query=le6 extra=6 cap_s=5400 mem_avail_kib=8002788 rss_kib=311052 mem_cap_mb=7115
+19:27:36 solve band_m2/thick/X/X1b/le6 FEASIBLE d=6 lb=3 mech=108295 5404.6s cap=5400
+19:27:37 fault row band_m2 thick X1b FEASIBLE d=6 lb=3 proved= meets=NO 5407.1s
+19:27:42 solve-start X2a query=le6 extra=6 cap_s=1200 mem_avail_kib=5564712 rss_kib=6950072 mem_cap_mb=4734
+20:05:37 solve band_m2/thick/X/X2a/le6 UNKNOWN d=None lb=3 mech=108295 2273.8s cap=1200
+20:05:37 fault row band_m2 thick X2a UNKNOWN d= lb=3 proved= meets=NOT_REQUIRED 2275.2s
+20:05:37 solve-start X2b query=le6 extra=6 cap_s=1200 mem_avail_kib=3141432 rss_kib=5598128 mem_cap_mb=2367
+20:26:10 solve band_m2/thick/X/X2b/le6 UNKNOWN d=None lb=3 mech=108295 1232.0s cap=1200
+20:26:10 fault row band_m2 thick X2b UNKNOWN d= lb=3 proved= meets=NOT_REQUIRED 1233.0s
+20:26:11 END fault_band_m2_thick_X rc=0
+20:26:11 START fault_band_m2_idle_Z
+16:56:12 fault-all band_m2 idle Z R=7 m=1 query=le6
+16:56:12 pre-circuit mem_avail_kib=12986748 rss_kib=85888
+17:03:36 observable names idle Z: ['Z1aZ1b', 'Z2a', 'Z2b']
+17:03:36 todo ['Z1aZ1b', 'Z2a', 'Z2b'] already ['X1a']
+17:03:36 fault built band_m2 idle Z qubits=7200 inst=107239 cut=17 avail_kib=12722756 rss_kib=304676
+17:03:36 dem build mem_avail_kib=12722756 rss_kib=304676 qubits=7200 inst=107239
+17:05:27 dem band_m2 idle Z detectors=30876 observables=3 error_instructions=664046
+17:05:31 mechanisms band_m2 idle Z1aZ1b 91110 keep_det=15840
+17:05:36 mechanisms band_m2 idle Z2a 91110 keep_det=15840
+17:05:41 mechanisms band_m2 idle Z2b 91110 keep_det=15840
+17:05:41 dem released, build_seconds=569.1
+17:05:41 solve-start Z1aZ1b query=le6 extra=6 cap_s=5400 mem_avail_kib=12688420 rss_kib=290192 mem_cap_mb=11691
+18:35:48 solve band_m2/idle/Z/Z1aZ1b/le6 UNKNOWN d=None lb=4 mech=91110 5405.7s cap=5400
+18:35:49 fault row band_m2 idle Z1aZ1b UNKNOWN d= lb=4 proved= meets=INCOMPLETE 5407.9s
+18:35:54 solve-start Z2a query=le6 extra=6 cap_s=1200 mem_avail_kib=7344592 rss_kib=3585640 mem_cap_mb=6472

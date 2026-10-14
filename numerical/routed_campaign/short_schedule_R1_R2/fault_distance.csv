@@ -1,0 +1,13 @@
+input,interface,observable,basis,rounds,dX_lb,dZ_lb,cut,distance,lower_bound,status,mechanisms,seconds,error
+iceberg_422,bridge,Z1aZ1b,Z,2,5,4,1,1,1,OPTIMAL,9141,44.7,
+iceberg_422,bridge,m,X,2,5,4,1,2,2,OPTIMAL,8540,44.9,
+iceberg_422,thick,Z1aZ1b,Z,2,5,4,5,5,5,OPTIMAL,9366,180.0,
+iceberg_422,thick,m,X,2,5,4,5,2,2,OPTIMAL,8608,49.0,
+band_m2,bridge,Z1aZ1b,Z,2,7,6,1,1,1,OPTIMAL,32713,343.7,
+band_m2,bridge,m,X,2,7,6,1,2,2,OPTIMAL,29288,326.4,
+band_m2,thick,Z1aZ1b,Z,2,7,6,17,17,5,FEASIBLE,33622,590.5,
+band_m2,thick,m,X,2,7,6,17,2,2,OPTIMAL,29560,341.5,
+steane_713,bridge,Z1aZ1b,Z,1,18,16,1,1,1,OPTIMAL,38271,288.1,
+steane_713,bridge,m,X,1,18,16,1,1,1,OPTIMAL,36075,295.7,
+steane_713,thick,Z1aZ1b,Z,1,18,16,9,9,4,FEASIBLE,38527,476.1,
+steane_713,thick,m,X,1,18,16,9,1,1,OPTIMAL,36075,297.8,

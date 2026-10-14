@@ -1,0 +1,10 @@
+  first_z: PASS 2/2  A_int_rows=233
+  last_z: PASS 2/2  A_int_rows=233
+  middle_z: PASS 4/4  A_int_rows=231
+  first_x: PASS 2/2  A_int_rows=25
+  last_x: PASS 2/2  A_int_rows=25
+  middle_x: PASS 4/4  A_int_rows=24
+EXACT CELL CERTIFICATE: PASS 16/16 fail=0 R=2
+  -> wb_exact_cell_patch_catalog.csv (1626 rows)
+  -> wb_exact_cell_word_certificate.csv (16 rows)
+  nonzero words: 10/10

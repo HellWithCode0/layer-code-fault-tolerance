@@ -1,0 +1,20 @@
+{
+ "backend": "iqm:emerald",
+ "shots": 12000,
+ "jobs": {
+  "2": {
+   "job_id": "b8b1501c-97ce-4984-857d-bc4f3b46cd4e",
+   "cost": 12,
+   "status": "Created",
+   "shots": 12000,
+   "org": "org_C"
+  },
+  "3": {
+   "job_id": "d76d9454-b928-414f-ace9-031a095b98aa",
+   "cost": 12,
+   "status": "Created",
+   "shots": 12000,
+   "org": "org_C"
+  }
+ }
+}

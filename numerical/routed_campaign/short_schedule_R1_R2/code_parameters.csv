@@ -1,0 +1,4 @@
+input,note,spacing,n_in,K_in,dX_in,dZ_in,wX,wZ,n,K,Lx,Lz,dX_theorem_lb,dZ_theorem_lb,eta_X,eta_Z,dX_slab_upper,dZ_slab_upper,X1_weight,thick_edges,thick_cut,bridge_edges,bridge_cut,deformed_ok,k_deformed,colors_X,colors_Z,colors_G,colors_F,ball_X,ball_G,n_route,tour_median,tour_p90,tour_max,n_checks,rounds,edge_multiplicity
+iceberg_422,"[[4,2,2]] iceberg, paper's base input",2,4,2,2,2,4,4,224,2,4,4,5,4,2,2,12,10,12,184,5,156,1,1,3,7,7,8,11,7,15,2507,24,43,143,853,2,1
+band_m2,"two weight-4 CSS checks, overlap 2; input distance 2 but two check sheets",2,6,2,2,2,4,4,720,2,6,6,7,6,2,2,16,14,29,940,17,828,1,1,3,11,10,20,31,7,15,7448,26,56,189,3097,2,1
+steane_713,"[[7,1,3]] Steane; input distance 3, three X and three Z checks",2,7,1,3,3,4,4,1792,1,8,8,18,16,2,2,33,30,33,620,9,564,1,1,1,11,13,12,19,7,15,12085,24,45,123,5995,1,1

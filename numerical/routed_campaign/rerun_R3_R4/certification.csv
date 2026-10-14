@@ -1,0 +1,11 @@
+input,interface,basis,rounds,m,status,detector_flips,observables,n_obs,qubits,instructions,cut,nE,dX_lb,dZ_lb,dX_slab_upper,dZ_slab_upper,colors_X,colors_Z,seconds
+iceberg_422,bridge,Z,3,1,PASS,0,Z1aZ1b:0 Z2a:0 Z2b:0,3,3040,10682,1,156,5,4,12,10,7,7,5.2
+iceberg_422,bridge,X,3,1,PASS,0,m:0 X1a:0 X1b:0 X2a:0 X2b:0,5,3040,10680,1,156,5,4,12,10,7,7,5.4
+iceberg_422,thick,Z,3,1,PASS,0,Z1aZ1b:0 Z2a:0 Z2b:0,3,3144,10845,5,184,5,4,12,10,7,7,5.7
+iceberg_422,thick,X,3,1,PASS,0,m:0 X1a:0 X1b:0 X2a:0 X2b:0,5,3144,10843,5,184,5,4,12,10,7,7,5.7
+band_m2,bridge,Z,4,1,PASS,0,Z1aZ1b:0 Z2a:0 Z2b:0,3,9780,41239,1,828,7,6,16,14,11,10,69.7
+band_m2,bridge,X,4,1,PASS,0,m:0 X1a:0 X1b:0 X2a:0 X2b:0,5,9780,41237,1,828,7,6,16,14,11,10,60.5
+band_m2,thick,Z,4,1,PASS,0,Z1aZ1b:0 Z2a:0 Z2b:0,3,9842,43347,17,940,7,6,16,14,11,10,66.6
+band_m2,thick,X,4,1,PASS,0,m:0 X1a:0 X1b:0 X2a:0 X2b:0,5,9842,43345,17,940,7,6,16,14,11,10,69.2
+iceberg_422,idle,Z,3,1,PASS,0,Z1aZ1b:0 Z2a:0 Z2b:0,3,2352,8465,5,184,5,4,12,10,7,7,3.8
+iceberg_422,idle,X,3,1,PASS,0,X1a:0 X1b:0 X2a:0 X2b:0,4,2352,8462,5,184,5,4,12,10,7,7,3.6

@@ -1,0 +1,78 @@
+PASS  slab_cell_audit row count == 8  (got 8)
+PASS  kernel[bullet]  (got [(0, 0, 0), (1, 1, 1)])
+PASS  provenance[bullet] non-empty
+PASS  kernel[plus]  (got [(0, 0, 0), (0, 1, 1), (1, 0, 1), (1, 1, 0)])
+PASS  provenance[plus] non-empty
+PASS  kernel[first_z]  (got [(0, 0), (1, 1)])
+PASS  provenance[first_z] non-empty
+PASS  kernel[middle_z]  (got [(0, 0, 0), (0, 1, 1), (1, 0, 1), (1, 1, 0)])
+PASS  middle_z contains 110 pass-through
+PASS  provenance[middle_z] non-empty
+PASS  kernel[last_z]  (got [(0, 0), (1, 1)])
+PASS  provenance[last_z] non-empty
+PASS  kernel[first_x_dual]  (got [(0, 0), (1, 1)])
+PASS  provenance[first_x_dual] non-empty
+PASS  kernel[middle_x_dual]  (got [(0, 0, 0), (0, 1, 1), (1, 0, 1), (1, 1, 0)])
+PASS  provenance[middle_x_dual] non-empty
+PASS  kernel[last_x_dual]  (got [(0, 0), (1, 1)])
+PASS  provenance[last_x_dual] non-empty
+PASS  tab:wb-microscopic first_z p1=x1
+PASS  tab:wb-microscopic last_z p_{k-1}=x_k
+PASS  tab:wb-microscopic middle_z p_{i-1}+p_i+x_i=0
+PASS  VI B catalog has 10 novel-check rows  (got 10)
+PASS  VI B items cover {3,4,5,6,7,8}
+PASS  last_z = y-reflection of first_z
+PASS  last_x = y-reflection of first_x
+PASS  weight[first_z/SX]=5
+PASS  weight[middle_z/SX]=6
+PASS  weight[middle_z/SZ]=4
+PASS  weight[last_z/SX]=5
+PASS  weight[first_x/SX]=5
+PASS  weight[first_x/SZ]=4
+PASS  weight[middle_x/SX]=6
+PASS  weight[middle_x/SZ]=4
+PASS  weight[last_x/SX]=5
+PASS  weight[last_x/SZ]=4
+PASS  CSS even overlap middle_z  (overlap=2)
+PASS  CSS even overlap first_x  (overlap=2)
+PASS  CSS even overlap middle_x  (overlap=2)
+PASS  CSS even overlap last_x  (overlap=2)
+PASS  catalog max L^inf radius == 1  (got 1)
+PASS  wrote Z^3 coords (48 junction + 10 ordinary corridor edges)  (total=58)
+PASS  Z3 has junction cell first_z
+PASS  Z3 has junction cell middle_z
+PASS  Z3 has junction cell last_z
+PASS  Z3 has junction cell first_x
+PASS  Z3 has junction cell middle_x
+PASS  Z3 has junction cell last_x
+PASS  Z3 has ordinary corridor ordinary_corridor_X
+PASS  Z3 has ordinary corridor ordinary_corridor_Z
+PASS  Z3 has ordinary corridor ordinary_corridor_string_X
+PASS  Z3 has ordinary corridor ordinary_corridor_string_Z
+PASS  prefix-parity exhaustive + stress
+PASS  tab:slab-inputs role count == 12
+PASS  slab-inputs[ordinary_surface_code]  (IMPORTED (standard SC; diameter via lem:wb-cell-locality))
+PASS  slab-inputs[bullet_Bm]  (AUDITED (slab_cell_audit bullet kernel = {000,111}))
+PASS  slab-inputs[plus_Pm]  (AUDITED (slab_cell_audit plus kernel = {000,110,101,011}))
+PASS  slab-inputs[110_passthrough]  (AUDITED (middle_z contains 110))
+PASS  slab-inputs[first_middle_last_z]  (AUDITED (first/middle/last_z kernels + VI B 3-5))
+PASS  slab-inputs[first_middle_last_x]  (AUDITED (x duals + VI B 6-8))
+PASS  slab-inputs[VI_B_novel_supports]  (AUDITED (wb_junction_support_catalog Z^3 coords))
+PASS  slab-inputs[point_defect_avoidance]  (IMPORTED identification; plane choice proved in thm:slab-resolved)
+PASS  slab-inputs[constant_refinement]  (PROVED (lem:constant-refinement + refinement_move_audit))
+PASS  slab-inputs[finite_cell_diameter]  (AUDITED (Z^3 L^inf radii; concrete t0=3))
+PASS  slab-inputs[multi_body_backbone]  (IMPORTED topology (Figs 22-23); diameter audited)
+PASS  slab-inputs[prefix_parity_assembly]  (PROVED (eqs + check_prefix_parity))
+PASS  NO_OTHER_LOCAL_RULE  (thm:slab-resolved consumes ONLY the finite audited interface + Delta_cell)
+PASS  constant-refinement local-Clifford moves
+PASS  glued incidence / junction stabilizer certificate
+PASS  catalog_cell_radii max_r_inf == 1  (got 1)
+PASS  embed L=3 has finite t0  (rec=2 cad=1)
+PASS  embed L=4 has finite t0  (rec=2 cad=1)
+PASS  embed L=5 has finite t0  (rec=3 cad=2)
+PASS  embed L=6 has finite t0  (rec=3 cad=2)
+PASS  engineering t0=3 covers all instance radii  (instance_max=3)
+PASS  concrete_integer_t0 == 3
+concrete_integer_t0=3 per_L={3: 2, 4: 2, 5: 3, 6: 3}
+COMPLETENESS: thm:slab-resolved ONLY WB inputs = (i) lem:wb-cell-locality Delta_cell, (ii) reconstructed condensation kernels, (iii) six Sec VI B incidence rows. NOTHING ELSE.
+ALL CHECKS PASSED

@@ -1,0 +1,4 @@
+cell,source_item,source_figure,check,pauli,support_edges,support_endpoints,weight,role,scope
+bullet,3,23,SX,X,xm xp yp zm zp,"xm:(-1, 0, 0)->(0, 0, 0);xp:(0, 0, 0)->(1, 0, 0);yp:(0, 0, 0)->(0, 1, 0);zm:(0, 0, -1)->(0, 0, 0);zp:(0, 0, 0)->(0, 0, 1)",5,bullet (•) finite SX=first z-junction (Fig.18 / Fig.23),WB transcription; see wb_bullet_plus_transcription_provenance.md
+plus,4,23,SX,X,xm xp ym yp zm zp,"xm:(-1, 0, 0)->(0, 0, 0);xp:(0, 0, 0)->(1, 0, 0);ym:(0, -1, 0)->(0, 0, 0);yp:(0, 0, 0)->(0, 1, 0);zm:(0, 0, -1)->(0, 0, 0);zp:(0, 0, 0)->(0, 0, 1)",6,plus (⊕)=middle z-junction lattice of Fig.22,WB transcription; see wb_bullet_plus_transcription_provenance.md
+plus,4,23,SZ,Z,yp zp z_yplus y_zplus,"yp:(0, 0, 0)->(0, 1, 0);zp:(0, 0, 0)->(0, 0, 1);z_yplus:(0, 1, 0)->(0, 1, 1);y_zplus:(0, 0, 1)->(0, 1, 1)",4,plus (⊕)=middle z-junction lattice of Fig.22,WB transcription; see wb_bullet_plus_transcription_provenance.md

@@ -1,0 +1,8 @@
+{
+ "job_id": "3c271df9-2834-439b-ac97-68f8c3eca56a",
+ "cost": 1,
+ "shots": 100,
+ "org": "org_D",
+ "file": "qasm3_iqm_midcircuit_probe.qasm",
+ "cred": ""
+}

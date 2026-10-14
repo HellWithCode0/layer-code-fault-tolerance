@@ -1,0 +1,1 @@
+{"distance": 5, "lower_bound": 5, "proved_at_least": 5, "status": "OPTIMAL", "meets": "YES", "query": "exact", "observable_index": 0, "observable": "m", "interface": "bridge", "basis": "X", "rounds": 5, "witness": [{"dets": [3183], "obs": [0]}, {"dets": [3183, 3785], "obs": []}, {"dets": [3785, 4391], "obs": []}, {"dets": [4391, 4992], "obs": []}, {"dets": [4992], "obs": []}]}

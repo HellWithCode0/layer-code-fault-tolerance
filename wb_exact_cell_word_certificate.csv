@@ -1,0 +1,17 @@
+cell,kernel_word,pauli_type,witness_edges,witness_weight,internal_syndrome_weight,boundary_signature,expected_signature,other_boundary_syndrome_weight,support_radius,status,note
+first_z,00,X,(identity),0,0,00,00,0,2,PASS,vacuum
+first_z,11,X,xm yp,2,0,11,11,0,2,PASS,"exact F2 witness; A_int p=0, B p=w, no frontier leakage"
+last_z,00,X,(identity),0,0,00,00,0,2,PASS,vacuum
+last_z,11,X,xm ym,2,0,11,11,0,2,PASS,"exact F2 witness; A_int p=0, B p=w, no frontier leakage"
+middle_z,000,X,(identity),0,0,000,000,0,2,PASS,vacuum
+middle_z,110,X,ym zm zp yp xp,5,0,110,110,0,2,PASS,"exact F2 witness; A_int p=0, B p=w, no frontier leakage"
+middle_z,101,X,xm ym,2,0,101,101,0,2,PASS,"exact F2 witness; A_int p=0, B p=w, no frontier leakage"
+middle_z,011,X,xm zm zp yp xp,5,0,011,011,0,2,PASS,"exact F2 witness; A_int p=0, B p=w, no frontier leakage"
+first_x,00,Z,(identity),0,0,00,00,0,2,PASS,vacuum
+first_x,11,Z,zp xp,2,0,11,11,0,2,PASS,"exact F2 witness; A_int p=0, B p=w, no frontier leakage"
+last_x,00,Z,(identity),0,0,00,00,0,2,PASS,vacuum
+last_x,11,Z,zm xp,2,0,11,11,0,2,PASS,"exact F2 witness; A_int p=0, B p=w, no frontier leakage"
+middle_x,000,Z,(identity),0,0,000,000,0,2,PASS,vacuum
+middle_x,110,Z,zm zp,2,0,110,110,0,2,PASS,"exact F2 witness; A_int p=0, B p=w, no frontier leakage"
+middle_x,101,Z,zm xp,2,0,101,101,0,2,PASS,"exact F2 witness; A_int p=0, B p=w, no frontier leakage"
+middle_x,011,Z,zp xp,2,0,011,011,0,2,PASS,"exact F2 witness; A_int p=0, B p=w, no frontier leakage"

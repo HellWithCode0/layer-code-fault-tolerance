@@ -1,0 +1,516 @@
+== Part A: Monte Carlo (heavy)
+2026-09-27 13:21:52 profile=heavy tasks=206 workers=8 budget=36 h (left 36.0 h) already_done=0
+2026-09-27 13:21:52 preflight: validating 25 geometries
+2026-09-27 13:22:43 preflight: 25 geometries valid, 0 invalid (their tasks are skipped)
+2026-09-27 13:23:04 tasks finished 0/206  total shots 2,000  budget left 36.0 h  busy workers 8
+2026-09-27 13:28:07 tasks finished 4/206  total shots 44,000  budget left 35.9 h  busy workers 8
+2026-09-27 13:33:25 tasks finished 10/206  total shots 74,400  budget left 35.8 h  busy workers 8
+2026-09-27 13:38:40 tasks finished 10/206  total shots 78,600  budget left 35.7 h  busy workers 8
+2026-09-27 13:43:45 tasks finished 10/206  total shots 81,600  budget left 35.6 h  busy workers 8
+2026-09-27 13:48:48 tasks finished 10/206  total shots 87,000  budget left 35.6 h  busy workers 8
+2026-09-27 13:54:01 tasks finished 11/206  total shots 90,600  budget left 35.5 h  busy workers 8
+2026-09-27 13:59:30 tasks finished 11/206  total shots 92,700  budget left 35.4 h  busy workers 8
+2026-09-27 14:04:57 tasks finished 11/206  total shots 94,500  budget left 35.3 h  busy workers 8
+2026-09-27 14:05:57 worker 5 died during task k2_s4_thick_w0_m1_X_p0.004_R9_sector (out of memory?); restarting it
+2026-09-27 14:09:27 worker 6 died during task k2_s4_thick_w0_m1_Z_p0.002_R9_sector (out of memory?); restarting it
+2026-09-27 14:09:57 tasks finished 11/206  total shots 94,500  budget left 35.2 h  busy workers 8
+2026-09-27 14:15:07 tasks finished 11/206  total shots 96,000  budget left 35.1 h  busy workers 8
+2026-09-27 14:17:38 worker 5 died during task k2_s4_thick_w0_m1_X_p0.004_R9_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-27 14:20:11 worker 2 died during task k2_s4_thick_w0_m1_X_p0.003_R9_sector (out of memory?); restarting it
+2026-09-27 14:20:11 tasks finished 12/206  total shots 96,900  budget left 35.0 h  busy workers 7
+2026-09-27 14:25:30 tasks finished 12/206  total shots 97,500  budget left 34.9 h  busy workers 8
+2026-09-27 14:30:36 tasks finished 12/206  total shots 98,100  budget left 34.9 h  busy workers 8
+2026-09-27 14:35:37 tasks finished 12/206  total shots 98,100  budget left 34.8 h  busy workers 8
+2026-09-27 14:41:01 tasks finished 12/206  total shots 98,700  budget left 34.7 h  busy workers 8
+2026-09-27 14:46:27 tasks finished 12/206  total shots 99,600  budget left 34.6 h  busy workers 8
+2026-09-27 14:51:29 tasks finished 12/206  total shots 100,200  budget left 34.5 h  busy workers 8
+2026-09-27 14:56:39 tasks finished 12/206  total shots 101,700  budget left 34.4 h  busy workers 8
+2026-09-27 15:01:48 tasks finished 12/206  total shots 102,450  budget left 34.3 h  busy workers 8
+2026-09-27 15:07:18 tasks finished 12/206  total shots 102,750  budget left 34.2 h  busy workers 8
+2026-09-27 15:12:20 tasks finished 12/206  total shots 102,900  budget left 34.2 h  busy workers 8
+2026-09-27 15:17:33 tasks finished 12/206  total shots 103,200  budget left 34.1 h  busy workers 8
+2026-09-27 15:22:58 tasks finished 12/206  total shots 103,650  budget left 34.0 h  busy workers 8
+2026-09-27 15:23:58 worker 3 died during task k2_s5_thick_w0_m1_X_p0.002_R11_sector (out of memory?); restarting it
+2026-09-27 15:28:21 tasks finished 12/206  total shots 104,100  budget left 33.9 h  busy workers 8
+2026-09-27 15:33:22 tasks finished 12/206  total shots 104,100  budget left 33.8 h  busy workers 8
+2026-09-27 15:38:42 tasks finished 12/206  total shots 104,250  budget left 33.7 h  busy workers 8
+2026-09-27 15:43:42 tasks finished 12/206  total shots 104,250  budget left 33.6 h  busy workers 8
+2026-09-27 15:46:12 worker 1 died during task k2_s5_thick_w0_m1_X_p0.004_R11_sector (out of memory?); restarting it
+2026-09-27 15:48:57 tasks finished 12/206  total shots 104,550  budget left 33.5 h  busy workers 8
+2026-09-27 15:49:35 worker 7 died during task k2_s4_thick_w0_m1_Z_p0.006_R9_sector (out of memory?); restarting it
+2026-09-27 15:54:13 tasks finished 12/206  total shots 105,000  budget left 33.5 h  busy workers 8
+2026-09-27 15:59:33 tasks finished 12/206  total shots 105,300  budget left 33.4 h  busy workers 8
+2026-09-27 16:04:34 tasks finished 12/206  total shots 105,300  budget left 33.3 h  busy workers 8
+2026-09-27 16:05:04 worker 4 died during task k2_s4_thick_w0_m1_X_p0.006_R9_sector (out of memory?); restarting it
+2026-09-27 16:09:34 tasks finished 12/206  total shots 105,300  budget left 33.2 h  busy workers 8
+2026-09-27 16:10:34 worker 3 died during task k2_s5_thick_w0_m1_Z_p0.004_R11_sector (out of memory?); restarting it
+2026-09-27 16:14:34 tasks finished 12/206  total shots 105,300  budget left 33.1 h  busy workers 8
+2026-09-27 16:19:34 tasks finished 12/206  total shots 105,300  budget left 33.0 h  busy workers 8
+2026-09-27 16:24:44 tasks finished 12/206  total shots 105,600  budget left 33.0 h  busy workers 8
+2026-09-27 16:25:44 worker 5 died during task k2_s5_thick_w0_m1_X_p0.006_R11_sector (out of memory?); restarting it
+2026-09-27 16:29:45 tasks finished 12/206  total shots 105,600  budget left 32.9 h  busy workers 8
+2026-09-27 16:34:45 worker 1 died during task k2_s5_thick_w0_m1_X_p0.004_R11_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-27 16:34:45 tasks finished 13/206  total shots 105,600  budget left 32.8 h  busy workers 7
+2026-09-27 16:35:45 worker 2 died during task k2_s5_bridge_w1_m1_X_p0.003_R11_sector (out of memory?); restarting it
+2026-09-27 16:35:45 worker 3 died during task k2_s5_thick_w0_m1_Z_p0.004_R11_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-27 16:39:45 tasks finished 14/206  total shots 105,600  budget left 32.7 h  busy workers 8
+2026-09-27 16:44:45 tasks finished 14/206  total shots 105,600  budget left 32.6 h  busy workers 8
+2026-09-27 16:49:46 tasks finished 14/206  total shots 105,600  budget left 32.5 h  busy workers 8
+2026-09-27 16:50:46 worker 0 died during task k2_s5_bridge_w1_m1_Z_p0.003_R11_sector (out of memory?); restarting it
+2026-09-27 16:55:00 tasks finished 14/206  total shots 105,750  budget left 32.4 h  busy workers 8
+2026-09-27 17:00:00 worker 2 died during task k2_s5_bridge_w1_m1_X_p0.003_R11_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-27 17:00:00 tasks finished 15/206  total shots 105,750  budget left 32.4 h  busy workers 7
+2026-09-27 17:04:01 worker 1 died during task k2_s5_bridge_w1_m1_X_p0.004_R11_sector (out of memory?); restarting it
+2026-09-27 17:05:01 tasks finished 15/206  total shots 105,750  budget left 32.3 h  busy workers 8
+2026-09-27 17:10:17 tasks finished 15/206  total shots 106,200  budget left 32.2 h  busy workers 8
+2026-09-27 17:15:29 tasks finished 15/206  total shots 106,500  budget left 32.1 h  busy workers 8
+2026-09-27 17:20:34 worker 0 died during task k2_s5_bridge_w1_m1_X_p0.006_R11_sector (out of memory?); restarting it
+2026-09-27 17:20:34 tasks finished 15/206  total shots 106,650  budget left 32.0 h  busy workers 7
+2026-09-27 17:23:04 worker 2 died during task k2_s5_bridge_w1_m1_Z_p0.006_R11_sector (out of memory?); restarting it
+2026-09-27 17:25:35 tasks finished 15/206  total shots 106,650  budget left 31.9 h  busy workers 8
+2026-09-27 17:30:35 tasks finished 15/206  total shots 106,650  budget left 31.9 h  busy workers 8
+2026-09-27 17:32:05 worker 6 died during task k2_s5_thick_w0_m1_Z_p0.006_R11_sector (out of memory?); restarting it
+2026-09-27 17:35:35 tasks finished 15/206  total shots 106,650  budget left 31.8 h  busy workers 8
+2026-09-27 17:40:48 tasks finished 15/206  total shots 107,100  budget left 31.7 h  busy workers 8
+2026-09-27 17:46:03 tasks finished 15/206  total shots 107,400  budget left 31.6 h  busy workers 8
+2026-09-27 17:51:30 tasks finished 15/206  total shots 107,550  budget left 31.5 h  busy workers 8
+2026-09-27 17:56:51 tasks finished 15/206  total shots 107,700  budget left 31.4 h  busy workers 8
+2026-09-27 18:02:10 tasks finished 15/206  total shots 112,000  budget left 31.3 h  busy workers 8
+2026-09-27 18:07:40 tasks finished 15/206  total shots 116,150  budget left 31.2 h  busy workers 8
+2026-09-27 18:13:00 tasks finished 16/206  total shots 124,150  budget left 31.1 h  busy workers 8
+2026-09-27 18:18:12 tasks finished 17/206  total shots 130,150  budget left 31.1 h  busy workers 8
+2026-09-27 18:23:40 tasks finished 17/206  total shots 133,350  budget left 31.0 h  busy workers 8
+2026-09-27 18:28:41 tasks finished 17/206  total shots 133,950  budget left 30.9 h  busy workers 8
+2026-09-27 18:34:01 tasks finished 17/206  total shots 134,550  budget left 30.8 h  busy workers 8
+2026-09-27 18:39:01 tasks finished 17/206  total shots 134,550  budget left 30.7 h  busy workers 8
+2026-09-27 18:42:31 worker 0 died during task k2_s5_bridge_w1_m1_X_p0.006_R11_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-27 18:44:04 tasks finished 18/206  total shots 135,150  budget left 30.6 h  busy workers 8
+2026-09-27 18:49:10 tasks finished 18/206  total shots 136,950  budget left 30.5 h  busy workers 8
+2026-09-27 18:50:10 worker 6 died during task k2_s5_thick_w0_m1_Z_p0.006_R11_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-27 18:54:11 tasks finished 19/206  total shots 137,850  budget left 30.5 h  busy workers 8
+2026-09-27 18:59:18 worker 5 died during task k2_s5_thick_w0_m1_X_p0.006_R11_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-27 18:59:18 tasks finished 20/206  total shots 139,050  budget left 30.4 h  busy workers 7
+2026-09-27 19:04:19 tasks finished 20/206  total shots 139,500  budget left 30.3 h  busy workers 8
+2026-09-27 19:09:30 tasks finished 20/206  total shots 140,700  budget left 30.2 h  busy workers 8
+2026-09-27 19:14:42 tasks finished 20/206  total shots 149,600  budget left 30.1 h  busy workers 8
+2026-09-27 19:19:58 tasks finished 21/206  total shots 155,400  budget left 30.0 h  busy workers 8
+2026-09-27 19:21:26 worker 5 died during task k4_s4_thick_w0_m1_X_p0.003_R9_sector (out of memory?); restarting it
+2026-09-27 19:24:21 worker 4 died during task k4_s4_thick_w0_m1_Z_p0.003_R9_sector (out of memory?); restarting it
+2026-09-27 19:25:27 tasks finished 21/206  total shots 158,100  budget left 29.9 h  busy workers 8
+2026-09-27 19:30:33 tasks finished 21/206  total shots 159,300  budget left 29.9 h  busy workers 8
+2026-09-27 19:35:37 tasks finished 21/206  total shots 161,700  budget left 29.8 h  busy workers 8
+2026-09-27 19:40:37 tasks finished 21/206  total shots 188,600  budget left 29.7 h  busy workers 8
+2026-09-27 19:45:39 tasks finished 21/206  total shots 259,100  budget left 29.6 h  busy workers 8
+2026-09-27 19:49:38 worker 0 died during task k4_s4_bridge_w1_m1_X_p0.003_R9_sector (out of memory?); restarting it
+2026-09-27 19:50:43 tasks finished 21/206  total shots 307,100  budget left 29.5 h  busy workers 8
+2026-09-27 19:55:50 tasks finished 21/206  total shots 329,900  budget left 29.4 h  busy workers 8
+2026-09-27 20:00:55 tasks finished 21/206  total shots 354,500  budget left 29.3 h  busy workers 8
+2026-09-27 20:05:00 worker 4 died during task k4_s4_thick_w0_m1_Z_p0.003_R9_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-27 20:06:00 tasks finished 22/206  total shots 368,900  budget left 29.3 h  busy workers 8
+2026-09-27 20:11:29 tasks finished 22/206  total shots 381,800  budget left 29.2 h  busy workers 8
+2026-09-27 20:16:30 tasks finished 22/206  total shots 392,300  budget left 29.1 h  busy workers 8
+2026-09-27 20:21:39 tasks finished 22/206  total shots 399,800  budget left 29.0 h  busy workers 8
+2026-09-27 20:26:45 tasks finished 22/206  total shots 407,300  budget left 28.9 h  busy workers 8
+2026-09-27 20:27:22 worker 5 died during task k4_s4_thick_w0_m1_X_p0.003_R9_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-27 20:31:57 tasks finished 23/206  total shots 415,100  budget left 28.8 h  busy workers 8
+2026-09-27 20:37:07 tasks finished 23/206  total shots 420,200  budget left 28.7 h  busy workers 8
+2026-09-27 20:38:07 worker 0 died during task k4_s4_bridge_w1_m1_X_p0.003_R9_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-27 20:42:23 tasks finished 24/206  total shots 422,150  budget left 28.7 h  busy workers 8
+2026-09-27 20:47:26 tasks finished 24/206  total shots 425,900  budget left 28.6 h  busy workers 8
+2026-09-27 20:52:43 tasks finished 24/206  total shots 428,450  budget left 28.5 h  busy workers 8
+2026-09-27 20:57:47 tasks finished 24/206  total shots 429,800  budget left 28.4 h  busy workers 8
+2026-09-27 21:02:49 tasks finished 24/206  total shots 431,300  budget left 28.3 h  busy workers 8
+2026-09-27 21:07:53 tasks finished 24/206  total shots 432,950  budget left 28.2 h  busy workers 8
+2026-09-27 21:12:28 worker 3 died during task k4_s4_bridge_w1_m1_X_p0.003_R9_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-27 21:13:05 tasks finished 24/206  total shots 435,500  budget left 28.1 h  busy workers 8
+2026-09-27 21:18:12 tasks finished 24/206  total shots 438,050  budget left 28.1 h  busy workers 8
+2026-09-27 21:23:18 tasks finished 24/206  total shots 439,400  budget left 28.0 h  busy workers 8
+2026-09-27 21:28:18 tasks finished 24/206  total shots 469,400  budget left 27.9 h  busy workers 8
+2026-09-27 21:29:17 worker 5 died during task k2_s4_thick_w0_m2_Z_p0.003_R9_sector (out of memory?); restarting it
+2026-09-27 21:30:50 worker 1 died during task k2_s5_thick_w0_m1_Z_p0.003_R11_sector (out of memory?); restarting it
+2026-09-27 21:31:51 worker 7 died during task k2_s4_thick_w0_m2_Z_p0.003_R9_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-27 21:33:09 worker 4 died during task k2_s5_thick_w0_m1_X_p0.002_R11_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-27 21:33:27 tasks finished 26/206  total shots 509,400  budget left 27.8 h  busy workers 8
+2026-09-27 21:38:31 tasks finished 26/206  total shots 554,600  budget left 27.7 h  busy workers 8
+2026-09-27 21:40:03 worker 0 died during task k2_s5_thick_w0_m1_Z_p0.003_R11_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-27 21:40:14 worker 2 died during task k2_s5_bridge_w1_m1_X_p0.002_R11_sector (out of memory?); restarting it
+2026-09-27 21:43:48 tasks finished 27/206  total shots 584,100  budget left 27.6 h  busy workers 8
+2026-09-27 21:48:52 tasks finished 27/206  total shots 586,500  budget left 27.5 h  busy workers 8
+2026-09-27 21:53:57 tasks finished 27/206  total shots 588,600  budget left 27.5 h  busy workers 8
+2026-09-27 21:59:25 tasks finished 27/206  total shots 589,800  budget left 27.4 h  busy workers 8
+2026-09-27 22:04:29 tasks finished 27/206  total shots 591,600  budget left 27.3 h  busy workers 8
+2026-09-27 22:04:59 worker 6 died during task k2_s4_thick_w0_m2_Z_p0.003_R9_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-27 22:08:09 worker 1 died during task k2_s5_thick_w0_m1_Z_p0.003_R11_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-27 22:09:39 tasks finished 27/206  total shots 592,500  budget left 27.2 h  busy workers 8
+2026-09-27 22:14:42 tasks finished 27/206  total shots 595,250  budget left 27.1 h  busy workers 8
+2026-09-27 22:19:46 tasks finished 27/206  total shots 604,000  budget left 27.0 h  busy workers 8
+2026-09-27 22:24:54 tasks finished 27/206  total shots 613,300  budget left 26.9 h  busy workers 8
+2026-09-27 22:30:04 tasks finished 27/206  total shots 618,550  budget left 26.9 h  busy workers 8
+2026-09-27 22:31:04 worker 6 died during task k2_s5_thick_w0_m1_X_p0.003_R11_sector (out of memory?); restarting it
+2026-09-27 22:32:09 worker 7 died during task k2_s5_thick_w0_m1_X_p0.003_R11_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-27 22:35:09 tasks finished 28/206  total shots 619,450  budget left 26.8 h  busy workers 8
+2026-09-27 22:40:30 tasks finished 28/206  total shots 620,950  budget left 26.7 h  busy workers 8
+2026-09-27 22:45:24 worker 1 died during task k4_s4_thick_w0_m1_Z_p0.002_R9_sector (out of memory?); restarting it
+2026-09-27 22:45:54 tasks finished 28/206  total shots 621,550  budget left 26.6 h  busy workers 8
+2026-09-27 22:48:00 worker 3 died during task k4_s4_bridge_w1_m1_X_p0.002_R9_sector (out of memory?); restarting it
+2026-09-27 22:50:29 worker 5 died during task k2_s4_thick_w0_m2_X_p0.002_R9_sector (out of memory?); restarting it
+2026-09-27 22:50:59 tasks finished 28/206  total shots 622,450  budget left 26.5 h  busy workers 8
+2026-09-27 22:52:29 worker 0 died during task k4_s4_thick_w0_m1_Z_p0.002_R9_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-27 22:56:18 tasks finished 29/206  total shots 623,500  budget left 26.4 h  busy workers 8
+2026-09-27 23:01:45 tasks finished 29/206  total shots 624,550  budget left 26.3 h  busy workers 8
+2026-09-27 23:03:15 worker 4 died during task k4_s4_bridge_w1_m1_X_p0.002_R9_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-27 23:07:01 tasks finished 30/206  total shots 628,000  budget left 26.2 h  busy workers 8
+2026-09-27 23:12:07 tasks finished 30/206  total shots 630,850  budget left 26.2 h  busy workers 8
+2026-09-27 23:17:12 tasks finished 30/206  total shots 633,550  budget left 26.1 h  busy workers 8
+2026-09-27 23:22:18 tasks finished 30/206  total shots 637,150  budget left 26.0 h  busy workers 8
+2026-09-27 23:23:16 worker 2 died during task k4_s4_bridge_w1_m1_X_p0.001_R9_sector (out of memory?); restarting it
+2026-09-27 23:27:20 tasks finished 30/206  total shots 705,550  budget left 25.9 h  busy workers 8
+2026-09-27 23:32:23 tasks finished 30/206  total shots 802,000  budget left 25.8 h  busy workers 8
+2026-09-27 23:33:53 worker 5 died during task k2_s5_thick_w0_m1_Z_p0.002_R11_sector (out of memory?); restarting it
+2026-09-27 23:37:49 tasks finished 30/206  total shots 830,350  budget left 25.7 h  busy workers 8
+2026-09-27 23:43:01 tasks finished 30/206  total shots 832,000  budget left 25.6 h  busy workers 8
+2026-09-27 23:48:02 tasks finished 30/206  total shots 832,000  budget left 25.6 h  busy workers 8
+2026-09-27 23:53:05 tasks finished 30/206  total shots 832,150  budget left 25.5 h  busy workers 8
+2026-09-27 23:53:35 worker 0 died during task k2_s5_bridge_w1_m1_X_p0.004_R11_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-27 23:58:05 tasks finished 31/206  total shots 832,150  budget left 25.4 h  busy workers 8
+2026-09-28 00:02:04 worker 6 died during task k2_s5_bridge_w1_m1_X_p0.004_R11_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-28 00:03:34 tasks finished 31/206  total shots 832,450  budget left 25.3 h  busy workers 8
+2026-09-28 00:08:35 tasks finished 31/206  total shots 834,850  budget left 25.2 h  busy workers 8
+2026-09-28 00:13:47 tasks finished 31/206  total shots 836,650  budget left 25.1 h  busy workers 8
+2026-09-28 00:14:17 worker 7 died during task k2_s5_bridge_w1_m1_X_p0.004_R11_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-28 00:16:53 worker 4 died during task k2_s5_bridge_w1_m1_X_p0.004_R11_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-28 00:19:13 tasks finished 31/206  total shots 838,000  budget left 25.0 h  busy workers 8
+2026-09-28 00:20:36 worker 5 died during task k2_s5_bridge_w1_m1_X_p0.004_R11_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-28 00:24:30 tasks finished 31/206  total shots 842,200  budget left 25.0 h  busy workers 8
+2026-09-28 00:29:42 tasks finished 31/206  total shots 850,150  budget left 24.9 h  busy workers 8
+2026-09-28 00:34:58 tasks finished 31/206  total shots 863,500  budget left 24.8 h  busy workers 8
+2026-09-28 00:40:23 tasks finished 31/206  total shots 881,900  budget left 24.7 h  busy workers 8
+2026-09-28 00:45:37 tasks finished 31/206  total shots 910,350  budget left 24.6 h  busy workers 8
+2026-09-28 00:50:54 tasks finished 31/206  total shots 922,400  budget left 24.5 h  busy workers 8
+2026-09-28 00:53:12 worker 7 died during task k4_s4_thick_w0_m1_X_p0.001_R9_sector (out of memory?); restarting it
+2026-09-28 00:54:39 worker 3 died during task k2_s5_bridge_w1_m1_X_p0.002_R11_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-28 00:56:23 tasks finished 32/206  total shots 926,000  budget left 24.4 h  busy workers 8
+2026-09-28 01:01:37 tasks finished 32/206  total shots 926,900  budget left 24.3 h  busy workers 8
+2026-09-28 01:06:38 tasks finished 32/206  total shots 927,800  budget left 24.3 h  busy workers 8
+2026-09-28 01:11:59 tasks finished 32/206  total shots 928,400  budget left 24.2 h  busy workers 8
+2026-09-28 01:17:20 tasks finished 32/206  total shots 929,750  budget left 24.1 h  busy workers 8
+2026-09-28 01:22:40 tasks finished 32/206  total shots 932,000  budget left 24.0 h  busy workers 8
+2026-09-28 01:27:56 tasks finished 32/206  total shots 933,650  budget left 23.9 h  busy workers 8
+2026-09-28 01:33:08 tasks finished 32/206  total shots 936,650  budget left 23.8 h  busy workers 8
+2026-09-28 01:34:09 worker 6 died during task k2_s5_idle_w0_m1_Z_p0.003_R11_sector (out of memory?); restarting it
+2026-09-28 01:38:13 tasks finished 32/206  total shots 939,350  budget left 23.7 h  busy workers 8
+2026-09-28 01:40:13 worker 3 died during task k2_s5_thick_w0_m1_Z_p0.002_R11_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-28 01:43:17 tasks finished 33/206  total shots 940,550  budget left 23.6 h  busy workers 8
+2026-09-28 01:48:23 tasks finished 33/206  total shots 942,950  budget left 23.6 h  busy workers 8
+2026-09-28 01:53:29 tasks finished 33/206  total shots 946,700  budget left 23.5 h  busy workers 8
+2026-09-28 01:58:33 tasks finished 33/206  total shots 952,850  budget left 23.4 h  busy workers 8
+2026-09-28 02:03:52 tasks finished 33/206  total shots 960,800  budget left 23.3 h  busy workers 8
+2026-09-28 02:09:02 tasks finished 33/206  total shots 968,900  budget left 23.2 h  busy workers 8
+2026-09-28 02:14:20 tasks finished 33/206  total shots 978,200  budget left 23.1 h  busy workers 8
+2026-09-28 02:19:26 tasks finished 33/206  total shots 983,000  budget left 23.0 h  busy workers 8
+2026-09-28 02:20:13 worker 7 died during task k2_s4_thick_w0_m2_X_p0.002_R9_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-28 02:24:43 tasks finished 34/206  total shots 983,300  budget left 23.0 h  busy workers 8
+2026-09-28 02:30:06 tasks finished 34/206  total shots 983,600  budget left 22.9 h  busy workers 8
+2026-09-28 02:35:10 tasks finished 34/206  total shots 984,200  budget left 22.8 h  busy workers 8
+2026-09-28 02:40:38 tasks finished 34/206  total shots 986,300  budget left 22.7 h  busy workers 8
+2026-09-28 02:45:59 tasks finished 34/206  total shots 986,900  budget left 22.6 h  busy workers 8
+2026-09-28 02:51:00 tasks finished 34/206  total shots 987,800  budget left 22.5 h  busy workers 8
+2026-09-28 02:56:26 tasks finished 34/206  total shots 989,450  budget left 22.4 h  busy workers 8
+2026-09-28 03:01:45 tasks finished 34/206  total shots 990,200  budget left 22.3 h  busy workers 8
+2026-09-28 03:07:09 tasks finished 34/206  total shots 990,950  budget left 22.2 h  busy workers 8
+2026-09-28 03:12:23 tasks finished 34/206  total shots 991,100  budget left 22.2 h  busy workers 8
+2026-09-28 04:55:10 tasks finished 34/206  total shots 991,250  budget left 20.4 h  busy workers 8
+2026-09-28 05:00:12 tasks finished 34/206  total shots 991,550  budget left 20.4 h  busy workers 8
+2026-09-28 05:05:39 tasks finished 34/206  total shots 993,050  budget left 20.3 h  busy workers 8
+2026-09-28 05:11:05 tasks finished 34/206  total shots 996,800  budget left 20.2 h  busy workers 8
+2026-09-28 05:16:14 tasks finished 34/206  total shots 1,001,450  budget left 20.1 h  busy workers 8
+2026-09-28 05:21:26 tasks finished 34/206  total shots 1,004,450  budget left 20.0 h  busy workers 8
+2026-09-28 05:26:40 tasks finished 34/206  total shots 1,016,000  budget left 19.9 h  busy workers 8
+2026-09-28 05:31:42 tasks finished 34/206  total shots 1,032,500  budget left 19.8 h  busy workers 8
+2026-09-28 05:37:08 tasks finished 34/206  total shots 1,045,550  budget left 19.7 h  busy workers 8
+2026-09-28 05:42:19 tasks finished 34/206  total shots 1,056,400  budget left 19.7 h  busy workers 8
+2026-09-28 05:47:31 tasks finished 34/206  total shots 1,070,450  budget left 19.6 h  busy workers 8
+2026-09-28 05:52:49 tasks finished 34/206  total shots 1,086,650  budget left 19.5 h  busy workers 8
+2026-09-28 05:57:59 tasks finished 34/206  total shots 1,097,750  budget left 19.4 h  busy workers 8
+2026-09-28 06:03:11 tasks finished 34/206  total shots 1,099,250  budget left 19.3 h  busy workers 8
+2026-09-28 06:08:14 tasks finished 34/206  total shots 1,100,750  budget left 19.2 h  busy workers 8
+2026-09-28 06:13:18 tasks finished 34/206  total shots 1,114,550  budget left 19.1 h  busy workers 8
+2026-09-28 06:18:22 tasks finished 34/206  total shots 1,132,950  budget left 19.1 h  busy workers 8
+2026-09-28 06:23:26 tasks finished 34/206  total shots 1,143,250  budget left 19.0 h  busy workers 8
+2026-09-28 06:28:43 tasks finished 34/206  total shots 1,149,850  budget left 18.9 h  busy workers 8
+2026-09-28 06:34:08 tasks finished 34/206  total shots 1,152,550  budget left 18.8 h  busy workers 8
+2026-09-28 06:39:25 tasks finished 34/206  total shots 1,157,350  budget left 18.7 h  busy workers 8
+2026-09-28 06:44:31 tasks finished 34/206  total shots 1,169,650  budget left 18.6 h  busy workers 8
+2026-09-28 06:49:39 tasks finished 34/206  total shots 1,185,700  budget left 18.5 h  busy workers 8
+2026-09-28 06:54:50 tasks finished 34/206  total shots 1,202,950  budget left 18.5 h  busy workers 8
+2026-09-28 06:59:57 tasks finished 34/206  total shots 1,227,550  budget left 18.4 h  busy workers 8
+2026-09-28 07:05:06 tasks finished 34/206  total shots 1,307,650  budget left 18.3 h  busy workers 8
+2026-09-28 07:10:11 tasks finished 36/206  total shots 1,362,450  budget left 18.2 h  busy workers 8
+2026-09-28 07:15:17 tasks finished 36/206  total shots 1,373,850  budget left 18.1 h  busy workers 8
+2026-09-28 07:20:36 tasks finished 36/206  total shots 1,376,250  budget left 18.0 h  busy workers 8
+2026-09-28 07:25:36 tasks finished 36/206  total shots 1,376,250  budget left 17.9 h  busy workers 8
+2026-09-28 07:30:36 worker 7 died during task k2_s4_thick_w0_m1_X_p0.003_R9_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-28 07:30:36 tasks finished 37/206  total shots 1,376,250  budget left 17.9 h  busy workers 7
+2026-09-28 07:35:53 tasks finished 37/206  total shots 1,377,450  budget left 17.8 h  busy workers 8
+2026-09-28 07:38:34 worker 2 died during task k2_s4_thick_w0_m1_X_p0.003_R9_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-28 07:41:02 tasks finished 37/206  total shots 1,378,650  budget left 17.7 h  busy workers 8
+2026-09-28 07:46:07 tasks finished 37/206  total shots 1,379,850  budget left 17.6 h  busy workers 8
+2026-09-28 07:48:37 worker 2 died during task k2_s5_idle_w0_m1_Z_p0.002_R11_sector (out of memory?); restarting it
+2026-09-28 07:51:07 tasks finished 37/206  total shots 1,379,850  budget left 17.5 h  busy workers 8
+2026-09-28 07:56:22 tasks finished 37/206  total shots 1,380,900  budget left 17.4 h  busy workers 8
+2026-09-28 08:01:39 tasks finished 37/206  total shots 1,381,200  budget left 17.3 h  busy workers 8
+2026-09-28 08:06:52 tasks finished 37/206  total shots 1,381,500  budget left 17.2 h  busy workers 8
+2026-09-28 08:12:19 tasks finished 37/206  total shots 1,390,850  budget left 17.2 h  busy workers 8
+2026-09-28 08:17:29 tasks finished 37/206  total shots 1,398,500  budget left 17.1 h  busy workers 8
+2026-09-28 08:22:36 tasks finished 37/206  total shots 1,402,000  budget left 17.0 h  busy workers 8
+2026-09-28 08:27:56 tasks finished 37/206  total shots 1,404,100  budget left 16.9 h  busy workers 8
+2026-09-28 08:32:59 tasks finished 37/206  total shots 1,424,900  budget left 16.8 h  busy workers 8
+2026-09-28 08:36:48 worker 1 died during task k4_s4_thick_w0_m1_X_p0.002_R9_sector (out of memory?); restarting it
+2026-09-28 08:38:07 tasks finished 37/206  total shots 1,463,850  budget left 16.7 h  busy workers 8
+2026-09-28 08:43:30 tasks finished 37/206  total shots 1,485,650  budget left 16.6 h  busy workers 8
+2026-09-28 08:48:45 tasks finished 37/206  total shots 1,496,150  budget left 16.6 h  busy workers 8
+2026-09-28 08:53:49 tasks finished 37/206  total shots 1,505,000  budget left 16.5 h  busy workers 8
+2026-09-28 08:58:58 tasks finished 37/206  total shots 1,514,150  budget left 16.4 h  busy workers 8
+2026-09-28 09:04:03 tasks finished 37/206  total shots 1,520,150  budget left 16.3 h  busy workers 8
+2026-09-28 09:09:29 tasks finished 37/206  total shots 1,527,050  budget left 16.2 h  busy workers 8
+2026-09-28 09:14:30 tasks finished 37/206  total shots 1,528,250  budget left 16.1 h  busy workers 8
+2026-09-28 09:19:38 tasks finished 37/206  total shots 1,547,250  budget left 16.0 h  busy workers 8
+2026-09-28 09:24:47 tasks finished 37/206  total shots 1,575,350  budget left 16.0 h  busy workers 8
+2026-09-28 09:30:12 tasks finished 38/206  total shots 1,584,850  budget left 15.9 h  busy workers 8
+2026-09-28 09:33:39 worker 3 died during task k2_s4_bridge_w2_m1_X_p0.002_R9_sector (out of memory?); restarting it
+2026-09-28 09:35:38 tasks finished 38/206  total shots 1,585,300  budget left 15.8 h  busy workers 8
+2026-09-28 09:38:39 worker 6 died during task k2_s4_bridge_w2_m1_X_p0.002_R9_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-28 09:40:38 tasks finished 39/206  total shots 1,588,450  budget left 15.7 h  busy workers 8
+2026-09-28 09:45:41 tasks finished 39/206  total shots 1,594,750  budget left 15.6 h  busy workers 8
+2026-09-28 09:50:45 tasks finished 39/206  total shots 1,600,300  budget left 15.5 h  busy workers 8
+2026-09-28 09:54:33 worker 4 died during task k4_s4_bridge_w1_m1_X_p0.001_R9_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-28 09:55:45 tasks finished 40/206  total shots 1,605,550  budget left 15.4 h  busy workers 8
+2026-09-28 10:00:56 tasks finished 40/206  total shots 1,612,150  budget left 15.3 h  busy workers 8
+2026-09-28 10:06:05 tasks finished 40/206  total shots 1,616,050  budget left 15.3 h  busy workers 8
+2026-09-28 10:11:16 tasks finished 40/206  total shots 1,619,650  budget left 15.2 h  busy workers 8
+2026-09-28 10:16:33 tasks finished 40/206  total shots 1,625,350  budget left 15.1 h  busy workers 8
+2026-09-28 10:21:35 tasks finished 40/206  total shots 1,628,950  budget left 15.0 h  busy workers 8
+2026-09-28 10:26:38 tasks finished 40/206  total shots 1,629,250  budget left 14.9 h  busy workers 8
+2026-09-28 10:31:52 tasks finished 40/206  total shots 1,629,550  budget left 14.8 h  busy workers 8
+2026-09-28 10:36:52 tasks finished 40/206  total shots 1,629,550  budget left 14.7 h  busy workers 8
+2026-09-28 10:41:23 worker 0 died during task k2_s4_thick_w0_m1_Z_p0.004_R9_sector (out of memory?); restarting it
+2026-09-28 10:41:53 tasks finished 40/206  total shots 1,629,550  budget left 14.7 h  busy workers 8
+2026-09-28 10:46:53 tasks finished 40/206  total shots 1,629,550  budget left 14.6 h  busy workers 8
+2026-09-28 10:52:20 tasks finished 40/206  total shots 1,630,150  budget left 14.5 h  busy workers 8
+2026-09-28 10:57:20 tasks finished 40/206  total shots 1,632,550  budget left 14.4 h  busy workers 8
+2026-09-28 11:02:37 tasks finished 40/206  total shots 1,636,150  budget left 14.3 h  busy workers 8
+2026-09-28 11:08:05 tasks finished 40/206  total shots 1,637,500  budget left 14.2 h  busy workers 8
+2026-09-28 11:13:05 tasks finished 40/206  total shots 1,637,500  budget left 14.1 h  busy workers 8
+2026-09-28 11:18:09 tasks finished 40/206  total shots 1,638,400  budget left 14.1 h  busy workers 8
+2026-09-28 11:23:09 tasks finished 40/206  total shots 1,638,400  budget left 14.0 h  busy workers 8
+2026-09-28 11:28:32 tasks finished 40/206  total shots 1,640,200  budget left 13.9 h  busy workers 8
+2026-09-28 11:33:53 tasks finished 40/206  total shots 1,642,300  budget left 13.8 h  busy workers 8
+2026-09-28 11:39:20 tasks finished 40/206  total shots 1,645,900  budget left 13.7 h  busy workers 8
+2026-09-28 11:44:23 tasks finished 40/206  total shots 1,659,550  budget left 13.6 h  busy workers 8
+2026-09-28 11:49:29 tasks finished 40/206  total shots 1,673,800  budget left 13.5 h  busy workers 8
+2026-09-28 11:54:36 tasks finished 40/206  total shots 1,681,000  budget left 13.5 h  busy workers 8
+2026-09-28 11:55:06 worker 7 died during task k2_s4_thick_w0_m2_Z_p0.002_R9_sector (out of memory?); restarting it
+2026-09-28 11:59:37 tasks finished 40/206  total shots 1,690,850  budget left 13.4 h  busy workers 8
+2026-09-28 12:04:41 tasks finished 40/206  total shots 1,745,850  budget left 13.3 h  busy workers 8
+2026-09-28 12:07:30 worker 0 died during task k4_s4_thick_w0_m1_Z_p0.001_R9_sector (out of memory?); restarting it
+2026-09-28 12:09:55 tasks finished 40/206  total shots 1,794,350  budget left 13.2 h  busy workers 8
+2026-09-28 12:15:00 tasks finished 40/206  total shots 1,801,850  budget left 13.1 h  busy workers 8
+2026-09-28 12:20:25 tasks finished 40/206  total shots 1,807,400  budget left 13.0 h  busy workers 8
+2026-09-28 12:25:33 tasks finished 40/206  total shots 1,816,400  budget left 12.9 h  busy workers 8
+2026-09-28 12:30:40 tasks finished 40/206  total shots 1,826,150  budget left 12.9 h  busy workers 8
+2026-09-28 12:35:55 tasks finished 40/206  total shots 1,836,800  budget left 12.8 h  busy workers 8
+2026-09-28 12:41:11 tasks finished 40/206  total shots 1,847,300  budget left 12.7 h  busy workers 8
+2026-09-28 12:46:15 tasks finished 40/206  total shots 1,853,600  budget left 12.6 h  busy workers 8
+2026-09-28 12:51:21 tasks finished 40/206  total shots 1,859,900  budget left 12.5 h  busy workers 8
+2026-09-28 12:56:27 tasks finished 40/206  total shots 1,872,950  budget left 12.4 h  busy workers 8
+2026-09-28 13:01:31 tasks finished 40/206  total shots 1,891,250  budget left 12.3 h  busy workers 8
+2026-09-28 13:06:36 tasks finished 40/206  total shots 1,908,350  budget left 12.3 h  busy workers 8
+2026-09-28 13:11:39 tasks finished 40/206  total shots 1,920,500  budget left 12.2 h  busy workers 8
+2026-09-28 13:17:02 tasks finished 40/206  total shots 1,924,250  budget left 12.1 h  busy workers 8
+2026-09-28 13:21:43 worker 3 died during task k2_s5_idle_w0_m1_X_p0.003_R11_sector (out of memory?); restarting it
+2026-09-28 13:22:13 tasks finished 40/206  total shots 1,924,700  budget left 12.0 h  busy workers 8
+2026-09-28 13:27:23 tasks finished 40/206  total shots 1,925,300  budget left 11.9 h  busy workers 8
+2026-09-28 13:28:53 worker 0 died during task k2_s5_idle_w0_m1_X_p0.003_R11_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-28 13:32:46 tasks finished 41/206  total shots 1,942,350  budget left 11.8 h  busy workers 8
+2026-09-28 13:38:04 tasks finished 42/206  total shots 1,971,800  budget left 11.7 h  busy workers 8
+2026-09-28 13:43:10 tasks finished 42/206  total shots 1,991,700  budget left 11.6 h  busy workers 8
+2026-09-28 13:48:22 tasks finished 42/206  total shots 2,002,500  budget left 11.6 h  busy workers 8
+2026-09-28 13:53:28 tasks finished 42/206  total shots 2,010,450  budget left 11.5 h  busy workers 8
+2026-09-28 13:58:34 tasks finished 42/206  total shots 2,019,450  budget left 11.4 h  busy workers 8
+2026-09-28 14:03:42 tasks finished 42/206  total shots 2,026,500  budget left 11.3 h  busy workers 8
+2026-09-28 14:09:08 tasks finished 42/206  total shots 2,029,200  budget left 11.2 h  busy workers 8
+2026-09-28 14:14:18 tasks finished 42/206  total shots 2,031,000  budget left 11.1 h  busy workers 8
+2026-09-28 14:19:39 tasks finished 42/206  total shots 2,031,900  budget left 11.0 h  busy workers 8
+2026-09-28 14:25:07 tasks finished 42/206  total shots 2,032,200  budget left 10.9 h  busy workers 8
+2026-09-28 14:30:07 tasks finished 42/206  total shots 2,032,200  budget left 10.9 h  busy workers 8
+2026-09-28 14:32:46 worker 0 died during task k2_s4_bridge_w1_m1_X_p0.004_R9_sector (out of memory?); restarting it
+2026-09-28 14:35:07 worker 3 died during task k2_s4_bridge_w1_m1_X_p0.004_R9_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-28 14:35:07 tasks finished 43/206  total shots 2,032,950  budget left 10.8 h  busy workers 7
+2026-09-28 14:40:20 tasks finished 43/206  total shots 2,034,000  budget left 10.7 h  busy workers 8
+2026-09-28 14:45:44 tasks finished 43/206  total shots 2,034,600  budget left 10.6 h  busy workers 8
+2026-09-28 14:50:51 tasks finished 43/206  total shots 2,035,800  budget left 10.5 h  busy workers 8
+2026-09-28 14:55:52 tasks finished 43/206  total shots 2,037,600  budget left 10.4 h  busy workers 8
+2026-09-28 15:00:53 tasks finished 43/206  total shots 2,051,100  budget left 10.3 h  busy workers 8
+2026-09-28 15:05:57 tasks finished 43/206  total shots 2,063,400  budget left 10.3 h  busy workers 8
+2026-09-28 15:10:58 tasks finished 43/206  total shots 2,066,550  budget left 10.2 h  busy workers 8
+2026-09-28 15:16:18 tasks finished 43/206  total shots 2,070,900  budget left 10.1 h  busy workers 8
+2026-09-28 15:21:19 tasks finished 43/206  total shots 2,077,950  budget left 10.0 h  busy workers 8
+2026-09-28 15:26:45 tasks finished 43/206  total shots 2,082,450  budget left 9.9 h  busy workers 8
+2026-09-28 15:31:56 tasks finished 43/206  total shots 2,085,450  budget left 9.8 h  busy workers 8
+2026-09-28 15:37:03 tasks finished 43/206  total shots 2,086,950  budget left 9.7 h  busy workers 8
+2026-09-28 15:42:10 tasks finished 43/206  total shots 2,088,150  budget left 9.7 h  busy workers 8
+2026-09-28 15:47:28 tasks finished 43/206  total shots 2,090,850  budget left 9.6 h  busy workers 8
+2026-09-28 15:52:37 tasks finished 44/206  total shots 2,092,950  budget left 9.5 h  busy workers 8
+2026-09-28 15:57:43 tasks finished 44/206  total shots 2,094,000  budget left 9.4 h  busy workers 8
+2026-09-28 16:03:11 tasks finished 44/206  total shots 2,094,450  budget left 9.3 h  busy workers 8
+2026-09-28 16:08:31 tasks finished 44/206  total shots 2,111,500  budget left 9.2 h  busy workers 8
+2026-09-28 16:13:55 tasks finished 44/206  total shots 2,129,850  budget left 9.1 h  busy workers 8
+2026-09-28 16:19:01 tasks finished 44/206  total shots 2,145,600  budget left 9.0 h  busy workers 8
+2026-09-28 16:24:07 tasks finished 44/206  total shots 2,157,000  budget left 9.0 h  busy workers 8
+2026-09-28 16:29:25 tasks finished 44/206  total shots 2,162,100  budget left 8.9 h  busy workers 8
+2026-09-28 16:34:41 tasks finished 44/206  total shots 2,168,700  budget left 8.8 h  busy workers 8
+2026-09-28 16:39:43 tasks finished 44/206  total shots 2,175,300  budget left 8.7 h  busy workers 8
+2026-09-28 16:44:48 tasks finished 44/206  total shots 2,182,500  budget left 8.6 h  busy workers 8
+2026-09-28 16:50:16 tasks finished 44/206  total shots 2,184,300  budget left 8.5 h  busy workers 8
+2026-09-28 16:54:09 worker 0 died during task k2_s5_thick_w0_m1_X_p0.001_R11_sector (out of memory?); restarting it
+2026-09-28 16:55:19 tasks finished 44/206  total shots 2,186,100  budget left 8.4 h  busy workers 8
+2026-09-28 16:58:06 worker 4 died during task k4_s4_thick_w0_m1_X_p0.002_R9_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-28 17:00:39 tasks finished 45/206  total shots 2,190,000  budget left 8.4 h  busy workers 8
+2026-09-28 17:03:22 worker 3 died during task k4_s4_thick_w0_m1_X_p0.002_R9_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-28 17:05:48 tasks finished 45/206  total shots 2,193,600  budget left 8.3 h  busy workers 8
+2026-09-28 17:08:11 worker 5 died during task k4_s4_thick_w0_m1_X_p0.002_R9_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-28 17:11:01 tasks finished 45/206  total shots 2,197,650  budget left 8.2 h  busy workers 8
+2026-09-28 17:13:58 worker 1 died during task k4_s4_thick_w0_m1_X_p0.002_R9_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-28 17:16:02 tasks finished 45/206  total shots 2,203,650  budget left 8.1 h  busy workers 8
+2026-09-28 17:21:08 tasks finished 45/206  total shots 2,220,150  budget left 8.0 h  busy workers 8
+2026-09-28 17:26:09 tasks finished 47/206  total shots 2,233,050  budget left 7.9 h  busy workers 8
+2026-09-28 17:31:24 tasks finished 47/206  total shots 2,244,050  budget left 7.8 h  busy workers 8
+2026-09-28 17:36:27 tasks finished 47/206  total shots 2,271,250  budget left 7.8 h  busy workers 8
+2026-09-28 17:41:48 tasks finished 47/206  total shots 2,296,150  budget left 7.7 h  busy workers 8
+2026-09-28 17:46:48 tasks finished 47/206  total shots 2,311,150  budget left 7.6 h  busy workers 8
+2026-09-28 17:51:49 tasks finished 47/206  total shots 2,326,300  budget left 7.5 h  busy workers 8
+2026-09-28 17:56:54 tasks finished 47/206  total shots 2,339,050  budget left 7.4 h  busy workers 8
+2026-09-28 18:01:58 tasks finished 47/206  total shots 2,347,600  budget left 7.3 h  busy workers 8
+2026-09-28 18:07:05 tasks finished 47/206  total shots 2,350,300  budget left 7.2 h  busy workers 8
+2026-09-28 18:12:34 tasks finished 47/206  total shots 2,352,100  budget left 7.2 h  busy workers 8
+2026-09-28 18:17:34 tasks finished 47/206  total shots 2,352,100  budget left 7.1 h  busy workers 8
+2026-09-28 18:22:55 tasks finished 47/206  total shots 2,354,200  budget left 7.0 h  busy workers 8
+2026-09-28 18:27:55 tasks finished 47/206  total shots 2,356,900  budget left 6.9 h  busy workers 8
+2026-09-28 18:33:15 tasks finished 47/206  total shots 2,359,150  budget left 6.8 h  busy workers 8
+2026-09-28 18:38:21 tasks finished 47/206  total shots 2,371,300  budget left 6.7 h  busy workers 8
+2026-09-28 18:43:40 tasks finished 47/206  total shots 2,385,850  budget left 6.6 h  busy workers 8
+2026-09-28 18:48:41 tasks finished 47/206  total shots 2,398,900  budget left 6.6 h  busy workers 8
+2026-09-28 18:52:25 worker 6 died during task k2_s5_bridge_w1_m1_X_p0.001_R11_sector (out of memory?); restarting it
+2026-09-28 18:53:47 tasks finished 47/206  total shots 2,409,700  budget left 6.5 h  busy workers 8
+2026-09-28 19:23:10 tasks finished 47/206  total shots 2,420,850  budget left 6.0 h  busy workers 8
+2026-09-28 19:28:14 tasks finished 47/206  total shots 2,469,150  budget left 5.9 h  busy workers 8
+2026-09-28 19:33:16 tasks finished 47/206  total shots 2,505,250  budget left 5.8 h  busy workers 8
+2026-09-28 19:38:45 tasks finished 47/206  total shots 2,511,850  budget left 5.7 h  busy workers 8
+2026-09-28 19:43:49 tasks finished 47/206  total shots 2,516,200  budget left 5.6 h  busy workers 8
+2026-09-28 19:49:00 tasks finished 47/206  total shots 2,522,050  budget left 5.5 h  busy workers 8
+2026-09-28 19:53:25 worker 4 died during task k4_s4_thick_w0_m1_X_p0.001_R9_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-28 19:54:10 tasks finished 48/206  total shots 2,530,750  budget left 5.5 h  busy workers 8
+2026-09-28 19:59:19 tasks finished 48/206  total shots 2,594,300  budget left 5.4 h  busy workers 8
+2026-09-28 20:04:28 tasks finished 49/206  total shots 2,658,850  budget left 5.3 h  busy workers 8
+2026-09-28 20:09:31 tasks finished 50/206  total shots 2,669,150  budget left 5.2 h  busy workers 8
+2026-09-28 20:14:48 tasks finished 50/206  total shots 2,677,850  budget left 5.1 h  busy workers 8
+2026-09-28 20:20:13 tasks finished 50/206  total shots 2,680,550  budget left 5.0 h  busy workers 8
+2026-09-28 20:25:28 tasks finished 50/206  total shots 2,682,500  budget left 4.9 h  busy workers 8
+2026-09-28 20:30:34 tasks finished 50/206  total shots 2,684,900  budget left 4.9 h  busy workers 8
+2026-09-28 20:35:37 tasks finished 50/206  total shots 2,688,200  budget left 4.8 h  busy workers 8
+2026-09-28 20:40:54 tasks finished 50/206  total shots 2,695,550  budget left 4.7 h  busy workers 8
+2026-09-28 20:45:56 tasks finished 50/206  total shots 2,704,850  budget left 4.6 h  busy workers 8
+2026-09-28 20:51:05 tasks finished 50/206  total shots 2,712,500  budget left 4.5 h  busy workers 8
+2026-09-28 20:56:21 tasks finished 50/206  total shots 2,718,650  budget left 4.4 h  busy workers 8
+2026-09-28 21:01:32 tasks finished 50/206  total shots 2,722,700  budget left 4.3 h  busy workers 8
+2026-09-28 21:06:35 tasks finished 50/206  total shots 2,725,100  budget left 4.3 h  busy workers 8
+2026-09-28 21:11:41 tasks finished 50/206  total shots 2,726,600  budget left 4.2 h  busy workers 8
+2026-09-28 21:16:55 tasks finished 51/206  total shots 2,729,900  budget left 4.1 h  busy workers 8
+2026-09-28 21:22:12 tasks finished 51/206  total shots 2,747,400  budget left 4.0 h  busy workers 8
+2026-09-28 21:25:04 worker 7 died during task k2_s4_thick_w0_m1_Z_p0.002_R9_sector (out of memory?); restarting it; task skipped after two crashes
+2026-09-28 21:27:17 tasks finished 53/206  total shots 2,765,800  budget left 3.9 h  busy workers 8
+2026-09-28 21:32:24 tasks finished 53/206  total shots 2,768,650  budget left 3.8 h  busy workers 8
+2026-09-28 21:37:27 tasks finished 53/206  total shots 2,771,200  budget left 3.7 h  busy workers 8
+2026-09-28 21:42:43 tasks finished 53/206  total shots 2,777,200  budget left 3.7 h  busy workers 8
+2026-09-28 21:48:00 tasks finished 53/206  total shots 2,786,350  budget left 3.6 h  busy workers 8
+2026-09-28 21:53:09 tasks finished 53/206  total shots 2,796,400  budget left 3.5 h  busy workers 8
+2026-09-28 21:58:15 tasks finished 53/206  total shots 2,807,500  budget left 3.4 h  busy workers 8
+2026-09-28 22:03:26 tasks finished 53/206  total shots 2,810,050  budget left 3.3 h  busy workers 8
+2026-09-28 22:08:32 tasks finished 53/206  total shots 2,811,250  budget left 3.2 h  busy workers 8
+2026-09-28 22:13:49 tasks finished 53/206  total shots 2,819,050  budget left 3.1 h  busy workers 8
+2026-09-28 22:19:11 tasks finished 53/206  total shots 2,829,550  budget left 3.0 h  busy workers 8
+2026-09-28 22:24:21 tasks finished 53/206  total shots 2,845,450  budget left 3.0 h  busy workers 8
+2026-09-28 22:29:27 tasks finished 53/206  total shots 2,864,050  budget left 2.9 h  busy workers 8
+2026-09-28 22:34:40 tasks finished 53/206  total shots 2,880,850  budget left 2.8 h  busy workers 8
+2026-09-28 22:39:56 tasks finished 53/206  total shots 2,897,800  budget left 2.7 h  busy workers 8
+2026-09-28 22:45:23 tasks finished 53/206  total shots 2,906,050  budget left 2.6 h  busy workers 8
+2026-09-28 22:50:33 tasks finished 53/206  total shots 2,907,700  budget left 2.5 h  busy workers 8
+2026-09-28 22:55:34 tasks finished 53/206  total shots 2,907,700  budget left 2.4 h  busy workers 8
+2026-09-28 23:00:34 tasks finished 53/206  total shots 2,907,700  budget left 2.4 h  busy workers 8
+2026-09-28 23:05:34 tasks finished 53/206  total shots 2,907,700  budget left 2.3 h  busy workers 8
+2026-09-28 23:10:35 tasks finished 53/206  total shots 2,907,700  budget left 2.2 h  busy workers 8
+2026-09-28 23:15:35 tasks finished 53/206  total shots 2,907,700  budget left 2.1 h  busy workers 8
+2026-09-28 23:20:35 tasks finished 53/206  total shots 2,907,700  budget left 2.0 h  busy workers 8
+2026-09-28 23:25:46 tasks finished 53/206  total shots 2,913,850  budget left 1.9 h  busy workers 8
+2026-09-28 23:31:01 tasks finished 53/206  total shots 2,922,000  budget left 1.8 h  busy workers 8
+2026-09-28 23:36:13 tasks finished 53/206  total shots 2,926,700  budget left 1.8 h  busy workers 8
+2026-09-28 23:41:13 tasks finished 53/206  total shots 2,929,700  budget left 1.7 h  busy workers 8
+2026-09-28 23:46:33 tasks finished 53/206  total shots 2,937,650  budget left 1.6 h  busy workers 8
+2026-09-28 23:51:39 tasks finished 53/206  total shots 2,949,950  budget left 1.5 h  busy workers 8
+2026-09-28 23:57:02 tasks finished 53/206  total shots 2,957,300  budget left 1.4 h  busy workers 8
+2026-09-29 00:02:07 tasks finished 53/206  total shots 2,964,800  budget left 1.3 h  busy workers 8
+2026-09-29 00:07:28 tasks finished 53/206  total shots 2,970,350  budget left 1.2 h  busy workers 8
+2026-09-29 00:12:30 tasks finished 53/206  total shots 2,978,200  budget left 1.2 h  busy workers 8
+2026-09-29 00:17:40 tasks finished 53/206  total shots 2,988,250  budget left 1.1 h  busy workers 8
+2026-09-29 00:22:54 tasks finished 53/206  total shots 2,995,300  budget left 1.0 h  busy workers 8
+2026-09-29 00:28:11 tasks finished 53/206  total shots 2,995,600  budget left 0.9 h  busy workers 8
+2026-09-29 00:28:28 worker 6 died during task k2_s4_thick_w0_m1_Z_p0.003_R9_sector (out of memory?); restarting it
+2026-09-29 00:33:33 tasks finished 53/206  total shots 2,997,100  budget left 0.8 h  busy workers 8
+2026-09-29 00:38:35 tasks finished 53/206  total shots 2,997,700  budget left 0.7 h  busy workers 8
+2026-09-29 00:44:04 tasks finished 53/206  total shots 2,998,300  budget left 0.6 h  busy workers 8
+2026-09-29 00:49:31 tasks finished 53/206  total shots 2,999,800  budget left 0.5 h  busy workers 8
+2026-09-29 00:54:31 tasks finished 53/206  total shots 2,999,800  budget left 0.5 h  busy workers 8
+2026-09-29 00:59:31 tasks finished 53/206  total shots 2,999,800  budget left 0.4 h  busy workers 8
+2026-09-29 01:04:32 tasks finished 53/206  total shots 2,999,800  budget left 0.3 h  busy workers 8
+2026-09-29 01:09:32 tasks finished 53/206  total shots 2,999,800  budget left 0.2 h  busy workers 8
+2026-09-29 01:14:32 tasks finished 53/206  total shots 2,999,800  budget left 0.1 h  busy workers 8
+2026-09-29 01:19:33 tasks finished 53/206  total shots 2,999,800  budget left 0.0 h  busy workers 8
+2026-09-29 01:24:57 tasks finished 53/206  total shots 2,999,950  budget left 0.0 h  busy workers 7
+2026-09-29 01:29:58 tasks finished 53/206  total shots 2,999,950  budget left 0.0 h  busy workers 7
+2026-09-29 01:35:06 tasks finished 53/206  total shots 3,000,100  budget left 0.0 h  busy workers 6
+2026-09-29 01:40:07 tasks finished 53/206  total shots 3,000,100  budget left 0.0 h  busy workers 6
+2026-09-29 01:45:07 tasks finished 53/206  total shots 3,000,100  budget left 0.0 h  busy workers 6
+2026-09-29 01:50:07 tasks finished 53/206  total shots 3,000,100  budget left 0.0 h  busy workers 6
+2026-09-29 08:10:04 tasks finished 53/206  total shots 3,000,400  budget left 0.0 h  busy workers 4
+2026-09-29 08:10:04 hard stop one hour after the budget; unfinished sessions are dropped
+2026-09-29 08:10:24 exit: tasks finished 53/206, this session 42.79 h
+== analysis and bundle after Part A
+wrote /workspace/leo-sim/layer_code_scaling_campaign/results_bundle.zip (14 files, 0.5 MB)
+== Part D: paired decoder check
+decoder check: 60 chunks of 100 shots to run
+thick_w1_X_p0.003: shots 2000, full 79, sector 162, only-full 50, only-sector 133, McNemar p = 6.9e-10
+thick_w1_Z_p0.003: shots 2000, full 20, sector 31, only-full 14, only-sector 25, McNemar p = 0.108
+bridge_w1_Z_p0.002: shots 2000, full 212, sector 224, only-full 13, only-sector 25, McNemar p = 0.073
+== Part C: circuit fault distances
+{'s': 2, 'd_X': 5, 'd_Z': 4, 'interface': 'bridge w=1', 'interface_cut': 1, 'rounds': 5, 'observable': 'Z1aZ1b', 'expected': 1, 'distance': 1, 'lower_bound': 1, 'status': 'OPTIMAL', 'mechanisms': 22861, 'seconds': 1.3}
+{'s': 2, 'd_X': 5, 'd_Z': 4, 'interface': 'bridge w=1', 'interface_cut': 1, 'rounds': 5, 'observable': 'm', 'expected': 4, 'distance': 5, 'lower_bound': 5, 'status': 'OPTIMAL', 'mechanisms': 22687, 'seconds': 172.6}
+{'s': 2, 'd_X': 5, 'd_Z': 4, 'interface': 'bridge w=2', 'interface_cut': 2, 'rounds': 5, 'observable': 'Z1aZ1b', 'expected': 2, 'distance': 2, 'lower_bound': 2, 'status': 'OPTIMAL', 'mechanisms': 22981, 'seconds': 2.1}
+{'s': 2, 'd_X': 5, 'd_Z': 4, 'interface': 'bridge w=2', 'interface_cut': 2, 'rounds': 5, 'observable': 'm', 'expected': 4, 'distance': 5, 'lower_bound': 5, 'status': 'OPTIMAL', 'mechanisms': 22767, 'seconds': 175.3}
+{'s': 2, 'd_X': 5, 'd_Z': 4, 'interface': 'bridge w=3', 'interface_cut': 3, 'rounds': 5, 'observable': 'Z1aZ1b', 'expected': 3, 'distance': 3, 'lower_bound': 3, 'status': 'OPTIMAL', 'mechanisms': 23113, 'seconds': 8.5}
+{'s': 2, 'd_X': 5, 'd_Z': 4, 'interface': 'bridge w=3', 'interface_cut': 3, 'rounds': 5, 'observable': 'm', 'expected': 4, 'distance': 5, 'lower_bound': 5, 'status': 'OPTIMAL', 'mechanisms': 22844, 'seconds': 141.8}
+{'s': 2, 'd_X': 5, 'd_Z': 4, 'interface': 'thick', 'interface_cut': 5, 'rounds': 5, 'observable': 'Z1aZ1b', 'expected': 5, 'distance': 5, 'lower_bound': 5, 'status': 'OPTIMAL', 'mechanisms': 23377, 'seconds': 845.4}
+{'s': 2, 'd_X': 5, 'd_Z': 4, 'interface': 'thick', 'interface_cut': 5, 'rounds': 5, 'observable': 'm', 'expected': 4, 'distance': 5, 'lower_bound': 5, 'status': 'OPTIMAL', 'mechanisms': 23007, 'seconds': 181.9}
+{'s': 3, 'd_X': 7, 'd_Z': 6, 'interface': 'bridge w=1', 'interface_cut': 1, 'rounds': 7, 'observable': 'Z1aZ1b', 'expected': 1, 'distance': 1, 'lower_bound': 1, 'status': 'OPTIMAL', 'mechanisms': 71473, 'seconds': 3.9}
+{'s': 3, 'd_X': 7, 'd_Z': 6, 'interface': 'bridge w=1', 'interface_cut': 1, 'rounds': 7, 'observable': 'm', 'expected': 6, 'distance': 7, 'lower_bound': 5, 'status': 'FEASIBLE', 'mechanisms': 71013, 'seconds': 1803.5}
+{'s': 3, 'd_X': 7, 'd_Z': 6, 'interface': 'bridge w=2', 'interface_cut': 2, 'rounds': 7, 'observable': 'Z1aZ1b', 'expected': 2, 'distance': 2, 'lower_bound': 2, 'status': 'OPTIMAL', 'mechanisms': 71637, 'seconds': 5.6}
+{'s': 3, 'd_X': 7, 'd_Z': 6, 'interface': 'bridge w=2', 'interface_cut': 2, 'rounds': 7, 'observable': 'm', 'expected': 6, 'distance': 7, 'lower_bound': 5, 'status': 'FEASIBLE', 'mechanisms': 71135, 'seconds': 1803.4}
+{'s': 3, 'd_X': 7, 'd_Z': 6, 'interface': 'bridge w=3', 'interface_cut': 3, 'rounds': 7, 'observable': 'Z1aZ1b', 'expected': 3, 'distance': 3, 'lower_bound': 3, 'status': 'OPTIMAL', 'mechanisms': 71819, 'seconds': 45.6}
+{'s': 3, 'd_X': 7, 'd_Z': 6, 'interface': 'bridge w=3', 'interface_cut': 3, 'rounds': 7, 'observable': 'm', 'expected': 6, 'distance': 7, 'lower_bound': 5, 'status': 'FEASIBLE', 'mechanisms': 71257, 'seconds': 1803.4}
+{'s': 3, 'd_X': 7, 'd_Z': 6, 'interface': 'thick', 'interface_cut': 7, 'rounds': 7, 'observable': 'Z1aZ1b', 'expected': 7, 'distance': 7, 'lower_bound': 4, 'status': 'FEASIBLE', 'mechanisms': 72547, 'seconds': 1803.3}
+{'s': 3, 'd_X': 7, 'd_Z': 6, 'interface': 'thick', 'interface_cut': 7, 'rounds': 7, 'observable': 'm', 'expected': 6, 'distance': 7, 'lower_bound': 5, 'status': 'FEASIBLE', 'mechanisms': 71745, 'seconds': 1803.5}
+== Part B: Steane-input code distance
+{'input': '[[7,1,3]]', 'spacing': 2, 'n': 1792, 'Lx': 8, 'Lz': 8, 'sector': 'dX', 'theorem_bound': 18, 'distance_upper': 20, 'lower_bound': 14, 'status': 'FEASIBLE', 'theorem_check': 'undetermined (raise --time-limit)', 'seconds': 7200.1}
+{'input': '[[7,1,3]]', 'spacing': 2, 'n': 1792, 'Lx': 8, 'Lz': 8, 'sector': 'dZ', 'theorem_bound': 16, 'distance_upper': 19, 'lower_bound': 14, 'status': 'FEASIBLE', 'theorem_check': 'undetermined (raise --time-limit)', 'seconds': 7200.1}
+== final analysis and bundle
+wrote /workspace/leo-sim/layer_code_scaling_campaign/results_bundle.zip (17 files, 0.5 MB)
+== all done

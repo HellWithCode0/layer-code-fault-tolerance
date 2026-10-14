@@ -1,0 +1,1 @@
+{"distance": 4, "lower_bound": 4, "proved_at_least": 4, "status": "OPTIMAL", "meets": "NOT_REQUIRED", "query": "exact", "observable_index": 2, "observable": "X2a", "interface": "idle", "basis": "X", "rounds": 5, "witness": [{"dets": [959], "obs": []}, {"dets": [957], "obs": [2]}, {"dets": [957, 958], "obs": []}, {"dets": [958, 959], "obs": []}]}

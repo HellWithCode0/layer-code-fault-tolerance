@@ -1,0 +1,164 @@
+{
+ "per_R": {
+  "1": {
+   "detector_total": 0.31853,
+   "copies": [
+    {
+     "shots": 200000,
+     "accepted": 174723,
+     "accept_rate": 0.873615,
+     "postselected_failures": 8434,
+     "postselected_error": 0.04827069132283672,
+     "postselected_error_wilson95": [
+      0.047275554033063535,
+      0.04928569234157475
+     ]
+    },
+    {
+     "shots": 200000,
+     "accepted": 175162,
+     "accept_rate": 0.87581,
+     "postselected_failures": 7637,
+     "postselected_error": 0.043599639191148766,
+     "postselected_error_wilson95": [
+      0.04265329948563384,
+      0.04456599772693411
+     ]
+    }
+   ],
+   "pooled": {
+    "failures": 16071,
+    "accepted": 349885,
+    "error": 0.045932234877173926,
+    "wilson95": [
+     0.04524355393513837,
+     0.04663088668148974
+    ]
+   }
+  },
+  "2": {
+   "detector_total": 1.125949090909091,
+   "copies": [
+    {
+     "shots": 550000,
+     "accepted": 374319,
+     "accept_rate": 0.68058,
+     "postselected_failures": 6101,
+     "postselected_error": 0.016298932194197997,
+     "postselected_error_wilson95": [
+      0.01589822288312509,
+      0.0167095697587226
+     ]
+    },
+    {
+     "shots": 550000,
+     "accepted": 390723,
+     "accept_rate": 0.7104054545454546,
+     "postselected_failures": 2576,
+     "postselected_error": 0.006592905971749808,
+     "postselected_error_wilson95": [
+      0.006343951714389919,
+      0.006851562519767063
+     ]
+    }
+   ],
+   "control_no_star_comparisons": [
+    {
+     "shots": 550000,
+     "accepted": 411616,
+     "accept_rate": 0.7483927272727273,
+     "postselected_failures": 18749,
+     "postselected_error": 0.04554973567596984,
+     "postselected_error_wilson95": [
+      0.04491698038473392,
+      0.046190973629891
+     ]
+    },
+    {
+     "shots": 550000,
+     "accepted": 431242,
+     "accept_rate": 0.7840763636363637,
+     "postselected_failures": 18521,
+     "postselected_error": 0.04294804309413276,
+     "postselected_error_wilson95": [
+      0.04234699265223297,
+      0.043557236505208256
+     ]
+    }
+   ],
+   "pooled": {
+    "failures": 8677,
+    "accepted": 765042,
+    "error": 0.011341860969724537,
+    "wilson95": [
+     0.01110701304771064,
+     0.011581616386178172
+    ]
+   }
+  },
+  "3": {
+   "detector_total": 2.1417152380952382,
+   "copies": [
+    {
+     "shots": 1050000,
+     "accepted": 581938,
+     "accept_rate": 0.5542266666666666,
+     "postselected_failures": 4999,
+     "postselected_error": 0.008590262192879655,
+     "postselected_error_wilson95": [
+      0.00835637603898803,
+      0.008830636279117125
+     ]
+    },
+    {
+     "shots": 1050000,
+     "accepted": 630777,
+     "accept_rate": 0.60074,
+     "postselected_failures": 2128,
+     "postselected_error": 0.00337361698349813,
+     "postselected_error_wilson95": [
+      0.003233512468606456,
+      0.0035197706355454502
+     ]
+    }
+   ],
+   "control_no_star_comparisons": [
+    {
+     "shots": 1050000,
+     "accepted": 681044,
+     "accept_rate": 0.6486133333333334,
+     "postselected_failures": 29703,
+     "postselected_error": 0.04361392215480938,
+     "postselected_error_wilson95": [
+      0.043131428560102554,
+      0.044101564441427564
+     ]
+    },
+    {
+     "shots": 1050000,
+     "accepted": 740164,
+     "accept_rate": 0.7049180952380952,
+     "postselected_failures": 31381,
+     "postselected_error": 0.04239736058495144,
+     "postselected_error_wilson95": [
+      0.04194068682319122,
+      0.04285878442149411
+     ]
+    }
+   ],
+   "pooled": {
+    "failures": 7127,
+    "accepted": 1212715,
+    "error": 0.00587689605554479,
+    "wilson95": [
+     0.005742411225370897,
+     0.006014511410702708
+    ]
+   }
+  }
+ },
+ "primary_tests": {
+  "R2_below_R1": 0.0,
+  "R3_below_R2": 0.0
+ }
+}

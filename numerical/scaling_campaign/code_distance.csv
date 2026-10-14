@@ -1,0 +1,3 @@
+input,spacing,n,Lx,Lz,sector,theorem_bound,distance_upper,lower_bound,status,theorem_check,seconds
+"[[7,1,3]]",2,1792,8,8,dX,18,20,14,FEASIBLE,undetermined (raise --time-limit),7200.1
+"[[7,1,3]]",2,1792,8,8,dZ,16,19,14,FEASIBLE,undetermined (raise --time-limit),7200.1

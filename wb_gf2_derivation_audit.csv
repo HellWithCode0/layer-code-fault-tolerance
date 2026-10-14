@@ -1,0 +1,9 @@
+cell,G_source,embedding_E,G_E_product,H_derived,kernel,contains_110,note,status
+first_z / H_end,110;011,10;01;01,11;00,11,00 11,n/a,"G_end E_end -> H_end=[11]; ker={00,11}",PASS
+middle_z / H_mid,1110;0011,100;010;001;001,111;000,111,000 011 101 110,True,G_mid E_mid -> H_mid=[111]; ker includes 110 pass-through,PASS
+bullet,110;101,,110;101,101;011,000 111,False,"ker={000,111}=B_m",PASS
+plus,111,,111,111,000 011 101 110,True,"ker={000,110,101,011}=P_m",PASS
+first_x_dual,110;011,10;01;01,11;00,11,00 11,n/a,identical to first_z / H_end by reflection or X<->Z dual,PASS
+middle_x_dual,1110;0011,100;010;001;001,111;000,111,000 011 101 110,True,identical to middle_z / H_mid by reflection or X<->Z dual,PASS
+last_z,110;011,10;01;01,11;00,11,00 11,n/a,identical to first_z / H_end by reflection or X<->Z dual,PASS
+last_x_dual,110;011,10;01;01,11;00,11,00 11,n/a,identical to first_z / H_end by reflection or X<->Z dual,PASS

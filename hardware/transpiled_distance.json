@@ -1,0 +1,41 @@
+{
+ "physical_qubits": [
+  88,
+  108,
+  111,
+  86,
+  117,
+  129,
+  97,
+  106,
+  83,
+  104,
+  84,
+  103,
+  109,
+  87,
+  107,
+  110,
+  85,
+  105,
+  118
+ ],
+ "result": {
+  "0": {
+   "distance": 3,
+   "status": "OPTIMAL"
+  },
+  "1": {
+   "distance": 1,
+   "status": "OPTIMAL"
+  },
+  "2": {
+   "distance": 2,
+   "status": "OPTIMAL"
+  },
+  "3": {
+   "distance": 3,
+   "status": "OPTIMAL"
+  }
+ }
+}

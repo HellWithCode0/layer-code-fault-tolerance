@@ -1,0 +1,12 @@
+# Environment used for the revision scripts (second review, 26 September 2026).
+# Python 3.13.14.  Install with:  pip install -r requirements-revision.txt
+numpy==2.5.3
+scipy==1.18.1
+stim==1.16.0
+ldpc==2.4.1
+ortools==9.15.6755
+matplotlib==3.11.2
+networkx==3.7
+pymupdf==1.28.2
+# The earlier revision scripts were run with Python 3.11, numpy 2.4.6 and scipy 1.17.1;
+# every deterministic output was reproduced with the versions above.

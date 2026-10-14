@@ -1,0 +1,17 @@
+Finalization-environment verification note (2026-09-19)
+========================================================
+The following were rerun successfully in the finalization container:
+  * run_bridge_verification.sh, including the exact finite-cell certificate
+    (16/16 total kernel words; 10/10 nonzero words PASS), master C9/C10 ledger,
+    finite WB incidence instance, and slab-interface audit;
+  * reproducibility_checks.py;
+  * factory_map_audit.py;
+  * the deterministic finite-size crossing fit on the archived 4.534M-shot data;
+  * four-pass pdflatex builds of manuscript.tex and supplement.tex.
+
+The container does not have stim, pymatching, or ldpc installed and has no
+network access, so operational_anchor.py and the MWPM/Stim numerical scripts
+were not rerun here.  The pinned versions used for the archived numerical
+campaign are recorded in environment-known-good.json and requirements.txt.
+The archived numerical CSVs/reports are retained unchanged except for the
+added deterministic crossing-analysis products.

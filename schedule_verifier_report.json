@@ -1,0 +1,158 @@
+{
+ "schedule": {
+  "passed": true,
+  "failures": {},
+  "failure_counts": {},
+  "stats": {
+   "cells": 13,
+   "blocks": 259,
+   "primitives": 1292,
+   "adaptive_slots": 16,
+   "sites": 127,
+   "rounds": 4496,
+   "vertices": 58682,
+   "rows_union": 66068,
+   "rows_per_branch_choice": {
+    "all apply": 66068,
+    "all idle": 65787,
+    "random 0": 65913,
+    "random 1": 65960,
+    "random 2": 65913,
+    "random 3": 65895
+   },
+   "tau": 1,
+   "min_window_gap_full_distance": 5,
+   "min_window_gap_courier": 2,
+   "min_site_separation_edges": 16,
+   "required": 5.0,
+   "sv19_min_distance_over_bound": 1.0,
+   "concurrent_primitive_pairs_on_disjoint_blocks": 488,
+   "cell_reuses": 246
+  }
+ },
+ "negative_controls": [
+  {
+   "control": "N1 terminal transfers on FY one round apart",
+   "expected": [
+    "I2",
+    "SV.25"
+   ],
+   "detected": [
+    "I2",
+    "SV.25"
+   ],
+   "ok": true,
+   "failures": {
+    "I2": 5,
+    "SV.19": 1,
+    "SV.25": 1
+   }
+  },
+  {
+   "control": "N2 courier block shared by two sites",
+   "expected": [
+    "I3"
+   ],
+   "detected": [
+    "I3"
+   ],
+   "ok": true,
+   "failures": {
+    "geometry": 1,
+    "I3": 1,
+    "SV.25": 5
+   }
+  },
+  {
+   "control": "N3 cell reused before the discard",
+   "expected": [
+    "lifecycle"
+   ],
+   "detected": [
+    "lifecycle"
+   ],
+   "ok": true,
+   "failures": {
+    "lifecycle": 1
+   }
+  },
+  {
+   "control": "N4 two-block primitive across non-adjacent cells",
+   "expected": [
+    "geometry"
+   ],
+   "detected": [
+    "geometry"
+   ],
+   "ok": true,
+   "failures": {
+    "geometry": 1
+   }
+  },
+  {
+   "control": "N5 routing radius 3 with margin 2",
+   "expected": [
+    "geometry"
+   ],
+   "detected": [
+    "geometry"
+   ],
+   "ok": true,
+   "failures": {
+    "geometry": 1033
+   }
+  },
+  {
+   "control": "N6 row joining FY and D",
+   "expected": [
+    "I1"
+   ],
+   "detected": [
+    "I1"
+   ],
+   "ok": true,
+   "failures": {
+    "I1": 7
+   }
+  },
+  {
+   "control": "N7 courier distances (1, 2)",
+   "expected": [
+    "I2"
+   ],
+   "detected": [
+    "I2"
+   ],
+   "ok": true,
+   "failures": {
+    "I2": 127
+   }
+  },
+  {
+   "control": "N8 applied branch reaching block D",
+   "expected": [
+    "I1"
+   ],
+   "detected": [
+    "I1"
+   ],
+   "ok": true,
+   "failures": {
+    "I1": 7
+   }
+  },
+  {
+   "control": "N9 consumption from the wrong factory slot",
+   "expected": [
+    "slots"
+   ],
+   "detected": [
+    "slots"
+   ],
+   "ok": true,
+   "failures": {
+    "slots": 1
+   }
+  }
+ ]
+}

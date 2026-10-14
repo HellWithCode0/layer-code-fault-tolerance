@@ -1,0 +1,198 @@
+{
+ "certification_rows_pass": 40,
+ "witnesses_checked": 45,
+ "fault_distances": {
+  "band_m2|bridge|X1a|R=7": "4-6",
+  "band_m2|bridge|X1b|R=7": "4-6",
+  "band_m2|bridge|X2a|R=7": "5-24",
+  "band_m2|bridge|X2b|R=7": "5-23",
+  "band_m2|bridge|Z1aZ1b|R=2": "1",
+  "band_m2|bridge|Z1aZ1b|R=4": "1",
+  "band_m2|bridge|Z1aZ1b|R=7": "1",
+  "band_m2|bridge|Z2a|R=7": "4-7",
+  "band_m2|bridge|Z2b|R=7": "4-7",
+  "band_m2|bridge|m|R=2": "2",
+  "band_m2|bridge|m|R=4": "4",
+  "band_m2|bridge|m|R=7": "4-6",
+  "band_m2|idle|X1a|R=7": "2-6",
+  "band_m2|idle|Z1aZ1b|R=7": ">=4",
+  "band_m2|thick|X1a|R=7": "4-6",
+  "band_m2|thick|X1b|R=7": "3-6",
+  "band_m2|thick|X2a|R=7": ">=3",
+  "band_m2|thick|X2b|R=7": ">=3",
+  "band_m2|thick|Z1aZ1b|R=2": "5-17",
+  "band_m2|thick|Z1aZ1b|R=4": "5-17",
+  "band_m2|thick|Z1aZ1b|R=7": ">=4",
+  "band_m2|thick|Z2a|R=7": ">=3",
+  "band_m2|thick|Z2b|R=7": ">=3",
+  "band_m2|thick|m|R=2": "2",
+  "band_m2|thick|m|R=4": "4",
+  "band_m2|thick|m|R=7": "2-6",
+  "iceberg_422|bridge|X1a|R=5": "5-10",
+  "iceberg_422|bridge|X1b|R=5": "5-10",
+  "iceberg_422|bridge|X2a|R=5": "4",
+  "iceberg_422|bridge|X2b|R=5": "4",
+  "iceberg_422|bridge|Z1aZ1b|R=2": "1",
+  "iceberg_422|bridge|Z1aZ1b|R=3": "1",
+  "iceberg_422|bridge|Z1aZ1b|R=5": "1",
+  "iceberg_422|bridge|Z2a|R=5": "6-12",
+  "iceberg_422|bridge|Z2b|R=5": "6-12",
+  "iceberg_422|bridge|m|R=2": "2",
+  "iceberg_422|bridge|m|R=3": "3",
+  "iceberg_422|bridge|m|R=5": "5",
+  "iceberg_422|idle|X1a|R=3": "6-10",
+  "iceberg_422|idle|X1a|R=5": "6-10",
+  "iceberg_422|idle|X1b|R=5": "6-10",
+  "iceberg_422|idle|X2a|R=5": "4",
+  "iceberg_422|idle|X2b|R=5": "4",
+  "iceberg_422|idle|Z1aZ1b|R=3": "5",
+  "iceberg_422|idle|Z1aZ1b|R=5": "5",
+  "iceberg_422|idle|Z2a|R=5": "6-12",
+  "iceberg_422|idle|Z2b|R=5": "6-12",
+  "iceberg_422|thick|X1a|R=5": "5-10",
+  "iceberg_422|thick|X1b|R=5": "5-10",
+  "iceberg_422|thick|X2a|R=5": "4",
+  "iceberg_422|thick|X2b|R=5": "4",
+  "iceberg_422|thick|Z1aZ1b|R=2": "5",
+  "iceberg_422|thick|Z1aZ1b|R=3": "5",
+  "iceberg_422|thick|Z1aZ1b|R=5": "5",
+  "iceberg_422|thick|Z2a|R=5": "6-12",
+  "iceberg_422|thick|Z2b|R=5": "6-12",
+  "iceberg_422|thick|m|R=2": "2",
+  "iceberg_422|thick|m|R=3": "3",
+  "iceberg_422|thick|m|R=5": "5",
+  "steane_713|bridge|Z1aZ1b|R=1": "1",
+  "steane_713|bridge|m|R=1": "1",
+  "steane_713|thick|Z1aZ1b|R=1": "4-9",
+  "steane_713|thick|m|R=1": "1"
+ },
+ "decoder_audit_R3": {
+  "idle|Z1aZ1b": {
+   "single_mechanisms": 81332,
+   "below_distance": 81332,
+   "uncorrected": 56,
+   "undetectable": 0
+  },
+  "idle|X1a": {
+   "single_mechanisms": 85260,
+   "below_distance": 85260,
+   "uncorrected": 102,
+   "undetectable": 0
+  },
+  "bridge|Z1aZ1b": {
+   "single_mechanisms": 89509,
+   "below_distance": 0,
+   "uncorrected": 0,
+   "undetectable": 0
+  },
+  "bridge|m": {
+   "single_mechanisms": 93385,
+   "below_distance": 93385,
+   "uncorrected": 2943,
+   "undetectable": 0
+  }
+ },
+ "circuit_qubits": {
+  "iceberg_422": {
+   "idle": 2352,
+   "bridge": 3040,
+   "thick": 3144
+  },
+  "band_m2": {
+   "idle": 7200,
+   "bridge": 9780,
+   "thick": 9842
+  },
+  "steane_713": {
+   "idle": 14118,
+   "bridge": 16196,
+   "thick": 16293
+  }
+ },
+ "params": {
+  "iceberg_422": {
+   "n": "224",
+   "K": "2",
+   "Lx": "4",
+   "dX_theorem_lb": "5",
+   "dZ_theorem_lb": "4",
+   "bridge_cut": "1",
+   "thick_cut": "5",
+   "colors_X": "7",
+   "colors_Z": "7",
+   "n_route": "2507",
+   "tour_median": "24",
+   "tour_max": "143",
+   "n_checks": "853"
+  },
+  "band_m2": {
+   "n": "720",
+   "K": "2",
+   "Lx": "6",
+   "dX_theorem_lb": "7",
+   "dZ_theorem_lb": "6",
+   "bridge_cut": "1",
+   "thick_cut": "17",
+   "colors_X": "11",
+   "colors_Z": "10",
+   "n_route": "7448",
+   "tour_median": "26",
+   "tour_max": "189",
+   "n_checks": "3097"
+  },
+  "steane_713": {
+   "n": "1792",
+   "K": "1",
+   "Lx": "8",
+   "dX_theorem_lb": "18",
+   "dZ_theorem_lb": "16",
+   "bridge_cut": "1",
+   "thick_cut": "9",
+   "colors_X": "11",
+   "colors_Z": "13",
+   "n_route": "12085",
+   "tour_median": "24",
+   "tour_max": "123",
+   "n_checks": "5995"
+  }
+ },
+ "monte_carlo_failure_fraction_range": [
+  0.25,
+  0.667
+ ],
+ "band_spacelike": [
+  {
+   "input": "band_m2",
+   "spacing": "2",
+   "n": "720",
+   "x_in": "101010",
+   "slab_weight": "29",
+   "anticommutes_with": "X1 (class of 101010)",
+   "weight": "6",
+   "lower_bound": "6",
+   "status": "OPTIMAL"
+  },
+  {
+   "input": "band_m2",
+   "spacing": "2",
+   "n": "720",
+   "x_in": "110000",
+   "slab_weight": "16",
+   "anticommutes_with": "class of 110000",
+   "weight": "24",
+   "lower_bound": "16",
+   "status": "FEASIBLE"
+  },
+  {
+   "input": "band_m2",
+   "spacing": "2",
+   "n": "720",
+   "x_in": "011010",
+   "slab_weight": "27",
+   "anticommutes_with": "class of 011010",
+   "weight": "6",
+   "lower_bound": "6",
+   "status": "OPTIMAL"
+  }
+ ]
+}

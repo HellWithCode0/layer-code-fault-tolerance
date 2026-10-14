@@ -1,0 +1,116 @@
+params iceberg_422 n=224 dX_lb=5 colorsX=7 tour_max=143
+params band_m2 n=720 dX_lb=7 colorsX=11 tour_max=189
+params steane_713 n=1792 dX_lb=18 colorsX=11 tour_max=123
+cert iceberg_422 idle Z PASS 2.5s
+cert iceberg_422 idle X PASS 2.6s
+cert iceberg_422 bridge Z PASS 3.9s
+cert iceberg_422 bridge X PASS 3.8s
+cert iceberg_422 thick Z PASS 4.2s
+cert iceberg_422 thick X PASS 4.1s
+cert band_m2 idle Z PASS 23.1s
+cert band_m2 idle X PASS 22.3s
+cert band_m2 bridge Z PASS 35.5s
+cert band_m2 bridge X PASS 34.9s
+cert band_m2 thick Z PASS 38.5s
+cert band_m2 thick X PASS 38.2s
+cert steane_713 idle Z PASS 44.5s
+cert steane_713 idle X PASS 44.1s
+cert steane_713 bridge Z PASS 58.1s
+cert steane_713 bridge X PASS 57.8s
+cert steane_713 thick Z PASS 59.0s
+cert steane_713 thick X PASS 60.2s
+fault iceberg_422 bridge Z1aZ1b OPTIMAL d=1 lb=1 44.7s
+fault iceberg_422 bridge m OPTIMAL d=2 lb=2 44.9s
+fault iceberg_422 thick Z1aZ1b OPTIMAL d=5 lb=5 180.0s
+fault iceberg_422 thick m OPTIMAL d=2 lb=2 49.0s
+--- restart 2026-10-03T13:20:45+02:00 ---
+fault band_m2 bridge Z1aZ1b OPTIMAL d=1 lb=1 343.7s
+fault band_m2 bridge m OPTIMAL d=2 lb=2 326.4s
+fault band_m2 thick Z1aZ1b FEASIBLE d=17 lb=5 590.5s
+fault band_m2 thick m OPTIMAL d=2 lb=2 341.5s
+fault steane_713 bridge Z1aZ1b OPTIMAL d=1 lb=1 288.1s
+fault steane_713 bridge m OPTIMAL d=1 lb=1 295.7s
+fault steane_713 thick Z1aZ1b FEASIBLE d=9 lb=4 476.1s
+fault steane_713 thick m OPTIMAL d=1 lb=1 297.8s
+mc iceberg_422 idle Z p=0.0005 41/80 34.9s
+mc iceberg_422 idle Z p=0.001 39/80 35.7s
+mc iceberg_422 idle Z p=0.002 41/80 33.2s
+mc iceberg_422 bridge Z p=0.0005 41/80 54.3s
+mc iceberg_422 bridge Z p=0.001 42/80 53.1s
+mc iceberg_422 bridge Z p=0.002 44/80 52.0s
+mc iceberg_422 thick Z p=0.0005 39/80 71.2s
+mc iceberg_422 thick Z p=0.001 41/80 75.1s
+mc iceberg_422 thick Z p=0.002 45/80 58.6s
+mc iceberg_422 idle X p=0.001 16/40 30.9s
+mc iceberg_422 idle X p=0.002 23/40 30.6s
+mc iceberg_422 bridge X p=0.001 25/40 48.4s
+mc iceberg_422 bridge X p=0.002 22/40 48.1s
+mc iceberg_422 thick X p=0.001 19/40 52.7s
+mc iceberg_422 thick X p=0.002 19/40 49.1s
+mc band_m2 idle Z p=0.0005 20/40 206.9s
+mc band_m2 idle Z p=0.001 15/40 231.9s
+mc band_m2 idle Z p=0.002 21/40 193.1s
+mc band_m2 bridge Z p=0.0005 26/40 529.9s
+mc band_m2 bridge Z p=0.001 17/40 451.6s
+mc band_m2 bridge Z p=0.002 23/40 434.7s
+mc band_m2 thick Z p=0.0005 18/40 791.1s
+mc band_m2 thick Z p=0.001 20/40 680.0s
+mc band_m2 thick Z p=0.002 24/40 653.0s
+mc band_m2 idle X p=0.001 10/20 179.4s
+mc band_m2 idle X p=0.002 7/20 172.9s
+mc band_m2 bridge X p=0.001 5/20 387.8s
+mc band_m2 bridge X p=0.002 8/20 393.4s
+mc band_m2 thick X p=0.001 9/20 448.3s
+mc band_m2 thick X p=0.002 10/20 424.4s
+mc steane_713 idle Z p=0.0005 9/24 320.0s
+mc steane_713 idle Z p=0.001 10/24 347.5s
+mc steane_713 idle Z p=0.002 10/24 377.1s
+mc steane_713 bridge Z p=0.0005 9/24 478.3s
+mc steane_713 bridge Z p=0.001 13/24 493.8s
+mc steane_713 bridge Z p=0.002 9/24 472.6s
+mc steane_713 thick Z p=0.0005 9/24 704.3s
+mc steane_713 thick Z p=0.001 15/24 704.1s
+mc steane_713 thick Z p=0.002 13/24 622.8s
+mc steane_713 idle X p=0.001 7/12 271.8s
+mc steane_713 idle X p=0.002 7/12 286.5s
+mc steane_713 bridge X p=0.001 8/12 354.4s
+mc steane_713 bridge X p=0.002 6/12 340.2s
+mc steane_713 thick X p=0.001 8/12 361.0s
+mc steane_713 thick X p=0.002 7/12 350.1s
+Traceback (most recent call last):
+  File "/workspace/leo-sim/growing_input_2026-10/campaign/run_growing.py", line 295, in cross_check
+    dem_m = circ.detector_error_model(decompose_errors=True, approximate_disjoint_errors=True)
+ValueError: Failed to decompose errors into graphlike components with at most two symptoms.
+The error component that failed to decompose is 'D6, D7, D225, D228, D284'.
+
+In Python, you can ignore this error by passing `ignore_decomposition_failures=True` to `stim.Circuit.detector_error_model(...)`.
+From the command line, you can ignore this error by passing the flag `--ignore_decomposition_failures` to `stim analyze_errors`.
+cross iceberg_422 bridge bplsd= mwpm=
+Traceback (most recent call last):
+  File "/workspace/leo-sim/growing_input_2026-10/campaign/run_growing.py", line 295, in cross_check
+    dem_m = circ.detector_error_model(decompose_errors=True, approximate_disjoint_errors=True)
+ValueError: Failed to decompose errors into graphlike components with at most two symptoms.
+The error component that failed to decompose is 'D6, D7, D225, D228, D284'.
+
+In Python, you can ignore this error by passing `ignore_decomposition_failures=True` to `stim.Circuit.detector_error_model(...)`.
+From the command line, you can ignore this error by passing the flag `--ignore_decomposition_failures` to `stim analyze_errors`.
+cross iceberg_422 thick bplsd= mwpm=
+Traceback (most recent call last):
+  File "/workspace/leo-sim/growing_input_2026-10/campaign/run_growing.py", line 295, in cross_check
+    dem_m = circ.detector_error_model(decompose_errors=True, approximate_disjoint_errors=True)
+ValueError: Failed to decompose errors into graphlike components with at most two symptoms.
+The error component that failed to decompose is 'D1, D2, D260'.
+
+In Python, you can ignore this error by passing `ignore_decomposition_failures=True` to `stim.Circuit.detector_error_model(...)`.
+From the command line, you can ignore this error by passing the flag `--ignore_decomposition_failures` to `stim analyze_errors`.
+cross band_m2 bridge bplsd= mwpm=
+Traceback (most recent call last):
+  File "/workspace/leo-sim/growing_input_2026-10/campaign/run_growing.py", line 295, in cross_check
+    dem_m = circ.detector_error_model(decompose_errors=True, approximate_disjoint_errors=True)
+ValueError: Failed to decompose errors into graphlike components with at most two symptoms.
+The error component that failed to decompose is 'D1, D2, D260'.
+
+In Python, you can ignore this error by passing `ignore_decomposition_failures=True` to `stim.Circuit.detector_error_model(...)`.
+From the command line, you can ignore this error by passing the flag `--ignore_decomposition_failures` to `stim analyze_errors`.
+cross band_m2 thick bplsd= mwpm=
+wrote SUMMARY and figure

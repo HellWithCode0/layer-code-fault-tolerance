@@ -1,0 +1,53 @@
+test,parameters,value,expected,pass
+twirl_eigen,T_A|A>=|A>,1.11e-16,0,True
+twirl_eigen,T_A Z|A>=-Z|A>,1.11e-16,0,True
+faulty_twirl_fixed_point,rho=X|A><A|X,1.12e-16,0,True
+faulty_twirl_coherence,|<A|rho Z|A>|,0.500000000000,0.5,True
+ideal_twirl_coherence,|<A|rho Z|A>|,5.00e-17,0,True
+ideal_gadget_exact,"theta=pi/4, all 4 branches K=R/2 up to phase",1.17e-16,0,True
+defective_gadget_diagonal,"theta=pi/4, dimE=1, trials=200, 4 branches",max leak 0.00e+00,0,True
+defective_gadget_complete,"theta=pi/4, dimE=1, sum K^dag K = I",8.68e-16,0,True
+defective_gadget_diagonal,"theta=pi/4, dimE=2, trials=200, 4 branches",max leak 0.00e+00,0,True
+defective_gadget_complete,"theta=pi/4, dimE=2, sum K^dag K = I",8.67e-16,0,True
+defective_gadget_diagonal,"theta=pi/4, dimE=4, trials=200, 4 branches",max leak 0.00e+00,0,True
+defective_gadget_complete,"theta=pi/4, dimE=4, sum K^dag K = I",8.01e-16,0,True
+ideal_gadget_exact,"theta=pi/2, all 4 branches K=R/2 up to phase",1.11e-16,0,True
+defective_gadget_diagonal,"theta=pi/2, dimE=1, trials=200, 4 branches",max leak 0.00e+00,0,True
+defective_gadget_complete,"theta=pi/2, dimE=1, sum K^dag K = I",8.67e-16,0,True
+defective_gadget_diagonal,"theta=pi/2, dimE=2, trials=200, 4 branches",max leak 0.00e+00,0,True
+defective_gadget_complete,"theta=pi/2, dimE=2, sum K^dag K = I",8.67e-16,0,True
+defective_gadget_diagonal,"theta=pi/2, dimE=4, trials=200, 4 branches",max leak 0.00e+00,0,True
+defective_gadget_complete,"theta=pi/2, dimE=4, sum K^dag K = I",9.42e-16,0,True
+ideal_gadget_exact,"theta=pi/4 with teleported S, 10 branches",6.63e-17,0,True
+defective_gadget_diagonal,"theta=pi/4, teleported S, dimE_A=1, dimE_Y=2, trials=200, 10 branches",max leak 0.00e+00,0,True
+defective_gadget_complete,"theta=pi/4, teleported S, dimE_A=1, dimE_Y=2",1.24e-15,0,True
+defective_gadget_diagonal,"theta=pi/4, teleported S, dimE_A=2, dimE_Y=2, trials=200, 10 branches",max leak 0.00e+00,0,True
+defective_gadget_complete,"theta=pi/4, teleported S, dimE_A=2, dimE_Y=2",1.11e-15,0,True
+defective_gadget_diagonal,"theta=pi/4, teleported S, dimE_A=4, dimE_Y=2, trials=200, 10 branches",max leak 0.00e+00,0,True
+defective_gadget_complete,"theta=pi/4, teleported S, dimE_A=4, dimE_Y=2",1.11e-15,0,True
+defective_gadget_diagonal,"theta=pi/4, teleported S, dimE_A=2, dimE_Y=4, trials=200, 10 branches",max leak 0.00e+00,0,True
+defective_gadget_complete,"theta=pi/4, teleported S, dimE_A=2, dimE_Y=4",1.36e-15,0,True
+defective_gadget_diagonal,"theta=pi/4, ideal |A>, arbitrary Y slot dimE_Y=2, trials=200",max leak 0.00e+00,0,True
+encoded_plus_stabilized,"RM15: 4 X checks, 10 Z stabs, Xbar",max residual 0.00e+00,0,True
+code_parameters,"RM15: n, #Zstab generators","n=15, Zst=10, Xchk=4","n=15, k=1",True
+encoded_plus_stabilized,"Steane7: 3 X checks, 3 Z stabs, Xbar",max residual 0.00e+00,0,True
+code_parameters,"Steane7: n, #Zstab generators","n=7, Zst=3, Xchk=3","n=7, k=1",True
+ideal_output_orientation,RM15 T factory (teleported S),T^dag|+>_L (rel phase -0.2500 pi); branch independent=True,"encoded magic state (T or T^dag, S or S^dag)",True
+ideal_output_orientation,RM15 T factory (direct S),T^dag|+>_L (rel phase -0.2500 pi); branch independent=True,"encoded magic state (T or T^dag, S or S^dag)",True
+ideal_output_orientation,Steane S factory,S^dag|+>_L (rel phase -0.5000 pi); branch independent=True,"encoded magic state (T or T^dag, S or S^dag)",True
+factory_single_defect_sampled,"RM15, arbitrary |A> slot dimE=2, trials=30, syndrome branches examined=60",min fidelity 0.999999999999994,>= 1-1e-09,True
+factory_single_defect_sampled,"RM15, arbitrary |A> slot dimE=4, trials=30, syndrome branches examined=60",min fidelity 0.999999999999995,>= 1-1e-09,True
+factory_single_defect_sampled,"RM15, arbitrary |A> slot dimE=2 and same-coordinate Y slot dimE=2, trials=30, syndrome branches examined=60",min fidelity 0.999999999999995,>= 1-1e-09,True
+factory_single_defect_sampled,"RM15, arbitrary |A> slot dimE=4 and same-coordinate Y slot dimE=2, trials=30, syndrome branches examined=60",min fidelity 0.999999999999996,>= 1-1e-09,True
+factory_single_defect_sampled,"RM15 direct S, arbitrary |A> slot dimE=4, trials=30, syndrome branches examined=60",min fidelity 0.999999999999996,>= 1-1e-09,True
+factory_single_defect_sampled,"Steane, arbitrary |Y> slot dimE=2, trials=30, syndrome branches examined=60",min fidelity 0.999999999999998,>= 1-1e-09,True
+factory_single_defect_sampled,"Steane, arbitrary |Y> slot dimE=4, trials=30, syndrome branches examined=60",min fidelity 0.999999999999998,>= 1-1e-09,True
+factory_single_defect_enumerated,"RM15, arbitrary |A> dimE=4 + same-coordinate Y slot dimE=2, defect coord=5, 10 defect branches x all syndromes, examined=20",min fidelity 0.999999999999997; summed defect-branch prob 1.000000000000,>= 1-1e-09; 1,True
+factory_single_defect_enumerated,"RM15 direct S, arbitrary |A> dimE=4, defect coord=8, 4 defect branches x all syndromes, examined=8",min fidelity 0.999999999999996; summed defect-branch prob 1.000000000000,>= 1-1e-09; 1,True
+factory_single_defect_full_enumeration,"Steane, arbitrary |Y> dimE=4, all 4^7 branches, defect coord=3, leaves=16384",min fidelity 0.999999999999998; total prob 1.000000000000,>= 1-1e-09; 1,True
+negative_control_two_defects,"RM15 direct S, Z R_theta|+> at 2 coords, pairs=105",max fidelity with ideal 3.68e-32; min fidelity with Zbar*ideal 1.000000000000,0; 1,True
+negative_control_two_defects,"Steane, Z R_theta|+> at 2 coords, pairs=21",max fidelity with ideal 4.20e-33; min fidelity with Zbar*ideal 1.000000000000,0; 1,True
+malignant_always_output,"RM15, min-weight recovery, counts by weight 0..15","[0,0,105,35,1260,168,4725,435,6000,280,2835,105,420,0,15,1]","w2=105, w3=35, w0=w1=0",True
+malignant_postselected,"RM15, accept syndrome 0, counts by weight 0..15","[0,0,0,35,0,168,0,435,0,280,0,105,0,0,0,1]","w3=35, w<3 = 0",True
+malignant_always_output,"Steane7, min-weight recovery, counts by weight 0..7","[0,0,21,7,28,0,7,1]","w2=21, w0=w1=0",True
+malignant_postselected,"Steane7, accept syndrome 0, counts by weight 0..7","[0,0,0,7,0,0,0,1]","w3=7, w<3 = 0",True

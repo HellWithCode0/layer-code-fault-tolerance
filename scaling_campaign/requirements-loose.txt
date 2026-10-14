@@ -1,0 +1,8 @@
+# Use only if requirements.txt cannot be installed.
+numpy>=2.0
+scipy>=1.13
+stim>=1.14
+sinter>=1.14
+ldpc>=2.2,<3
+ortools>=9.10
+matplotlib>=3.8

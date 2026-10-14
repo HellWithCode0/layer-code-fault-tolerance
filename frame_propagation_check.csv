@@ -1,0 +1,4 @@
+test,C,s_in,lam_in,lam_out,law_with_C,law_without_C,n,stabilizer_generators,C_nonzero_entries,samples,law_without_C_on_nonzero_syndrome,relative_effect_independent_of_inherited_class,rounds,checks,patterns,contained_detector_trivial,with_nonzero_syndrome_at_output_cut
+reviewer example X1X2,[[1]],[1],[1],[0],True,False,,,,,,,,,,,
+"explicit layer code, idle with slab change",,,,,2000/2000,,224,222,114,2000,993/1979,2000/2000,,,,,
+telescoping idle chain,,,,,,,,,,,,,4,2,65536,64,0

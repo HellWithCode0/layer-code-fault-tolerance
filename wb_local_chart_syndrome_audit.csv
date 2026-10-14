@@ -1,0 +1,23 @@
+cell,catalog_cell,kernel_word,pauli_type,pauli_edges,pauli_weight,seed_edges,novel_syndrome,novel_syndrome_weight,confined_to_cell_novel_checks,fully_novel_neutral,status,note
+first_z,first_z,00,X,(identity),0,,,0,yes,yes,PASS,identity realizes the vacuum kernel word
+first_z,first_z,11,X,xm yp,2,xm yp,,0,yes,yes,PASS,word-specific leg seed + completing factor; novel-check syndrome empty
+last_z,last_z,00,X,(identity),0,,,0,yes,yes,PASS,identity realizes the vacuum kernel word
+last_z,last_z,11,X,xm ym,2,xm ym,,0,yes,yes,PASS,word-specific leg seed + completing factor; novel-check syndrome empty
+middle_z,middle_z,000,X,(identity),0,,,0,yes,yes,PASS,identity realizes the vacuum kernel word
+middle_z,middle_z,011,X,xm y_zplus yp,3,xm yp,,0,yes,yes,PASS,word-specific leg seed + completing factor; novel-check syndrome empty
+middle_z,middle_z,101,X,xm ym,2,xm ym,,0,yes,yes,PASS,word-specific leg seed + completing factor; novel-check syndrome empty
+middle_z,middle_z,110,X,y_zplus ym yp,3,ym yp,,0,yes,yes,PASS,word-specific leg seed + completing factor; novel-check syndrome empty
+first_x,first_x,00,Z,(identity),0,,,0,yes,yes,PASS,identity realizes the vacuum kernel word
+first_x,first_x,11,Z,xp zp,2,xp zp,,0,yes,yes,PASS,word-specific leg seed + completing factor; novel-check syndrome empty
+last_x,last_x,00,Z,(identity),0,,,0,yes,yes,PASS,identity realizes the vacuum kernel word
+last_x,last_x,11,Z,xp zm,2,xp zm,,0,yes,yes,PASS,word-specific leg seed + completing factor; novel-check syndrome empty
+middle_x,middle_x,000,Z,(identity),0,,,0,yes,yes,PASS,identity realizes the vacuum kernel word
+middle_x,middle_x,011,Z,xp zp,2,xp zp,,0,yes,yes,PASS,word-specific leg seed + completing factor; novel-check syndrome empty
+middle_x,middle_x,101,Z,xp zm,2,xp zm,,0,yes,yes,PASS,word-specific leg seed + completing factor; novel-check syndrome empty
+middle_x,middle_x,110,Z,zm zp,2,zm zp,,0,yes,yes,PASS,word-specific leg seed + completing factor; novel-check syndrome empty
+bullet,(abstract SM relation; no VI B edge row),000,Z,"(abstract legs dL,dR,b)",0,,0 (by ker membership),0,SM-only,SM-only,PASS,algebraic ker; SM cross-check only (not a theorem primitive) [geometric: see wb_bullet_plus_geometric_audit.py]
+bullet,(abstract SM relation; no VI B edge row),111,Z,"(abstract legs dL,dR,b)",3,,0 (by ker membership),0,SM-only,SM-only,PASS,algebraic ker; SM cross-check only (not a theorem primitive) [geometric: see wb_bullet_plus_geometric_audit.py]
+plus,(abstract SM relation; no VI B edge row),000,Z,"(abstract legs pL,pR,b)",0,,0 (by ker membership),0,SM-only,SM-only,PASS,algebraic ker; SM cross-check only (not a theorem primitive) [geometric: see wb_bullet_plus_geometric_audit.py]
+plus,(abstract SM relation; no VI B edge row),011,Z,"(abstract legs pL,pR,b)",2,,0 (by ker membership),0,SM-only,SM-only,PASS,algebraic ker; SM cross-check only (not a theorem primitive) [geometric: see wb_bullet_plus_geometric_audit.py]
+plus,(abstract SM relation; no VI B edge row),101,Z,"(abstract legs pL,pR,b)",2,,0 (by ker membership),0,SM-only,SM-only,PASS,algebraic ker; SM cross-check only (not a theorem primitive) [geometric: see wb_bullet_plus_geometric_audit.py]
+plus,(abstract SM relation; no VI B edge row),110,Z,"(abstract legs pL,pR,b)",2,,0 (by ker membership),0,SM-only,SM-only,PASS,algebraic ker; SM cross-check only (not a theorem primitive) [geometric: see wb_bullet_plus_geometric_audit.py]

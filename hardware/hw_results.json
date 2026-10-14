@@ -1,0 +1,98 @@
+{
+ "job_id": "db77vtor1c5c738juki0",
+ "backend": "ibm_fez",
+ "physical_qubits": [
+  88,
+  108,
+  111,
+  86,
+  117,
+  129,
+  97,
+  106,
+  83,
+  104,
+  84,
+  103,
+  109,
+  87,
+  107,
+  110,
+  85,
+  105,
+  118
+ ],
+ "usage_seconds": 54,
+ "w0": {
+  "w": 0,
+  "shots": 50000,
+  "accepted": 47715,
+  "accept_rate": 0.9543,
+  "postselected_failures": 1,
+  "postselected_error": 2.0957770093262077e-05,
+  "postselected_error_wilson95": [
+   3.6994754555352057e-06,
+   0.0001187175783566009
+  ],
+  "decoded_failures": 28,
+  "decoded_error": 0.00056,
+  "decoded_error_wilson95": [
+   0.00038748906264430454,
+   0.0008092509894240149
+  ]
+ },
+ "w1": {
+  "w": 1,
+  "shots": 50000,
+  "accepted": 27931,
+  "accept_rate": 0.55862,
+  "postselected_failures": 1611,
+  "postselected_error": 0.057677848984998746,
+  "postselected_error_wilson95": [
+   0.055004071772747416,
+   0.0604732825001331
+  ],
+  "decoded_failures": 9100,
+  "decoded_error": 0.182,
+  "decoded_error_wilson95": [
+   0.17864239596814868,
+   0.18540646542973244
+  ]
+ },
+ "w2": {
+  "w": 2,
+  "shots": 50000,
+  "accepted": 24220,
+  "accept_rate": 0.4844,
+  "postselected_failures": 144,
+  "postselected_error": 0.005945499587118084,
+  "postselected_error_wilson95": [
+   0.005052554832952798,
+   0.006995146139464392
+  ],
+  "decoded_failures": 5254,
+  "decoded_error": 0.10508,
+  "decoded_error_wilson95": [
+   0.10242230966835351,
+   0.10779837065633581
+  ]
+ },
+ "w3": {
+  "w": 3,
+  "shots": 50000,
+  "accepted": 21181,
+  "accept_rate": 0.42362,
+  "postselected_failures": 29,
+  "postselected_error": 0.0013691515981304,
+  "postselected_error_wilson95": [
+   0.0009534948233305274,
+   0.0019656490233716352
+  ],
+  "decoded_failures": 3948,
+  "decoded_error": 0.07896,
+  "decoded_error_wilson95": [
+   0.0766283991645764,
+   0.08135629455543572
+  ]
+ }
+}

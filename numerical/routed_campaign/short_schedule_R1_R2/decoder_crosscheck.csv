@@ -1,0 +1,17 @@
+input,interface,p,shots,observable,bplsd_fails,mwpm_fails,both_fail,note,seconds
+iceberg_422,bridge,0.002,30,,,,,"Failed to decompose errors into graphlike components with at most two symptoms.
+The error component that failed to decompose is 'D6, D7, D225, D228, D284'.
+
+In Python, you can ignore this error by pas",54.1
+iceberg_422,thick,0.002,30,,,,,"Failed to decompose errors into graphlike components with at most two symptoms.
+The error component that failed to decompose is 'D6, D7, D225, D228, D284'.
+
+In Python, you can ignore this error by pas",55.9
+band_m2,bridge,0.002,16,,,,,"Failed to decompose errors into graphlike components with at most two symptoms.
+The error component that failed to decompose is 'D1, D2, D260'.
+
+In Python, you can ignore this error by passing `ignore",393.1
+band_m2,thick,0.002,16,,,,,"Failed to decompose errors into graphlike components with at most two symptoms.
+The error component that failed to decompose is 'D1, D2, D260'.
+
+In Python, you can ignore this error by passing `ignore",433.4

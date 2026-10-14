@@ -1,0 +1,7 @@
+s,n,d_Z,anticommutes_with,weight,lower_bound,status
+2,224,4,X1,10,10,OPTIMAL
+2,224,4,X2,4,4,OPTIMAL
+2,224,4,X1X2,4,4,OPTIMAL
+3,504,6,X1,15,15,OPTIMAL
+3,504,6,X2,6,6,OPTIMAL
+3,504,6,X1X2,6,6,OPTIMAL

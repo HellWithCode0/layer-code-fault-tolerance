@@ -1,0 +1,33 @@
+cell,word,in_kernel,archived_solver_status,witness
+first_z,00,True,PASS,(identity)
+first_z,01,False,PASS,xm
+first_z,10,False,PASS,yp
+first_z,11,True,PASS,xm yp
+last_z,00,True,PASS,(identity)
+last_z,01,False,PASS,xm
+last_z,10,False,PASS,ym
+last_z,11,True,PASS,xm ym
+middle_z,000,True,PASS,(identity)
+middle_z,001,False,PASS,xm
+middle_z,010,False,PASS,zm zp yp xp
+middle_z,011,True,PASS,xm zm zp yp xp
+middle_z,100,False,PASS,ym
+middle_z,101,True,PASS,xm ym
+middle_z,110,True,PASS,ym zm zp yp xp
+middle_z,111,False,PASS,xm ym zm zp yp xp
+first_x,00,True,PASS,(identity)
+first_x,01,False,FAIL,"(-2, 0, 0)->(-1, 0, 0) xm xp"
+first_x,10,False,FAIL,"(-2, 0, 0)->(-1, 0, 0) xm zp"
+first_x,11,True,PASS,zp xp
+last_x,00,True,PASS,(identity)
+last_x,01,False,FAIL,"(-2, 0, 0)->(-1, 0, 0) xm xp"
+last_x,10,False,FAIL,"(-2, 0, 0)->(-1, 0, 0) xm zm"
+last_x,11,True,PASS,zm xp
+middle_x,000,True,PASS,(identity)
+middle_x,001,False,FAIL,"(-2, 0, 0)->(-1, 0, 0) xm xp"
+middle_x,010,False,FAIL,"(-2, 0, 0)->(-1, 0, 0) xm zp"
+middle_x,011,True,PASS,zp xp
+middle_x,100,False,FAIL,"(-2, 0, 0)->(-1, 0, 0) xm zm"
+middle_x,101,True,PASS,zm xp
+middle_x,110,True,PASS,zm zp
+middle_x,111,False,FAIL,"(-2, 0, 0)->(-1, 0, 0) xm zm zp xp"

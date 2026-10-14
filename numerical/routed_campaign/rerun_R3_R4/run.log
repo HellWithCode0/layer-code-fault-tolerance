@@ -1,0 +1,176 @@
+23:08:07 START params_iceberg_422
+23:08:08 params iceberg_422 bridge m=1
+23:08:10 params iceberg_422 thick m=1
+23:08:11 params done iceberg_422 dX_lb=5 slab=12 bridge_cut=1 grid_cut=5 grid_m=1
+23:08:11 END params_iceberg_422 rc=0
+23:08:11 START params_band_m2
+23:08:12 params band_m2 bridge m=1
+23:08:23 params band_m2 thick m=1
+23:08:35 params done band_m2 dX_lb=7 slab=16 bridge_cut=1 grid_cut=17 grid_m=1
+23:08:35 END params_band_m2 rc=0
+23:08:35 START params_steane_713
+23:08:36 params steane_713 bridge m=1
+23:08:55 params steane_713 thick m=2
+23:09:27 params done steane_713 dX_lb=18 slab=33 bridge_cut=1 grid_cut=18 grid_m=2
+23:09:27 END params_steane_713 rc=0
+23:09:27 START certify_iceberg_422_bridge_Z
+23:09:28 certify iceberg_422 bridge Z R=3 m=1
+23:09:33 cert built qubits=3040 inst=10682 cut=1 avail_kib=6582928 rss_kib=96464
+23:09:33 cert iceberg_422 bridge Z PASS 5.2s qubits=3040
+23:09:33 END certify_iceberg_422_bridge_Z rc=0
+23:09:33 START certify_iceberg_422_bridge_X
+23:09:34 certify iceberg_422 bridge X R=3 m=1
+23:09:39 cert built qubits=3040 inst=10680 cut=1 avail_kib=6585840 rss_kib=96652
+23:09:39 cert iceberg_422 bridge X PASS 5.4s qubits=3040
+23:09:39 END certify_iceberg_422_bridge_X rc=0
+23:09:39 START certify_iceberg_422_thick_Z
+23:09:40 certify iceberg_422 thick Z R=3 m=1
+23:09:45 cert built qubits=3144 inst=10845 cut=5 avail_kib=6574428 rss_kib=96736
+23:09:45 cert iceberg_422 thick Z PASS 5.7s qubits=3144
+23:09:45 END certify_iceberg_422_thick_Z rc=0
+23:09:45 START certify_iceberg_422_thick_X
+23:09:46 certify iceberg_422 thick X R=3 m=1
+23:09:52 cert built qubits=3144 inst=10843 cut=5 avail_kib=6585704 rss_kib=96892
+23:09:52 cert iceberg_422 thick X PASS 5.7s qubits=3144
+23:09:52 END certify_iceberg_422_thick_X rc=0
+23:09:52 START certify_band_m2_bridge_Z
+23:09:52 certify band_m2 bridge Z R=4 m=1
+23:11:02 cert built qubits=9780 inst=41239 cut=1 avail_kib=6593272 rss_kib=119716
+23:11:02 cert band_m2 bridge Z PASS 69.7s qubits=9780
+23:11:02 END certify_band_m2_bridge_Z rc=0
+23:11:02 START certify_band_m2_bridge_X
+23:11:03 certify band_m2 bridge X R=4 m=1
+23:12:03 cert built qubits=9780 inst=41237 cut=1 avail_kib=6578568 rss_kib=119132
+23:12:03 cert band_m2 bridge X PASS 60.5s qubits=9780
+23:12:03 END certify_band_m2_bridge_X rc=0
+23:12:03 START certify_band_m2_thick_Z
+23:12:04 certify band_m2 thick Z R=4 m=1
+23:13:10 cert built qubits=9842 inst=43347 cut=17 avail_kib=6579864 rss_kib=121528
+23:13:10 cert band_m2 thick Z PASS 66.6s qubits=9842
+23:13:11 END certify_band_m2_thick_Z rc=0
+23:13:11 START certify_band_m2_thick_X
+23:13:11 certify band_m2 thick X R=4 m=1
+23:14:20 cert built qubits=9842 inst=43345 cut=17 avail_kib=6571720 rss_kib=121556
+23:14:20 cert band_m2 thick X PASS 69.2s qubits=9842
+23:14:20 END certify_band_m2_thick_X rc=0
+23:14:20 START certify_iceberg_422_idle_Z
+23:14:21 certify iceberg_422 idle Z R=3 m=1
+23:14:25 cert built qubits=2352 inst=8465 cut=5 avail_kib=6596808 rss_kib=94276
+23:14:25 cert iceberg_422 idle Z PASS 3.8s qubits=2352
+23:14:25 END certify_iceberg_422_idle_Z rc=0
+23:14:25 START certify_iceberg_422_idle_X
+23:14:25 certify iceberg_422 idle X R=3 m=1
+23:14:29 cert built qubits=2352 inst=8462 cut=5 avail_kib=6586152 rss_kib=94084
+23:14:29 cert iceberg_422 idle X PASS 3.6s qubits=2352
+23:14:29 END certify_iceberg_422_idle_X rc=0
+23:14:29 START fault_iceberg_422_bridge_Z
+23:14:29 fault iceberg_422 bridge Z R=3 m=1 cap=2400s target=None
+23:15:25 fault built iceberg_422 bridge Z qubits=3040 inst=33503 cut=1 avail_kib=6564296 rss_kib=126860
+23:15:25 dem build mem_avail_kib=6564296 rss_kib=126860 qubits=3040 inst=33503
+23:15:38 dem iceberg_422 bridge Z detectors=4662 observables=3 error_instructions=89509
+23:15:39 mechanisms iceberg_422 bridge Z 13411 keep_det=2496
+23:15:40 solve iceberg_422/bridge/Z/min OPTIMAL d=1 lb=1 mech=13411 0.3s cap=2400
+23:15:40 fault row iceberg_422 bridge Z1aZ1b OPTIMAL d=1 lb=1 proved=1 cut=1
+23:15:40 END fault_iceberg_422_bridge_Z rc=0
+23:15:40 START fault_iceberg_422_bridge_X
+23:15:41 fault iceberg_422 bridge X R=3 m=1 cap=2400s target=None
+23:16:44 fault built iceberg_422 bridge X qubits=3040 inst=33501 cut=1 avail_kib=6566684 rss_kib=126480
+23:16:44 dem build mem_avail_kib=6566684 rss_kib=126480 qubits=3040 inst=33501
+23:16:57 dem iceberg_422 bridge X detectors=4658 observables=5 error_instructions=93385
+23:16:58 mechanisms iceberg_422 bridge X 12873 keep_det=2386
+23:17:01 solve iceberg_422/bridge/X/min OPTIMAL d=3 lb=3 mech=12873 2.4s cap=2400
+23:17:01 fault row iceberg_422 bridge m OPTIMAL d=3 lb=3 proved=3 cut=1
+23:17:01 END fault_iceberg_422_bridge_X rc=0
+23:17:01 START fault_iceberg_422_thick_Z
+23:17:01 fault iceberg_422 thick Z R=3 m=1 cap=3600s target=5
+23:17:58 fault built iceberg_422 thick Z qubits=3144 inst=33939 cut=5 avail_kib=6593504 rss_kib=126620
+23:17:58 dem build mem_avail_kib=6593504 rss_kib=126620 qubits=3144 inst=33939
+23:18:12 dem iceberg_422 thick Z detectors=4750 observables=3 error_instructions=91097
+23:18:13 mechanisms iceberg_422 thick Z 13733 keep_det=2560
+23:24:50 solve iceberg_422/thick/Z/min OPTIMAL d=5 lb=5 mech=13733 397.5s cap=1200
+23:24:50 fault row iceberg_422 thick Z1aZ1b OPTIMAL d=5 lb=5 proved=5 cut=5
+23:24:51 END fault_iceberg_422_thick_Z rc=0
+23:24:51 START fault_iceberg_422_thick_X
+23:24:51 fault iceberg_422 thick X R=3 m=1 cap=2400s target=None
+23:25:49 fault built iceberg_422 thick X qubits=3144 inst=33937 cut=5 avail_kib=6571384 rss_kib=127816
+23:25:49 dem build mem_avail_kib=6571384 rss_kib=127816 qubits=3144 inst=33937
+23:26:02 dem iceberg_422 thick X detectors=4746 observables=5 error_instructions=95025
+23:26:03 mechanisms iceberg_422 thick X 13025 keep_det=2410
+23:26:04 solve iceberg_422/thick/X/min OPTIMAL d=3 lb=3 mech=13025 0.8s cap=2400
+23:26:04 fault row iceberg_422 thick m OPTIMAL d=3 lb=3 proved=3 cut=5
+23:26:04 END fault_iceberg_422_thick_X rc=0
+23:26:04 START fault_band_m2_bridge_Z
+23:26:05 fault band_m2 bridge Z R=4 m=1 cap=3600s target=None
+23:34:49 fault built band_m2 bridge Z qubits=9780 inst=107306 cut=1 avail_kib=6372440 rss_kib=366632
+23:34:49 dem build mem_avail_kib=6372440 rss_kib=366632 qubits=9780 inst=107306
+23:37:13 dem band_m2 bridge Z detectors=21207 observables=3 error_instructions=434757
+23:37:16 mechanisms band_m2 bridge Z 63161 keep_det=11280
+23:37:18 solve band_m2/bridge/Z/min OPTIMAL d=1 lb=1 mech=63161 0.9s cap=3600
+23:37:18 fault row band_m2 bridge Z1aZ1b OPTIMAL d=1 lb=1 proved=1 cut=1
+23:37:18 END fault_band_m2_bridge_Z rc=0
+23:37:18 START fault_band_m2_bridge_X
+23:37:18 fault band_m2 bridge X R=4 m=1 cap=3600s target=None
+23:46:09 fault built band_m2 bridge X qubits=9780 inst=107304 cut=1 avail_kib=6328976 rss_kib=366072
+23:46:09 dem build mem_avail_kib=6328976 rss_kib=366072 qubits=9780 inst=107304
+23:48:33 dem band_m2 bridge X detectors=21203 observables=5 error_instructions=447868
+23:48:37 mechanisms band_m2 bridge X 60110 keep_det=10643
+23:54:06 solve band_m2/bridge/X/min OPTIMAL d=4 lb=4 mech=60110 328.2s cap=3600
+23:54:06 fault row band_m2 bridge m OPTIMAL d=4 lb=4 proved=4 cut=1
+23:54:06 END fault_band_m2_bridge_X rc=0
+23:54:06 START fault_band_m2_thick_Z
+23:54:07 fault band_m2 thick Z R=4 m=1 cap=14400s target=7
+00:03:45 fault built band_m2 thick Z qubits=9842 inst=114022 cut=17 avail_kib=6306052 rss_kib=391456
+00:03:45 dem build mem_avail_kib=6306052 rss_kib=391456 qubits=9842 inst=114022
+00:06:24 dem band_m2 thick Z detectors=21671 observables=3 error_instructions=444006
+00:06:27 mechanisms band_m2 thick Z 64864 keep_det=11600
+01:18:30 solve band_m2/thick/Z/min FEASIBLE d=17 lb=5 mech=64864 4321.5s cap=4320
+01:18:30 phase2 band_m2 thick prove weight<=6 impossible, 9337s left
+07:00:46 solve band_m2/thick/Z/lt7 UNKNOWN d=None lb=3 mech=64864 20534.8s cap=9337.326332330704
+07:00:46 fault row band_m2 thick Z1aZ1b FEASIBLE d=17 lb=5 proved= cut=17
+07:00:47 END fault_band_m2_thick_Z rc=0
+07:00:47 START fault_band_m2_thick_X
+07:00:47 fault band_m2 thick X R=4 m=1 cap=5400s target=None
+07:10:16 fault built band_m2 thick X qubits=9842 inst=114020 cut=17 avail_kib=3873196 rss_kib=388516
+07:10:16 dem build mem_avail_kib=3873196 rss_kib=388516 qubits=9842 inst=114020
+07:13:06 dem band_m2 thick X detectors=21667 observables=5 error_instructions=457192
+07:13:10 mechanisms band_m2 thick X 61054 keep_det=10787
+07:21:47 solve band_m2/thick/X/min OPTIMAL d=4 lb=4 mech=61054 516.6s cap=5400
+07:21:47 fault row band_m2 thick m OPTIMAL d=4 lb=4 proved=4 cut=17
+07:21:48 END fault_band_m2_thick_X rc=0
+07:21:48 START fault_iceberg_422_idle_Z
+07:21:49 fault iceberg_422 idle Z R=3 m=1 cap=2400s target=None
+07:22:28 fault built iceberg_422 idle Z qubits=2352 inst=23136 cut=5 avail_kib=4178308 rss_kib=114000
+07:22:28 dem build mem_avail_kib=4178308 rss_kib=114000 qubits=2352 inst=23136
+07:22:36 dem iceberg_422 idle Z detectors=4220 observables=3 error_instructions=81332
+07:22:37 mechanisms iceberg_422 idle Z 11986 keep_det=2240
+07:26:52 solve iceberg_422/idle/Z/min OPTIMAL d=5 lb=5 mech=11986 254.6s cap=2400
+07:26:52 fault row iceberg_422 idle Z1aZ1b OPTIMAL d=5 lb=5 proved=5 cut=5
+07:26:52 END fault_iceberg_422_idle_Z rc=0
+07:26:52 START fault_iceberg_422_idle_X
+07:26:53 fault iceberg_422 idle X R=3 m=1 cap=2400s target=None
+07:27:31 fault built iceberg_422 idle X qubits=2352 inst=23133 cut=5 avail_kib=4147572 rss_kib=114056
+07:27:31 dem build mem_avail_kib=4147572 rss_kib=114056 qubits=2352 inst=23133
+07:27:39 dem iceberg_422 idle X detectors=4216 observables=4 error_instructions=85260
+07:27:40 mechanisms iceberg_422 idle X 11842 keep_det=2200
+08:07:41 solve iceberg_422/idle/X/min FEASIBLE d=10 lb=6 mech=11842 2400.5s cap=2400
+08:07:41 fault row iceberg_422 idle X1a FEASIBLE d=10 lb=6 proved= cut=5
+08:07:43 END fault_iceberg_422_idle_X rc=0
+08:07:43 START exhaustive
+11:37:44 exhaustive iceberg idle Z
+11:38:27 dem build mem_avail_kib=4145320 rss_kib=114480 qubits=2352 inst=23136
+11:45:14 exhaustive weight1 idle Z n=81332 below=81332 uncorrected=56 undetectable=0 decoded=70586 399.0s
+11:45:16 exhaustive row idle Z FAIL 451.7s
+11:45:16 exhaustive iceberg idle X
+11:46:05 dem build mem_avail_kib=4120080 rss_kib=152400 qubits=2352 inst=23133
+11:52:14 exhaustive weight1 idle X n=85260 below=85260 uncorrected=102 undetectable=0 decoded=74170 358.1s
+11:52:15 exhaustive row idle X FAIL 419.3s
+11:52:15 exhaustive iceberg bridge Z
+11:53:33 dem build mem_avail_kib=4138348 rss_kib=177872 qubits=3040 inst=33503
+11:53:48 exhaustive weight1 bridge Z n=89509 below=0 uncorrected=0 undetectable=0 decoded=0 0.0s
+11:53:48 exhaustive row bridge Z PASS 92.4s
+11:53:48 exhaustive iceberg bridge X
+11:54:54 dem build mem_avail_kib=4058384 rss_kib=196872 qubits=3040 inst=33501
+12:05:34 exhaustive weight1 bridge X n=93385 below=93385 uncorrected=2943 undetectable=0 decoded=80877 625.4s
+12:05:36 exhaustive row bridge X FAIL 708.8s
+12:05:36 exhaustive iceberg thick Z
+12:06:42 dem build mem_avail_kib=4050512 rss_kib=203660 qubits=3144 inst=33939

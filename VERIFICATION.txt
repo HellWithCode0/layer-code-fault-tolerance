@@ -1,0 +1,84 @@
+NOTE (second review, 2026-09-26): the first two blocks below are historical and
+are superseded where they conflict with the last block (page counts, Monte Carlo
+status, byte-identity of regenerated outputs).
+
+Final verification summary (2026-09-26)
+=======================================
+Proof-critical exact WB cells:  16/16 PASS (10/10 nonzero)
+Core algebra/T0-T8 checks:      PASS (reproducibility_checks.py)
+Slab interface audit:           PASS
+Factory-map audit:              PASS
+Gluing example:                 PASS (128 assignments)
+Thin vs thick interface check:  PASS (16 instances; measurement_interface_check.csv)
+Regenerated deterministic CSVs: byte-identical to archived files
+Main manuscript build:          PASS (9 pages; no undefined refs/citations)
+Supplement build:               PASS (51 pages; no undefined refs/citations)
+Figure regeneration:            PASS (21 files, make_publication_figures.py;
+                                revision_data_checks.json byte-identical)
+
+Commands:
+  bash build.sh
+  bash run_bridge_verification.sh
+  bash run_verification.sh   # complete workflow in the pinned environment
+
+The revision container lacks stim/pymatching/ldpc, so the Monte Carlo workflow
+was not rerun; the archived datasets are unchanged.
+
+Revision in response to the external review (2026-09-26)
+=========================================================
+The "Proof-critical exact WB cells: 16/16 PASS" line above is superseded.
+Given every boundary word, the archived cell solver also accepts words outside
+ker H_end / ker H_mid. Its witnesses also violate the boundary-adjacent checks
+it omitted (supplement Sec. SII, part A). The slab theorem and the distance now
+rest on the explicit realization proved in supplement Sec. SI.
+
+Complete-code slab certificate:  PASS, two-sheet realization; the single-chart
+                                 transcription fails as the negative control
+                                 (slab_gluing_certificate.py, parts A-E)
+Frame propagation check:         PASS (frame_propagation_check.py)
+Distance proof (Theorem SI.6):   PASS, 1010/1010 slabs and 3858/3858 plane cases
+                                 (distance_lower_bound_check.py)
+Exact distances (Table S2):      explicit_layer_code_distance.py
+Two-block measurement:           two_block_measurement.py, tighten_two_block.py
+Resource estimate:               resource_estimate.py
+Main manuscript build:           PASS (9 pages; no undefined refs/citations)
+Supplement build:                PASS (54 pages; no undefined refs/citations)
+Linked and combined PDFs:        PASS (finalize_pdf_links.py; pages pixel-identical)
+AI-assistance acknowledgement:   identical to the original submission
+
+Commands: bash build.sh; see REVISION_RUNS.md for each result file
+(extra packages in requirements-revision.txt). REVISION_RESPONSE.md is the
+point-by-point response to the review.
+
+
+Revision in response to the second review (2026-09-26)
+=======================================================
+Environment: Python 3.13.14 with the packages in requirements-revision.txt;
+MiKTeX with REVTeX 4.2.
+
+Deterministic checks rerun (outputs byte-identical to the archived files):
+  reproducibility_checks.py, slab_interface_audit.py, factory_map_audit.py,
+  measurement_interface_check.py, frame_propagation_check.py     PASS
+Distance theorem (strengthened):  PASS, 1010/1010 slabs, 3858/3858 plane
+                                  cases incl. shortest-side vectors; bound
+                                  equals every exact distance; closes s=5
+                                  (distance_lower_bound_check.py)
+Worked gluing example:            PASS, record-aware form, 128 assignments;
+                                  old form's defect reproduced
+                                  (glue_example_check.py)
+Direct vs composed boundary map:  PASS, 0 of 20,896 test inputs disagree;
+                                  (s, lambda)-only gluing disagrees on
+                                  exactly 1776 last-round record flips
+                                  (boundary_composition_check.py)
+Defective-resource lemmas:        PASS, 52/52 (resource_defect_check.py)
+Resource estimate:                PASS, 10 internal checks; audit reproduces
+                                  the three accounting errors
+                                  (resource_estimate.py)
+Two-block sampling:               rerun, 1000 shots per basis per interface,
+                                  recorded seeds (two_block_mc.csv via
+                                  merge_two_block_mc.py)
+Main manuscript build:            PASS (10 pages; no undefined refs/citations,
+                                  no overfull boxes)
+Supplement build:                 PASS (58 pages; no undefined refs/citations,
+                                  no overfull boxes)
+RESPONSE_TO_SECOND_REVIEW.md is the point-by-point response.

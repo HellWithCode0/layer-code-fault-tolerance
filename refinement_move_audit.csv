@@ -1,0 +1,5 @@
+move,sector,input_generators,conjugated_generators,target_refined_generators,rowspace_equal
+edge_split,X,Xa; XqXu; XqXv,XaXq; XqXu; XqXv,XqXa; XqXu; XaXv,yes
+edge_split,Z,ZqZp1; ZqZp2,ZaZqZp1; ZaZqZp2,ZaZqZp1; ZaZqZp2,yes
+face_split,Z,Za; ZP1ZP2,ZaZP1; ZP1ZP2,ZaZP1; ZaZP2,yes
+face_split,X,"stars on u,w,v",endpoints gain Xa; internal gains Xa^2,"new-edge incidence on u,v only",yes

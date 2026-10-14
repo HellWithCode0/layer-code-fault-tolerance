@@ -1,0 +1,31 @@
+{
+ "model": {
+  "p2": 0.003,
+  "p1": 0.0003,
+  "prep": 0.005,
+  "meas": 0.015
+ },
+ "shots": 200000,
+ "result": {
+  "0": {
+   "accept_rate": 0.888055,
+   "postselected_error": 2.2521127632860576e-05,
+   "decoded_error": 0.00243
+  },
+  "1": {
+   "accept_rate": 0.74361,
+   "postselected_error": 0.03322978443001035,
+   "decoded_error": 0.09134
+  },
+  "2": {
+   "accept_rate": 0.69376,
+   "postselected_error": 0.0015783556273062732,
+   "decoded_error": 0.05068
+  },
+  "3": {
+   "accept_rate": 0.66523,
+   "postselected_error": 0.0001202591584865385,
+   "decoded_error": 0.02201
+  }
+ }
+}

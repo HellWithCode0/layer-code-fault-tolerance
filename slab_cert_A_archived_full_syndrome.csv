@@ -1,0 +1,17 @@
+cell,word,witness_weight,syndrome_retained,syndrome_boundary_adjacent,violated_boundary_checks
+first_z,00,0,0,0,
+first_z,11,2,0,6,"ord_xy(-1,-1,0) ord_xy(0,0,0) ord_xz(-1,0,-1) ord_xz(-1,0,0) ord_yz(0,0,-1) ord_yz(0,0,0)"
+last_z,00,0,0,0,
+last_z,11,2,0,6,"ord_xy(-1,0,0) ord_xy(0,-1,0) ord_xz(-1,0,-1) ord_xz(-1,0,0) ord_yz(0,-1,-1) ord_yz(0,-1,0)"
+middle_z,000,0,0,0,
+middle_z,110,5,0,4,"ord_xy(-1,-1,0) ord_xy(-1,0,0) ord_xz(-1,0,-1) ord_xz(-1,0,0)"
+middle_z,101,2,0,6,"ord_xy(-1,0,0) ord_xy(0,-1,0) ord_xz(-1,0,-1) ord_xz(-1,0,0) ord_yz(0,-1,-1) ord_yz(0,-1,0)"
+middle_z,011,5,0,4,"ord_xy(-1,-1,0) ord_xy(0,-1,0) ord_yz(0,-1,-1) ord_yz(0,-1,0)"
+first_x,00,0,0,0,
+first_x,11,2,0,2,"ord_star(0, 0, 1) ord_star(1, 0, 0)"
+last_x,00,0,0,0,
+last_x,11,2,0,2,"ord_star(0, 0, -1) ord_star(1, 0, 0)"
+middle_x,000,0,0,0,
+middle_x,110,2,0,2,"ord_star(0, 0, -1) ord_star(0, 0, 1)"
+middle_x,101,2,0,2,"ord_star(0, 0, -1) ord_star(1, 0, 0)"
+middle_x,011,2,0,2,"ord_star(0, 0, 1) ord_star(1, 0, 0)"

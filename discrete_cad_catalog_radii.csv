@@ -1,0 +1,11 @@
+cell,check,pauli,weight,r_inf,n_points
+first_z,SX,X,5,1,6
+middle_z,SX,X,6,1,7
+middle_z,SZ,Z,4,1,4
+last_z,SX,X,5,1,6
+first_x,SX,X,5,1,6
+first_x,SZ,Z,4,1,4
+middle_x,SX,X,6,1,7
+middle_x,SZ,Z,4,1,4
+last_x,SX,X,5,1,6
+last_x,SZ,Z,4,1,4

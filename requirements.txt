@@ -1,0 +1,9 @@
+# Tested numerical/reproduction environment for this release.
+numpy==2.5.3
+matplotlib==3.11.2
+networkx==3.6.1
+stim==1.16.0
+pymatching==2.4.0
+ldpc==2.4.1
+# Used by the figure-regeneration helpers.
+pandas==2.2.3

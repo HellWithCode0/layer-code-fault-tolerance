@@ -1,0 +1,9 @@
+cell,full_variables,source_condensed_e_generators,source_parity_rows,reduction_embedding,variables,H,kernel,source
+bullet,dL dR b,e_dL e_dR | e_dL e_b,110;101,,dL dR b,101;011,000 111,Sec III E Fig 18 trijunction; Sec VI finite lattice realization
+plus,pL pR b,e_pL e_pR e_b (electromagnetic dual of bullet),111,,pL pR b,111,000 011 101 110,Sec III E Fig 22 plus junction; Sec VI B lattice realization
+first_z,p xL xR,e_yz e_xz(1) | e_xz(1) e_xz(2),110;011,10;01;01,p x,11,00 11,Methods z-junction relation; Sec VI B item 3; Fig 23
+middle_z,pL pR xL xR,e_yz(1) e_yz(2) e_xz(1) | e_xz(1) e_xz(2),1110;0011,100;010;001;001,pL pR x,111,000 011 101 110,Methods middle z-junction relation; Sec VI B item 4; Fig 23
+last_z,p xL xR,reflection: e_yz e_xz(1) | e_xz(1) e_xz(2),110;011,10;01;01,p x,11,00 11,Sec VI B item 5; Fig 23; reflection of first z junction
+first_x_dual,r zL zR,X<->Z dual of first-z source generators,110;011,10;01;01,r z,11,00 11,Sec VI B item 6; Fig 24
+middle_x_dual,rL rR zL zR,X<->Z dual of middle-z source generators,1110;0011,100;010;001;001,rL rR z,111,000 011 101 110,Sec VI B item 7; Fig 24
+last_x_dual,r zL zR,X<->Z dual of last-z source generators,110;011,10;01;01,r z,11,00 11,Sec VI B item 8; Fig 24

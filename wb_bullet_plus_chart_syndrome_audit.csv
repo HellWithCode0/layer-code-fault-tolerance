@@ -1,0 +1,7 @@
+cell,catalog_cell,kernel_word,pauli_type,pauli_edges,pauli_weight,seed_edges,novel_syndrome,novel_syndrome_weight,confined_to_cell_novel_checks,fully_novel_neutral,status,note
+plus,plus,000,X,(identity),0,,,0,yes,yes,PASS,identity realizes vacuum kernel word
+plus,plus,011,X,xm y_zplus yp,3,xm yp,,0,yes,yes,PASS,WB-transcribed legs + completing factor; novel-check syndrome empty
+plus,plus,101,X,xm ym,2,xm ym,,0,yes,yes,PASS,WB-transcribed legs + completing factor; novel-check syndrome empty
+plus,plus,110,X,y_zplus ym yp,3,ym yp,,0,yes,yes,PASS,WB-transcribed legs + completing factor; novel-check syndrome empty
+bullet,bullet,000,X,(identity),0,,,0,yes,yes,PASS,identity realizes vacuum kernel word
+bullet,bullet,111,X,xp zm zp,3,xp zm zp,,0,yes,yes,PASS,WB-transcribed legs + completing factor; novel-check syndrome empty

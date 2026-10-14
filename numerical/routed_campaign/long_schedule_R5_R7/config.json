@@ -1,0 +1,12 @@
+{
+  "rounds": {
+    "iceberg_422": 5,
+    "band_m2": 7,
+    "steane_713": 18
+  },
+  "notes": [
+    "iceberg_422 only, R_pre=R_gauge=R_post=5",
+    "band_m2 R=7 and steane_713 R=18 set before those jobs; iceberg stays 5",
+    "band_m2 R=7 m=1; bridge exact; grid and idle rule out weight <=6"
+  ]
+}

@@ -1,0 +1,4 @@
+input,spacing,n,x_in,slab_weight,anticommutes_with,weight,lower_bound,status
+band_m2,2,720,101010,29,X1 (class of 101010),6,6,OPTIMAL
+band_m2,2,720,110000,16,class of 110000,24,16,FEASIBLE
+band_m2,2,720,011010,27,class of 011010,6,6,OPTIMAL

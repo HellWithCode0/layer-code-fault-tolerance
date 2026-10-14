@@ -1,0 +1,170 @@
+{
+ "w1": {
+  "w": 1,
+  "shots": 5000,
+  "accepted": 3911,
+  "accept_rate": 0.7822,
+  "postselected_failures": 97,
+  "postselected_error": 0.024801840961390948,
+  "postselected_error_wilson95": [
+   0.020374106410693822,
+   0.030162191149851157
+  ],
+  "decoded_failures": 406,
+  "decoded_error": 0.0812,
+  "decoded_error_wilson95": [
+   0.07394649514113477,
+   0.08909655562210281
+  ],
+  "bit_order": "clbits right to left (Qiskit)",
+  "detector_violation_rates": [
+   0.051,
+   0.055,
+   0.072,
+   0.09
+  ],
+  "order_candidates": {
+   "clbits right to left (Qiskit)": [
+    0.051,
+    0.055,
+    0.072,
+    0.09
+   ],
+   "clbits left to right": [
+    0.488,
+    0.515,
+    0.5,
+    0.49
+   ],
+   "sorted physical, left to right": [
+    0.493,
+    0.481,
+    0.499,
+    0.499
+   ],
+   "sorted physical, right to left": [
+    0.499,
+    0.5,
+    0.519,
+    0.493
+   ]
+  }
+ },
+ "w2": {
+  "w": 2,
+  "shots": 5000,
+  "accepted": 3571,
+  "accept_rate": 0.7142,
+  "postselected_failures": 2,
+  "postselected_error": 0.0005600672080649678,
+  "postselected_error_wilson95": [
+   0.0001536008528339245,
+   0.0020399508838360304
+  ],
+  "decoded_failures": 167,
+  "decoded_error": 0.0334,
+  "decoded_error_wilson95": [
+   0.02876682416077008,
+   0.03874962160362023
+  ],
+  "bit_order": "clbits right to left (Qiskit)",
+  "detector_violation_rates": [
+   0.054,
+   0.057,
+   0.077,
+   0.123,
+   0.099
+  ],
+  "order_candidates": {
+   "clbits right to left (Qiskit)": [
+    0.054,
+    0.057,
+    0.077,
+    0.123,
+    0.099
+   ],
+   "clbits left to right": [
+    0.498,
+    0.508,
+    0.504,
+    0.513,
+    0.496
+   ],
+   "sorted physical, left to right": [
+    0.509,
+    0.513,
+    0.495,
+    0.492,
+    0.505
+   ],
+   "sorted physical, right to left": [
+    0.492,
+    0.504,
+    0.493,
+    0.509,
+    0.499
+   ]
+  }
+ },
+ "w3": {
+  "w": 3,
+  "shots": 5000,
+  "accepted": 3424,
+  "accept_rate": 0.6848,
+  "postselected_failures": 0,
+  "postselected_error": 0.0,
+  "postselected_error_wilson95": [
+   0.0,
+   0.0011207052274527503
+  ],
+  "decoded_failures": 63,
+  "decoded_error": 0.0126,
+  "decoded_error_wilson95": [
+   0.009861068751138881,
+   0.01608731458697478
+  ],
+  "bit_order": "clbits right to left (Qiskit)",
+  "detector_violation_rates": [
+   0.057,
+   0.056,
+   0.078,
+   0.13,
+   0.103,
+   0.149
+  ],
+  "order_candidates": {
+   "clbits right to left (Qiskit)": [
+    0.057,
+    0.056,
+    0.078,
+    0.13,
+    0.103,
+    0.149
+   ],
+   "clbits left to right": [
+    0.511,
+    0.504,
+    0.488,
+    0.498,
+    0.501,
+    0.496
+   ],
+   "sorted physical, left to right": [
+    0.506,
+    0.51,
+    0.491,
+    0.5,
+    0.505,
+    0.502
+   ],
+   "sorted physical, right to left": [
+    0.5,
+    0.491,
+    0.509,
+    0.506,
+    0.498,
+    0.496
+   ]
+  }
+ }
+}

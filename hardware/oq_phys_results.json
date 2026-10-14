@@ -1,0 +1,173 @@
+{
+ "w1": {
+  "bit_order": "qiskit",
+  "order_fit": [
+   0.45087499999999997,
+   1877
+  ],
+  "A": {
+   "w": 1,
+   "shots": 10000,
+   "accepted": 927,
+   "accept_rate": 0.0927,
+   "postselected_failures": 467,
+   "postselected_error": 0.5037756202804746,
+   "postselected_error_wilson95": [
+    0.47164001486870977,
+    0.5358800615868332
+   ],
+   "decoded_failures": 5082,
+   "decoded_error": 0.5082,
+   "decoded_error_wilson95": [
+    0.4984000501729816,
+    0.517993652022383
+   ],
+   "detector_violation_rates": [
+    0.488,
+    0.338,
+    0.495,
+    0.483
+   ]
+  },
+  "B": {
+   "w": 1,
+   "shots": 10000,
+   "accepted": 2134,
+   "accept_rate": 0.2134,
+   "postselected_failures": 883,
+   "postselected_error": 0.41377694470477977,
+   "postselected_error_wilson95": [
+    0.3930535965986519,
+    0.43481017029595803
+   ],
+   "decoded_failures": 4575,
+   "decoded_error": 0.4575,
+   "decoded_error_wilson95": [
+    0.44775364859771516,
+    0.46727899246289495
+   ],
+   "detector_violation_rates": [
+    0.451,
+    0.435,
+    0.225,
+    0.272
+   ]
+  }
+ },
+ "w2": {
+  "bit_order": "qiskit",
+  "order_fit": [
+   0.4641,
+   2271
+  ],
+  "A": {
+   "w": 2,
+   "shots": 10000,
+   "accepted": 397,
+   "accept_rate": 0.0397,
+   "postselected_failures": 114,
+   "postselected_error": 0.2871536523929471,
+   "postselected_error_wilson95": [
+    0.244854636433559,
+    0.33353243716359243
+   ],
+   "decoded_failures": 4449,
+   "decoded_error": 0.4449,
+   "decoded_error_wilson95": [
+    0.4351826940428684,
+    0.45465962413218136
+   ],
+   "detector_violation_rates": [
+    0.504,
+    0.356,
+    0.505,
+    0.479,
+    0.495
+   ]
+  },
+  "B": {
+   "w": 2,
+   "shots": 10000,
+   "accepted": 1194,
+   "accept_rate": 0.1194,
+   "postselected_failures": 213,
+   "postselected_error": 0.17839195979899497,
+   "postselected_error_wilson95": [
+    0.15771801667875357,
+    0.20112876239453958
+   ],
+   "decoded_failures": 3617,
+   "decoded_error": 0.3617,
+   "decoded_error_wilson95": [
+    0.35233711319613303,
+    0.37116910465521713
+   ],
+   "detector_violation_rates": [
+    0.446,
+    0.444,
+    0.228,
+    0.28,
+    0.47
+   ]
+  }
+ },
+ "w3": {
+  "bit_order": "qiskit",
+  "order_fit": [
+   0.46986666666666665,
+   4493
+  ],
+  "A": {
+   "w": 3,
+   "shots": 10000,
+   "accepted": 248,
+   "accept_rate": 0.0248,
+   "postselected_failures": 54,
+   "postselected_error": 0.21774193548387097,
+   "postselected_error_wilson95": [
+    0.1708932012275998,
+    0.27320181722844555
+   ],
+   "decoded_failures": 4160,
+   "decoded_error": 0.416,
+   "decoded_error_wilson95": [
+    0.4063733457266806,
+    0.4256911683695841
+   ],
+   "detector_violation_rates": [
+    0.485,
+    0.373,
+    0.497,
+    0.472,
+    0.499,
+    0.492
+   ]
+  },
+  "B": {
+   "w": 3,
+   "shots": 10000,
+   "accepted": 647,
+   "accept_rate": 0.0647,
+   "postselected_failures": 105,
+   "postselected_error": 0.16228748068006182,
+   "postselected_error_wilson95": [
+    0.13588327319227161,
+    0.19267839219605026
+   ],
+   "decoded_failures": 3847,
+   "decoded_error": 0.3847,
+   "decoded_error_wilson95": [
+    0.37521012835885476,
+    0.3942784249185181
+   ],
+   "detector_violation_rates": [
+    0.455,
+    0.48,
+    0.224,
+    0.279,
+    0.467,
+    0.447
+   ]
+  }
+ }
+}

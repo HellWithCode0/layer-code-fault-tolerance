@@ -1,0 +1,1 @@
+{"distance": 5, "lower_bound": 5, "proved_at_least": 5, "status": "OPTIMAL", "meets": "YES", "query": "exact", "observable_index": 0, "observable": "Z1aZ1b", "interface": "idle", "basis": "Z", "rounds": 5, "witness": [{"dets": [4872], "obs": [0]}, {"dets": [4872, 5317], "obs": []}, {"dets": [5315], "obs": []}, {"dets": [5314, 5315], "obs": []}, {"dets": [5314, 5317], "obs": []}]}

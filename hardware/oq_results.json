@@ -1,0 +1,105 @@
+{
+ "w0": {
+  "w": 0,
+  "shots": 10000,
+  "accepted": 8545,
+  "accept_rate": 0.8545,
+  "postselected_failures": 0,
+  "postselected_error": 0.0,
+  "postselected_error_wilson95": [
+   0.0,
+   0.00044937082469746536
+  ],
+  "decoded_failures": 36,
+  "decoded_error": 0.0036,
+  "decoded_error_wilson95": [
+   0.0026015882397965474,
+   0.004979659348130073
+  ],
+  "detector_violation_rates": [
+   0.102,
+   0.038,
+   0.04,
+   0.038
+  ],
+  "observable_raw_error": 0.0779
+ },
+ "w1": {
+  "w": 1,
+  "shots": 10000,
+  "accepted": 1873,
+  "accept_rate": 0.1873,
+  "postselected_failures": 351,
+  "postselected_error": 0.18739989321943407,
+  "postselected_error_wilson95": [
+   0.17037324154501382,
+   0.20570623154424422
+  ],
+  "decoded_failures": 3688,
+  "decoded_error": 0.3688,
+  "decoded_error_wilson95": [
+   0.3593954640299091,
+   0.37830530084425684
+  ],
+  "detector_violation_rates": [
+   0.272,
+   0.311,
+   0.39,
+   0.438
+  ],
+  "observable_raw_error": 0.2703
+ },
+ "w2": {
+  "w": 2,
+  "shots": 10000,
+  "accepted": 697,
+  "accept_rate": 0.0697,
+  "postselected_failures": 143,
+  "postselected_error": 0.20516499282639886,
+  "postselected_error_wilson95": [
+   0.17683986155884307,
+   0.23672234707717404
+  ],
+  "decoded_failures": 4079,
+  "decoded_error": 0.4079,
+  "decoded_error_wilson95": [
+   0.39830484217289797,
+   0.4175658929255065
+  ],
+  "detector_violation_rates": [
+   0.383,
+   0.419,
+   0.443,
+   0.361,
+   0.492
+  ],
+  "observable_raw_error": 0.4779
+ },
+ "w3": {
+  "w": 3,
+  "shots": 10000,
+  "accepted": 341,
+  "accept_rate": 0.0341,
+  "postselected_failures": 92,
+  "postselected_error": 0.2697947214076246,
+  "postselected_error_wilson95": [
+   0.22544171401864943,
+   0.3192767886214033
+  ],
+  "decoded_failures": 4221,
+  "decoded_error": 0.4221,
+  "decoded_error_wilson95": [
+   0.4124513987166271,
+   0.43180843042740874
+  ],
+  "detector_violation_rates": [
+   0.338,
+   0.323,
+   0.468,
+   0.479,
+   0.502,
+   0.497
+  ],
+  "observable_raw_error": 0.4747
+ }
+}

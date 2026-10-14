@@ -1,0 +1,15 @@
+PASS Williamson--Baspin item 3--8 incidence support catalog -> wb_junction_support_catalog.csv
+PASS constant-refinement local-Clifford move audit -> refinement_move_audit.csv
+PASS source-generator-derived first/middle/last slab-cell audit -> slab_cell_audit.csv
+PASS source-derived bullet/plus/end/middle boundary kernels and glued incidence certificate
+PASS T0--T7 local detector master-template matrices and bounded incidence tests
+PASS T8 single-location Pauli audit: 10008 faults, max image weight 10 -> t8_single_fault_audit.csv; catalog -> t8_master_routing_catalog.csv
+PASS prefix parity (exhaustive 2 <= k <= 8; deterministic stress through k=128)
+PASS GF(2) support-rank identities
+PASS Steane (7) and Reed-Muller (15) single-Z syndrome maps
+PASS boundary syndrome+logical coordinates are complete modulo stabilizers
+PASS full algebraic transition relation space from left kernel (locality not certified)
+PASS fiber-product gluing with inherited boundary state and component detector parity
+PASS phase-teleportation, S_X, CNOT, and Hadamard matrix identities
+PASS one-bit raw/encoded courier teleportation and Pauli transport
+ALL CHECKS PASSED

@@ -1,0 +1,1 @@
+{"distance": null, "lower_bound": 3, "proved_at_least": null, "status": "UNKNOWN", "meets": "NOT_REQUIRED", "query": "le6", "extra_le": 6, "observable_index": 4, "observable": "X2b", "interface": "thick", "basis": "X", "rounds": 7, "witness": []}
